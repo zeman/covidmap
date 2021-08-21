@@ -180,12 +180,31 @@ ksort($days);
             margin: 0;
             padding: 0;
         }
+        @media (max-width: 500px){
+            .nav {
+                grid-template-columns: 160px 1fr;
+            }
+            .nav h1 {
+                font-size: 18px;
+            }
+        }
+        @media (max-width: 320px){
+            .nav {
+                grid-template-columns: 140px 1fr;
+            }
+            .nav h1 {
+                font-size: 15px;
+            }
+            .links {
+                font-size: 12px;
+            }
+        }
         .title {
             padding: 10px 0 0 10px;
         }
         .links {
             text-align: right;
-            padding: 10px 10px 0 0;
+            padding: 12px 10px 0 0;
         }
         .links a {
             color: #000000;
