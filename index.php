@@ -35,20 +35,23 @@ ksort($days);
 
         #map {
             position: absolute;
-            top: 40px;
-            bottom: 40px;
+            top: 0;
+            bottom: 155px;
             width: 100%;
             z-index: 1;
         }
 
         .locations {
+            box-sizing: border-box;
+            padding-right: 10px;
             position: absolute;
             width: 100%;
             height: 40px;
+            bottom: 55px;
             background-color: white;
             z-index: 3;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 80px 1fr 1fr 1fr;
             grid-gap: 5px
         }
 
@@ -64,28 +67,56 @@ ksort($days);
             color: #ffffff;
         }
 
-        #time {
+        .added {
+            box-sizing: border-box;
+            padding-right: 10px;
             position: absolute;
             width: 100%;
             height: 40px;
-            bottom: 0;
+            bottom: 105px;
+            background-color: white;
+            z-index: 3;
+            display: grid;
+            grid-template-columns: 80px 1fr 1fr;
+            grid-gap: 5px
+        }
+
+        .add {
+            padding-top: 10px;
+            text-align: center;
+            background-color: #e0e0e0;
+            cursor: pointer;
+        }
+
+        .add--active {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+        #time {
+            box-sizing: border-box;
+            padding-right: 10px;
+            position: absolute;
+            width: 100%;
+            height: 40px;
+            bottom: 5px;
             background-color: white;
             z-index: 2;
         }
         .days {
             display: grid;
-            grid-template-columns: repeat(<?= count($days)+1 ?>, 1fr);
+            grid-template-columns: 80px repeat(<?= count($days)+1 ?>, 1fr);
             grid-gap: 5px;
         }
         @media (max-width: 450px){
             #map {
-                bottom: 100px;
+                bottom: 155px;
             }
             #time {
-                height: 100px;
+                height: 40px;
             }
             .days {
-                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
             }
         }
         .day {
@@ -127,16 +158,21 @@ ksort($days);
             background-color: #000000;
             color: white;
         }
+        .label {
+            padding: 10px 0 0 10px;
+        }
     </style>
 </head>
 <body>
+    <div id='map'></div>
     <div class="locations">
+        <div class="label">Location:</div>
         <div class="location location--active" data-loc="auck">Auckland</div>
         <div class="location" data-loc="coro">Coromandel</div>
         <div class="location" data-loc="welly">Wellington</div>
     </div>
-    <div id='map'></div>
     <div id="time" class="days">
+        <div class="label">Day:</div>
         <div class="day day--active" data-day="0">All</div>
         <?php
         foreach ($days as $day => $value) {
@@ -144,6 +180,11 @@ ksort($days);
             echo "<div class='day $color' data-day='$day'>{$value['name']}</div>";
         }
         ?>
+    </div>
+    <div class="added">
+        <div class="label">Added:</div>
+        <div class="add add--active" data-add="0">All</div>
+        <div class="add" data-add="21">Sat 21</div>
     </div>
     <script>
 
@@ -225,6 +266,21 @@ ksort($days);
                 }
                 e.target.classList.add('location--active');
             });
+        });
+
+        document.querySelectorAll('.add').forEach(item => {
+            item.addEventListener('click', e => {
+                if (e.target.dataset.add === '0') {
+                    map.setFilter('locations', null);
+                } else {
+                    map.setFilter('locations', ['==', ['number', ['get', 'added']], parseInt(e.target.dataset.add)]);
+                }
+                var added = document.getElementsByClassName("add");
+                for (var i = 0; i < added.length; i++) {
+                    added[i].classList.remove("add--active");
+                }
+                e.target.classList.add('add--active');
+            })
         });
 
     </script>
