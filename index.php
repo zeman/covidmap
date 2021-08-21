@@ -304,11 +304,12 @@ ksort($days);
         });
 
     </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SEY4HB06ZB"></script>
     <script>
-        window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-        ga('create', 'G-SEY4HB06ZB', 'auto');
-        ga('send', 'pageview');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-SEY4HB06ZB');
     </script>
-    <script async src='https://www.google-analytics.com/analytics.js'></script>
 </body>
 </html>
