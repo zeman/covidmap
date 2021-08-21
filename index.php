@@ -85,7 +85,7 @@ ksort($days);
             background-color: white;
             z-index: 3;
             display: grid;
-            grid-template-columns: 80px 1fr 1fr;
+            grid-template-columns: 80px 1fr 1fr 1fr;
             grid-gap: 5px
         }
 
@@ -193,7 +193,7 @@ ksort($days);
 <body>
     <div class="nav">
         <div class="title"><h1>COVID Map NZ</h1></div>
-        <div class="links"><a href="https://github.com/minhealthnz/nz-covid-data/blob/main/locations-of-interest/august-2021/locations-of-interest.geojson" target="_blank" rel="nofollow">Data from MOH</a></div>
+        <div class="links"><a href="https://github.com/minhealthnz/nz-covid-data/blob/main/locations-of-interest/august-2021/locations-of-interest.geojson" target="_blank" rel="nofollow">Data from MOH</a>, Last updated 22/8, 9:40am</div>
     </div>
     <div id='map'></div>
     <div class="locations">
@@ -216,6 +216,7 @@ ksort($days);
         <div class="label">Added:</div>
         <div class="add add--active" data-add="0">All</div>
         <div class="add" data-add="21">Sat 21</div>
+        <div class="add" data-add="22">Sun 22</div>
     </div>
     <script>
 
@@ -310,7 +311,7 @@ ksort($days);
                 if (e.target.dataset.add === '0') {
                     map.setFilter('locations', null);
                 } else {
-                    map.setFilter('locations', ['==', ['number', ['get', 'added']], parseInt(e.target.dataset.add)]);
+                    map.setFilter('locations', ['==', ['number', ['get', 'added_day']], parseInt(e.target.dataset.add)]);
                 }
                 var added = document.getElementsByClassName("add");
                 for (var i = 0; i < added.length; i++) {

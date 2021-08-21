@@ -14,6 +14,7 @@ foreach($data['features'] as $feature) {
 
     // add the day added
     $added = 0;
+    // manually added for the 21st Aug
     switch ($feature['properties']['id']) {
         case 'a0l4a0000004GTc':
         case 'a0l4a0000004GUL':
@@ -36,7 +37,13 @@ foreach($data['features'] as $feature) {
             $added = 21;
             break;
     }
-    $feature['properties']['added'] = $added;
+    // check for new Added property
+    // 2021-08-22 09:40:43
+    if (isset($feature['properties']['Added']) && $feature['properties']['Added'] != "") {
+        $add = date_create_from_format('Y-m-d H:i:s', $feature['properties']['Added']);
+        $added = $add->format('j');
+    }
+    $feature['properties']['added_day'] = (int)$added;
 
     // remove the date from the event name
     $feature['properties']['Event'] = substr($feature['properties']['Event'], 0, strrpos($feature['properties']['Event'], " "));
