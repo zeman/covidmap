@@ -85,6 +85,10 @@ ksort($days);
             color: #fff;
             background-color: #b30000
         }
+        .day--active {
+            background-color: #000000;
+            color: white;
+        }
     </style>
 </head>
 <body>
@@ -153,6 +157,11 @@ ksort($days);
                 } else {
                     map.setFilter('locations', ['==', ['number', ['get', 'day_of_month']], parseInt(e.target.dataset.day)]);
                 }
+                var days = document.getElementsByClassName("day");
+                for (var i = 0; i < days.length; i++) {
+                    days[i].classList.remove("day--active");
+                }
+                e.target.classList.add('day--active');
             })
         })
 
