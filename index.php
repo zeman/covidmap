@@ -20,16 +20,39 @@ ksort($days);
 
         #map {
             position: absolute;
-            top: 0;
-            bottom: 50px;
+            top: 40px;
+            bottom: 40px;
             width: 100%;
             z-index: 1;
+        }
+
+        .locations {
+            position: absolute;
+            width: 100%;
+            height: 40px;
+            background-color: white;
+            z-index: 3;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 5px
+        }
+
+        .location {
+            padding-top: 10px;
+            text-align: center;
+            background-color: #e0e0e0;
+            cursor: pointer;
+        }
+
+        .location--active {
+            background-color: #000000;
+            color: #ffffff;
         }
 
         #time {
             position: absolute;
             width: 100%;
-            height: 50px;
+            height: 40px;
             bottom: 0;
             background-color: white;
             z-index: 2;
@@ -92,9 +115,14 @@ ksort($days);
     </style>
 </head>
 <body>
+    <div class="locations">
+        <div class="location location--active" data-loc="auck">Auckland</div>
+        <div class="location" data-loc="coro">Coromandel</div>
+        <div class="location" data-loc="welly">Wellington</div>
+    </div>
     <div id='map'></div>
     <div id="time" class="days">
-        <div class="day" data-day="0">All</div>
+        <div class="day day--active" data-day="0">All</div>
         <?php
         foreach ($days as $day => $value) {
             $color = "color_" .  round($value['count']/6);
@@ -110,7 +138,7 @@ ksort($days);
             container: 'map',
             style: 'mapbox://styles/mapbox/light-v10',
             center: [174.763336, -36.848461],
-            zoom: 11
+            zoom: 10
         });
 
         var geojson = <?= file_get_contents('data/data.json'); ?>
@@ -124,7 +152,7 @@ ksort($days);
                     data: 'data.php'
                 },
                 'paint': {
-                    'circle-color': 'rgba(0,0,0,0.5)'
+                    'circle-color': 'rgba(171,7,7,0.5)'
                 }
             });
         });
@@ -155,7 +183,7 @@ ksort($days);
 
         document.querySelectorAll('.day').forEach(item => {
             item.addEventListener('click', e => {
-                if (e.target.dataset.day == 0) {
+                if (e.target.dataset.day === '0') {
                     map.setFilter('locations', null);
                 } else {
                     map.setFilter('locations', ['==', ['number', ['get', 'day_of_month']], parseInt(e.target.dataset.day)]);
@@ -166,7 +194,24 @@ ksort($days);
                 }
                 e.target.classList.add('day--active');
             })
-        })
+        });
+
+        document.querySelectorAll('.location').forEach(item => {
+            item.addEventListener('click', e => {
+                if (e.target.dataset.loc === 'welly') {
+                    map.flyTo({center:[174.7787,-41.1924], zoom: 10})
+                } else if (e.target.dataset.loc === 'coro') {
+                    map.flyTo({center:[175.4981,-36.7087], zoom: 11})
+                } else if (e.target.dataset.loc === 'auck') {
+                    map.flyTo({center:[174.763336, -36.848461], zoom: 10})
+                }
+                var locations = document.getElementsByClassName("location");
+                for (var i = 0; i < locations.length; i++) {
+                    locations[i].classList.remove("location--active");
+                }
+                e.target.classList.add('location--active');
+            });
+        });
 
     </script>
 </body>
