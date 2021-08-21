@@ -1,5 +1,5 @@
 <?php
-$days = json_decode('{"11":{"name":"11 Wed","count":8},"12":{"name":"12 Thu","count":11},"13":{"name":"13 Fri","count":30},"17":{"name":"17 Tue","count":20},"15":{"name":"15 Sun","count":29},"14":{"name":"14 Sat","count":31},"10":{"name":"10 Tue","count":8},"16":{"name":"16 Mon","count":17},"7":{"name":"7 Sat","count":8},"9":{"name":"9 Mon","count":4},"6":{"name":"6 Fri","count":2},"5":{"name":"5 Thu","count":3},"4":{"name":"4 Wed","count":3},"3":{"name":"3 Tue","count":2},"18":{"name":"18 Wed","count":3},"19":{"name":"19 Thu","count":2},"20":{"name":"20 Fri","count":1},"2":{"name":"2 Mon","count":1},"1":{"name":"1 Sun","count":1}}', true);
+$days = json_decode('{"11":{"name":"11 Wed","count":8},"12":{"name":"12 Thu","count":11},"13":{"name":"13 Fri","count":30},"17":{"name":"17 Tue","count":20},"15":{"name":"15 Sun","count":30},"14":{"name":"14 Sat","count":31},"10":{"name":"10 Tue","count":8},"16":{"name":"16 Mon","count":17},"7":{"name":"7 Sat","count":8},"9":{"name":"9 Mon","count":4},"6":{"name":"6 Fri","count":2},"5":{"name":"5 Thu","count":3},"4":{"name":"4 Wed","count":3},"3":{"name":"3 Tue","count":2},"18":{"name":"18 Wed","count":3},"19":{"name":"19 Thu","count":2},"20":{"name":"20 Fri","count":1},"2":{"name":"2 Mon","count":1},"1":{"name":"1 Sun","count":1}}', true);
 ksort($days);
 ?>
 
