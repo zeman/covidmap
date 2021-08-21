@@ -11,7 +11,7 @@ $data['features'][] = [
     'type' => 'Feature',
     'properties' => [
         'id' => '1',
-        'Event' => 'BP Connect',
+        'Event' => 'BP Connect 16/08/2021',
         'Location' => '92-94 Bridge Street, Bulls, 4818',
         'City' => '',
         'Start' => '16/08/2021, 9:30 pm',
@@ -27,7 +27,7 @@ $data['features'][] = [
     'type' => 'Feature',
     'properties' => [
         'id' => '1',
-        'Event' => 'Waiouru Public Toilets State Highway 1',
+        'Event' => 'Waiouru Public Toilets State Highway 1 16/08/2021',
         'Location' => '15 State Highway 1, Waiouru, 4825',
         'City' => '',
         'Start' => '16/08/2021, 6:30 pm',
@@ -43,7 +43,7 @@ $data['features'][] = [
     'type' => 'Feature',
     'properties' => [
         'id' => '1',
-        'Event' => 'Z Petrol Station Waiouru',
+        'Event' => 'Z Petrol Station Waiouru 16/08/2021',
         'Location' => '11 State Highway 1, Waiouru, 4825',
         'City' => '',
         'Start' => '16/08/2021, 6:30 pm',
@@ -59,7 +59,7 @@ $data['features'][] = [
     'type' => 'Feature',
     'properties' => [
         'id' => '1',
-        'Event' => 'BP Tokoroa',
+        'Event' => 'BP Tokoroa 16/08/2021',
         'Location' => '32 Main Road, Tokoroa, 3420',
         'City' => '',
         'Start' => '16/08/2021, 3:00 pm',
@@ -74,7 +74,17 @@ $data['features'][] = [
 $features = [];
 $days = [];
 foreach($data['features'] as $feature) {
+    // remove the date from the event name
+    $feature['properties']['Event'] = substr($feature['properties']['Event'], 0, strrpos($feature['properties']['Event'], " "));
     $start = date_create_from_format('d/m/Y, g:i a', $feature['properties']['Start']);
+    $end = date_create_from_format('d/m/Y, g:i a', $feature['properties']['End']);
+    $feature['properties']['day'] = $start->format("D, j M Y");
+    // check if end is in the next day
+    if($start->format('j') != $end->format("j") ) {
+        $feature['properties']['time'] = $start->format("D, g:i a") . " - " . $end->format("D, g:i a");
+    } else {
+        $feature['properties']['time'] = $start->format("g:i a") . " - " . $end->format("g:i a");
+    }
     $feature['properties']['timestamp'] = $start->getTimestamp();
     $feature['properties']['month'] = (int)$start->format("n");
     $feature['properties']['day_of_month'] = (int)$start->format("j");

@@ -16,6 +16,21 @@ ksort($days);
             margin: 0;
             padding: 0;
             font-family: 'Helvetica Neue', Helvetica, Arial, Sans-serif;
+            font-size: 15px;
+        }
+
+        .mapboxgl-popup-content h3 {
+            margin: 0 0 10px 0;
+            font-size: 16px;
+        }
+
+        .mapboxgl-popup-content{
+            font-size: 14px;
+        }
+
+        .popup__location{
+            margin-top: 10px;
+            font-size: 12px;
         }
 
         #map {
@@ -171,11 +186,10 @@ ksort($days);
                 .setPopup(
                     new mapboxgl.Popup({ offset: 25 }) // add popups
                         .setHTML(
-                            '<h3>' +
-                            marker.properties.Event +
-                            '</h3><p>' +
-                            marker.properties.Location + '<br>Start:' + marker.properties.Start + '<br>End:' + marker.properties.End +
-                            '</p>'
+                            '<h3>' + marker.properties.Event + '</h3>' +
+                            '<div class="popup__day">' + marker.properties.day + '</div>' +
+                            '<div class="popup__time">' + marker.properties.time + '</div>' +
+                            '<div class="popup__location">' + marker.properties.Location + '</div>'
                         )
                 )
                 .addTo(map);
