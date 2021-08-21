@@ -7,7 +7,15 @@ ksort($days);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>COVID Map</title>
+    <title>COVID Map NZ</title>
+    <meta name="description" content="Filter COVID locations of interest on a map.">
+    <meta property="og:title" content="COVID Map NZ">
+    <meta property="og:description" content="Filter COVID locations of interest on a map.">
+    <meta property="og:site_name" content="COVID Map NZ">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.covidmap.net.nz/">
+    <meta property="og:image" content="https://www.covidmap.net.nz/map.png">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name='viewport' content='width=device-width, initial-scale=1' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js'></script>
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css' rel='stylesheet' />
@@ -188,7 +196,7 @@ ksort($days);
     </div>
     <script>
 
-        mapboxgl.accessToken = 'pk.eyJ1IjoiemVtYW4iLCJhIjoiY2tzbGh5cTdkMnhnbzJ1cm80Mm92eTlnMyJ9.wRxQmMrQvuOOdShkSW_Shw';
+        mapboxgl.accessToken = 'pk.eyJ1IjoiemVtYW4iLCJhIjoiY2tzbThnYno0MzF1NTJ6bnEyOW95YWI3NSJ9.qUnc5pP_7w2aN9Y2lfKUqw';
 
         var map = new mapboxgl.Map({
             container: 'map',
