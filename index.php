@@ -122,6 +122,9 @@ ksort($days);
                 source: {
                     type: 'geojson',
                     data: 'data.php'
+                },
+                'paint': {
+                    'circle-color': 'rgba(0,0,0,0.5)'
                 }
             });
         });
