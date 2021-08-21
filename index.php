@@ -14,7 +14,7 @@ ksort($days);
     <meta property="og:site_name" content="COVID Map NZ">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.covidmap.net.nz/">
-    <meta property="og:image" content="https://www.covidmap.net.nz/map.png">
+    <meta property="og:image" content="https://www.covidmap.net.nz/map.jpg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name='viewport' content='width=device-width, initial-scale=1' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js'></script>
