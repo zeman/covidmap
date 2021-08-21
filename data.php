@@ -14,6 +14,10 @@ foreach($data['features'] as $feature) {
     $feature['properties']['month'] = (int)$start->format("n");
     $feature['properties']['day_of_month'] = (int)$start->format("j");
     $feature['properties']['hour'] = (int)$start->format("G");
+    if ($feature['properties']['id'] == 'a0l4a0000004F9h'){
+        // fix location of Bottany Down Countdown
+        $feature['geometry']['coordinates'] = [174.91092161703608, -36.930528119701215];
+    }
     $features[] = $feature;
     if(isset($days[$feature['properties']['day_of_month']])) {
         $days[$feature['properties']['day_of_month']]['count'] ++;
