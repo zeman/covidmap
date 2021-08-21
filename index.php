@@ -1,5 +1,7 @@
 <?php
-$days = json_decode('{"11":{"name":"11 Wed","count":8},"12":{"name":"12 Thu","count":11},"13":{"name":"13 Fri","count":30},"17":{"name":"17 Tue","count":20},"15":{"name":"15 Sun","count":30},"14":{"name":"14 Sat","count":31},"10":{"name":"10 Tue","count":8},"16":{"name":"16 Mon","count":17},"7":{"name":"7 Sat","count":8},"9":{"name":"9 Mon","count":4},"6":{"name":"6 Fri","count":2},"5":{"name":"5 Thu","count":3},"4":{"name":"4 Wed","count":3},"3":{"name":"3 Tue","count":2},"18":{"name":"18 Wed","count":3},"19":{"name":"19 Thu","count":2},"20":{"name":"20 Fri","count":1},"2":{"name":"2 Mon","count":1},"1":{"name":"1 Sun","count":1}}', true);
+// get the json so we can use it in php as well
+$data = json_decode(file_get_contents('data/data.json'), true);
+$days = $data['days'];
 ksort($days);
 ?>
 
@@ -193,7 +195,7 @@ ksort($days);
 <body>
     <div class="nav">
         <div class="title"><h1>COVID Map NZ</h1></div>
-        <div class="links"><a href="https://github.com/minhealthnz/nz-covid-data/blob/main/locations-of-interest/august-2021/locations-of-interest.geojson" target="_blank" rel="nofollow">Data from MOH</a>, Last updated 22/8, 9:40am</div>
+        <div class="links"><a href="https://github.com/minhealthnz/nz-covid-data/blob/main/locations-of-interest/august-2021/locations-of-interest.geojson" target="_blank" rel="nofollow">Updated <?= $data['data_update_time'] ?></a></div>
     </div>
     <div id='map'></div>
     <div class="locations">
@@ -207,7 +209,7 @@ ksort($days);
         <div class="day day--active" data-day="0">All</div>
         <?php
         foreach ($days as $day => $value) {
-            $color = "color_" .  round($value['count']/6);
+            $color = "color_" .  round($value['count']/7.2);
             echo "<div class='day $color' data-day='$day'>{$value['name']}</div>";
         }
         ?>

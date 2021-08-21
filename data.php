@@ -9,10 +9,13 @@ $data = json_decode($json, true);
 // init our data arrays
 $features = [];
 $days = [];
+// track the latest data update time
+$data_updated = 0;
+$data_update_time = "";
 
 foreach($data['features'] as $feature) {
 
-    // add the day added
+    // the day added
     $added = 0;
     // manually added for the 21st Aug
     switch ($feature['properties']['id']) {
@@ -42,6 +45,10 @@ foreach($data['features'] as $feature) {
     if (isset($feature['properties']['Added']) && $feature['properties']['Added'] != "") {
         $add = date_create_from_format('Y-m-d H:i:s', $feature['properties']['Added']);
         $added = $add->format('j');
+        if($add->getTimestamp() > $data_updated) {
+            $data_updated = $add->getTimestamp();
+            $data_update_time = $add->format("g:i a, D j M");
+        }
     }
     $feature['properties']['added_day'] = (int)$added;
 
@@ -91,7 +98,8 @@ echo json_encode([
     'type' => 'FeatureCollection',
     'name' => 'locations-of-interest',
     'features' => $features,
-    'days' => $days
+    'days' => $days,
+    'data_update_time' => $data_update_time
 ]);
 
 
