@@ -205,7 +205,7 @@ ksort($days);
                 type: 'circle',
                 source: {
                     type: 'geojson',
-                    data: 'data.php'
+                    data: geojson
                 },
                 'paint': {
                     'circle-color': 'rgba(171,7,7,0.5)'
