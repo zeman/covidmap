@@ -132,7 +132,7 @@ ksort($days);
     </div>
     <script>
 
-        mapboxgl.accessToken = 'pk.eyJ1IjoiemVtYW4iLCJhIjoiY2tza3RwaHU5MDFrODJ2bzJ5Y2Y4bHRwNSJ9.Uj9faEe4FKVJTEQ8yhz3_Q';
+        mapboxgl.accessToken = 'pk.eyJ1IjoiemVtYW4iLCJhIjoiY2tzbGh5cTdkMnhnbzJ1cm80Mm92eTlnMyJ9.wRxQmMrQvuOOdShkSW_Shw';
 
         var map = new mapboxgl.Map({
             container: 'map',
