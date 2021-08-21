@@ -6,6 +6,71 @@ date_default_timezone_set('Pacific/Auckland');
 $json = file_get_contents("data/locations-of-interest.geojson");
 $data = json_decode($json, true);
 
+// manually add a few missing locations
+$data['features'][] = [
+    'type' => 'Feature',
+    'properties' => [
+        'id' => '1',
+        'Event' => 'BP Connect',
+        'Location' => '92-94 Bridge Street, Bulls, 4818',
+        'City' => '',
+        'Start' => '16/08/2021, 9:30 pm',
+        'End' => '16/08/2021, 10:00 pm',
+        'Information' => 'Staff and Patrons: Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.'
+    ],
+    'geometry' => [
+        'type' => 'Point',
+        'coordinates' => [175.38326241638129, -40.17724967939365]
+    ]
+];
+$data['features'][] = [
+    'type' => 'Feature',
+    'properties' => [
+        'id' => '1',
+        'Event' => 'Waiouru Public Toilets State Highway 1',
+        'Location' => '15 State Highway 1, Waiouru, 4825',
+        'City' => '',
+        'Start' => '16/08/2021, 6:30 pm',
+        'End' => '16/08/2021, 7:00 pm',
+        'Information' => 'Staff and Patrons: Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.'
+    ],
+    'geometry' => [
+        'type' => 'Point',
+        'coordinates' => [175.66814923617642, -39.479606146809246]
+    ]
+];
+$data['features'][] = [
+    'type' => 'Feature',
+    'properties' => [
+        'id' => '1',
+        'Event' => 'Z Petrol Station Waiouru',
+        'Location' => '11 State Highway 1, Waiouru, 4825',
+        'City' => '',
+        'Start' => '16/08/2021, 6:30 pm',
+        'End' => '16/08/2021, 7:00 pm',
+        'Information' => 'Staff and Patrons: Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.'
+    ],
+    'geometry' => [
+        'type' => 'Point',
+        'coordinates' => [175.66728161637042, -39.479578579485135]
+    ]
+];
+$data['features'][] = [
+    'type' => 'Feature',
+    'properties' => [
+        'id' => '1',
+        'Event' => 'BP Tokoroa',
+        'Location' => '32 Main Road, Tokoroa, 3420',
+        'City' => '',
+        'Start' => '16/08/2021, 3:00 pm',
+        'End' => '16/08/2021, 4:00 pm',
+        'Information' => 'Staff and Patrons: Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.'
+    ],
+    'geometry' => [
+        'type' => 'Point',
+        'coordinates' => [175.86970251635108, -38.21555077968176]
+    ]
+];
 $features = [];
 $days = [];
 foreach($data['features'] as $feature) {
@@ -27,7 +92,6 @@ foreach($data['features'] as $feature) {
             'count' => 1
         ];
     }
-    //print_r($feature);
 }
 
 echo json_encode([
