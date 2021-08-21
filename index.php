@@ -248,6 +248,12 @@ ksort($days);
                     days[i].classList.remove("day--active");
                 }
                 e.target.classList.add('day--active');
+                // can only have single filter at the mo
+                var added = document.getElementsByClassName("add");
+                for (var i = 0; i < added.length; i++) {
+                    added[i].classList.remove("add--active");
+                }
+                document.querySelector('.add').classList.add('add--active');
             })
         });
 
@@ -280,6 +286,12 @@ ksort($days);
                     added[i].classList.remove("add--active");
                 }
                 e.target.classList.add('add--active');
+                // can only have single filter at the mo
+                var days = document.getElementsByClassName("day");
+                for (var i = 0; i < days.length; i++) {
+                    days[i].classList.remove("day--active");
+                }
+                document.querySelector('.day').classList.add('day--active');
             })
         });
 
