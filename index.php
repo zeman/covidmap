@@ -195,7 +195,7 @@ ksort($days);
 <body>
     <div class="nav">
         <div class="title"><h1>COVID Map NZ</h1></div>
-        <div class="links"><a href="https://github.com/minhealthnz/nz-covid-data/blob/main/locations-of-interest/august-2021/locations-of-interest.geojson" target="_blank" rel="nofollow">Updated <?= $data['data_update_time'] ?></a></div>
+        <div class="links"><a href="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-health-advice-public/contact-tracing-covid-19/covid-19-contact-tracing-locations-interest/covid-19-contact-tracing-locations-interest-map" target="_blank" rel="nofollow">Updated <?= $data['data_update_time'] ?></a></div>
     </div>
     <div id='map'></div>
     <div class="locations">
