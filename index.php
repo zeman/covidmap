@@ -39,9 +39,20 @@ ksort($days);
             grid-template-columns: repeat(<?= count($days)+1 ?>, 1fr);
             grid-gap: 5px;
         }
+        @media (max-width: 450px){
+            #map {
+                bottom: 100px;
+            }
+            #time {
+                height: 100px;
+            }
+            .days {
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+        }
         .day {
             cursor: pointer;
-            padding-top: 10px;
+            padding: 10px 0;
             text-align: center;
             background-color: #ffffff;
         }
