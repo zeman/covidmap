@@ -43,7 +43,7 @@ ksort($days);
 
         #map {
             position: absolute;
-            top: 0;
+            top: 45px;
             bottom: 155px;
             width: 100%;
             z-index: 1;
@@ -169,9 +169,32 @@ ksort($days);
         .label {
             padding: 10px 0 0 10px;
         }
+        .nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .nav h1 {
+            font-size: 22px;
+            margin: 0;
+            padding: 0;
+        }
+        .title {
+            padding: 10px 0 0 10px;
+        }
+        .links {
+            text-align: right;
+            padding: 10px 10px 0 0;
+        }
+        .links a {
+            color: #000000;
+        }
     </style>
 </head>
 <body>
+    <div class="nav">
+        <div class="title"><h1>COVID Map NZ</h1></div>
+        <div class="links"><a href="https://github.com/minhealthnz/nz-covid-data/blob/main/locations-of-interest/august-2021/locations-of-interest.geojson" target="_blank" rel="nofollow">Data from MOH</a></div>
+    </div>
     <div id='map'></div>
     <div class="locations">
         <div class="label">Location:</div>
