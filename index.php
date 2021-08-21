@@ -61,7 +61,7 @@ ksort($days);
             background-color: white;
             z-index: 3;
             display: grid;
-            grid-template-columns: 80px 1fr 1fr 1fr;
+            grid-template-columns: 80px 1fr 1fr 1fr 1fr;
             grid-gap: 5px
         }
 
@@ -200,7 +200,8 @@ ksort($days);
     <div id='map'></div>
     <div class="locations">
         <div class="label">Location:</div>
-        <div class="location location--active" data-loc="auck">Auckland</div>
+        <div class="location location--active" data-loc="all">All</div>
+        <div class="location" data-loc="auck">Auckland</div>
         <div class="location" data-loc="coro">Coromandel</div>
         <div class="location" data-loc="welly">Wellington</div>
     </div>
@@ -227,8 +228,8 @@ ksort($days);
         var map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/mapbox/light-v10',
-            center: [174.763336, -36.848461],
-            zoom: 10
+            center: [174.763336, -38.848461],
+            zoom: 6
         });
 
         var geojson = <?= file_get_contents('data/data.json'); ?>
@@ -299,6 +300,8 @@ ksort($days);
                     map.flyTo({center:[175.4981,-36.7087], zoom: 11})
                 } else if (e.target.dataset.loc === 'auck') {
                     map.flyTo({center:[174.763336, -36.848461], zoom: 10})
+                } else if (e.target.dataset.loc === 'all') {
+                    map.flyTo({center:[174.763336, -38.848461], zoom: 6})
                 }
                 var locations = document.getElementsByClassName("location");
                 for (var i = 0; i < locations.length; i++) {
