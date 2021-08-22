@@ -85,6 +85,9 @@ foreach($data['features'] as $feature) {
     $feature['properties']['day_of_month'] = (int)$start->format("j");
     $feature['properties']['hour'] = (int)$start->format("G");
 
+    // remove Advice for now
+    unset($feature['properties']['Advice']);
+
     // manual location fix
     if ($feature['properties']['id'] == 'a0l4a0000004F9h'){
         // fix location of Bottany Down Countdown
@@ -121,7 +124,9 @@ foreach ($features as $key => $feature) {
         // sort visits by timestamp
         $visits = $locations[$feature['properties']['Location']];
         ksort($visits);
-        $features[$key]['properties']['visits'] = $visits;
+        //print_r($visits);
+        //exit();
+        $features[$key]['properties']['visits'] = array_values($visits);
     }
 }
 

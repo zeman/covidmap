@@ -297,7 +297,9 @@ ksort($days);
             var el = document.createElement('div');
             el.className = 'marker';
 
-            //console.log(marker.properties.visits);
+            marker.properties.visits.forEach(e => {
+                //console.log(e);
+            });
 
             // make a marker for each feature and add it to the map
             new mapboxgl.Marker(el)
