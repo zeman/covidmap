@@ -311,11 +311,7 @@ ksort($days);
                 .addTo(map);
         });
 
-        var bounds = new mapboxgl.LngLatBounds();
-        geojson.features.forEach(function(feature) {
-            bounds.extend(feature.geometry.coordinates);
-        });
-        map.fitBounds(bounds, { padding: 50 });
+        flyTo('all');
 
         document.querySelectorAll('.day').forEach(item => {
             item.addEventListener('click', e => {
@@ -341,13 +337,13 @@ ksort($days);
         document.querySelectorAll('.location').forEach(item => {
             item.addEventListener('click', e => {
                 if (e.target.dataset.loc === 'welly') {
-                    map.flyTo({center:[174.7787,-41.1924], zoom: 10})
+                    flyTo('City', 'Wellington');
                 } else if (e.target.dataset.loc === 'coro') {
-                    map.flyTo({center:[175.4981,-36.7087], zoom: 11})
+                    flyTo('City', 'Coromandel');
                 } else if (e.target.dataset.loc === 'auck') {
-                    map.flyTo({center:[174.763336, -36.848461], zoom: 10})
+                    flyTo('City', 'Auckland');
                 } else if (e.target.dataset.loc === 'all') {
-                    map.flyTo({center:[174.763336, -38.848461], zoom: 6})
+                    flyTo('all');
                 }
                 var locations = document.getElementsByClassName("location");
                 for (var i = 0; i < locations.length; i++) {
@@ -377,6 +373,20 @@ ksort($days);
                 document.querySelector('.day').classList.add('day--active');
             })
         });
+
+        function flyTo(type, value) {
+            var bounds = new mapboxgl.LngLatBounds();
+            geojson.features.forEach(function(feature) {
+                if (type === 'all') {
+                    bounds.extend(feature.geometry.coordinates);
+                }else {
+                    if (feature.properties[type] === value) {
+                        bounds.extend(feature.geometry.coordinates);
+                    }
+                }
+            });
+            map.fitBounds(bounds, { padding: 50 });
+        }
 
     </script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SEY4HB06ZB"></script>
