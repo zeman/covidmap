@@ -3,6 +3,13 @@
 $data = json_decode(file_get_contents('data/data.json'), true);
 $days = $data['days'];
 ksort($days);
+// highest count
+$day_max = 0;
+foreach($days as $day){
+    if ($day['count'] > $day_max){
+        $day_max = $day['count'];
+    }
+}
 ?>
 
 <!DOCTYPE html>
@@ -256,7 +263,7 @@ ksort($days);
             <div class="day day--active" data-day="0">All</div>
             <?php
             foreach ($days as $day => $value) {
-                $color = "color_" .  round($value['count']/7.2);
+                $color = "color_" .  round($value['count']/($day_max/5));
                 echo "<div class='day $color' data-day='$day'>{$value['name']}</div>";
             }
             ?>
