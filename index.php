@@ -47,7 +47,6 @@ foreach($days as $day){
         }
 
         .popup__location{
-            margin-top: 10px;
             font-size: 12px;
         }
 
@@ -166,6 +165,9 @@ foreach($days as $day){
         .mapboxgl-popup-close-button{
             outline: 0;
         }
+        .color_none {
+            background-color: #e0e0e0
+        }
         .color_0 {
             background-color: #fef0d9
         }
@@ -260,7 +262,7 @@ foreach($days as $day){
         </div>
         <div id="time" class="days">
             <div class="label">Day:</div>
-            <div class="day day--active" data-day="0">All</div>
+            <div class="day day--active color_none" data-day="0">All</div>
             <?php
             foreach ($days as $day => $value) {
                 $color = "color_" .  round($value['count']/($day_max/5));
@@ -304,10 +306,13 @@ foreach($days as $day){
             var el = document.createElement('div');
             el.className = 'marker';
 
-            marker.properties.visits.forEach(e => {
-                //console.log(e);
+            let visits = "";
+            marker.properties.visits.forEach(visit => {
+                visit.forEach(line => {
+                   visits += line + '<br>';
+                });
+                visits += "<br>";
             });
-
             // make a marker for each feature and add it to the map
             new mapboxgl.Marker(el)
                 .setLngLat(marker.geometry.coordinates)
@@ -315,8 +320,7 @@ foreach($days as $day){
                     new mapboxgl.Popup({ offset: 25 }) // add popups
                         .setHTML(
                             '<h3>' + marker.properties.Event + '</h3>' +
-                            '<div class="popup__day">' + marker.properties.day + '</div>' +
-                            '<div class="popup__time">' + marker.properties.time + '</div>' +
+                            '<div class="popup__time">' + visits + '</div>' +
                             '<div class="popup__location">' + marker.properties.Location + '</div>'
                         )
                 )
