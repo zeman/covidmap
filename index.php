@@ -311,6 +311,12 @@ ksort($days);
                 .addTo(map);
         });
 
+        var bounds = new mapboxgl.LngLatBounds();
+        geojson.features.forEach(function(feature) {
+            bounds.extend(feature.geometry.coordinates);
+        });
+        map.fitBounds(bounds, { padding: 50 });
+
         document.querySelectorAll('.day').forEach(item => {
             item.addEventListener('click', e => {
                 if (e.target.dataset.day === '0') {
