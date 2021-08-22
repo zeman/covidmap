@@ -158,6 +158,7 @@ ksort($days);
             background-color: #fc8d59
         }
         .color_4 {
+            color: #fff;
             background-color: #e34a33
         }
         .color_5 {
