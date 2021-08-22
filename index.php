@@ -36,6 +36,7 @@ ksort($days);
 
         .mapboxgl-popup-content{
             font-size: 14px;
+            padding: 20px;
         }
 
         .popup__location{
@@ -59,7 +60,7 @@ ksort($days);
             bottom: 10px;
             z-index: 2;
         }
-        @media (max-width: 500px) {
+        @media (max-width: 768px) {
             .filters {
                 bottom: 133px;
             }
@@ -74,7 +75,7 @@ ksort($days);
             grid-template-columns: 80px 1fr 1fr 1fr 1fr;
             grid-gap: 5px
         }
-        @media (max-width: 500px) {
+        @media (max-width: 768px) {
             .locations {
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
@@ -101,7 +102,7 @@ ksort($days);
             grid-template-columns: 80px 1fr 1fr 1fr;
             grid-gap: 5px
         }
-        @media (max-width: 500px) {
+        @media (max-width: 768px) {
             .added {
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
@@ -131,7 +132,7 @@ ksort($days);
             grid-template-columns: 80px repeat(<?= count($days)+1 ?>, 1fr);
             grid-gap: 5px;
         }
-        @media (max-width: 450px){
+        @media (max-width: 768px){
             #map {
                 bottom: 285px;
             }
@@ -144,7 +145,7 @@ ksort($days);
         }
         .day {
             cursor: pointer;
-            padding: 10px 0;
+            padding: 10px 5px;
             text-align: center;
             background-color: #ffffff;
         }
@@ -194,7 +195,7 @@ ksort($days);
             margin: 0;
             padding: 0;
         }
-        @media (max-width: 500px){
+        @media (max-width: 768px){
             .nav {
                 grid-template-columns: 160px 1fr;
             }
@@ -223,7 +224,7 @@ ksort($days);
         .links a {
             color: #000000;
         }
-        @media (max-width: 500px) {
+        @media (max-width: 768px) {
             .mobile_hide {
                 display: none;
             }
@@ -240,8 +241,8 @@ ksort($days);
         <div class="added">
             <div class="label">Added:</div>
             <div class="add add--active" data-add="0">All</div>
-            <div class="add" data-add="21">Sat 21</div>
-            <div class="add" data-add="22">Sun 22</div>
+            <div class="add" data-add="21">21 Sat</div>
+            <div class="add" data-add="22">22 Sun</div>
         </div>
         <div class="locations">
             <div class="label">Location:</div>
@@ -292,11 +293,13 @@ ksort($days);
 
         // add markers to map
         geojson.features.forEach(function (marker) {
-// create a HTML element for each feature
+            // create a HTML element for each feature
             var el = document.createElement('div');
             el.className = 'marker';
 
-// make a marker for each feature and add it to the map
+            //console.log(marker.properties.visits);
+
+            // make a marker for each feature and add it to the map
             new mapboxgl.Marker(el)
                 .setLngLat(marker.geometry.coordinates)
                 .setPopup(

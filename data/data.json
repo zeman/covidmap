@@ -12,14 +12,20 @@
         "Start": "19\/08\/2021, 2:19 pm",
         "End": "19\/08\/2021, 3:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Thu, 19 Aug 2021",
         "time": "2:19 pm - 3:00 pm",
         "timestamp": 1629339540,
         "month": 8,
         "day_of_month": 19,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1629339540": [
+            "Thu, 19 Aug 2021",
+            "2:19 pm - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -38,15 +44,21 @@
         "City": "Auckland",
         "Start": "19\/08\/2021, 4:53 pm",
         "End": "19\/08\/2021, 5:30 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Advice": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Thu, 19 Aug 2021",
         "time": "4:53 pm - 5:30 pm",
         "timestamp": 1629348780,
         "month": 8,
         "day_of_month": 19,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629348780": [
+            "Thu, 19 Aug 2021",
+            "4:53 pm - 5:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -66,14 +78,20 @@
         "Start": "17\/08\/2021, 8:27 pm",
         "End": "17\/08\/2021, 8:50 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "8:27 pm - 8:50 pm",
         "timestamp": 1629188820,
         "month": 8,
         "day_of_month": 17,
-        "hour": 20
+        "hour": 20,
+        "visits": {
+          "1629188820": [
+            "Tue, 17 Aug 2021",
+            "8:27 pm - 8:50 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -93,14 +111,20 @@
         "Start": "13\/08\/2021, 7:00 pm",
         "End": "13\/08\/2021, 8:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Fri, 13 Aug 2021",
         "time": "7:00 pm - 8:00 pm",
         "timestamp": 1628838000,
         "month": 8,
         "day_of_month": 13,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1628838000": [
+            "Fri, 13 Aug 2021",
+            "7:00 pm - 8:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -120,20 +144,34 @@
         "Start": "11\/08\/2021, 9:30 am",
         "End": "11\/08\/2021, 8:30 pm",
         "Advice": "All at 3-5pm WA220 COMP501\/52 Computing Technology in Society and 5-8pm WG707\/708 DIGD507\/51 Mahi tahi will be sent information on isolation & testing by AUT. All elsewhere on city campus follow Level 4 instructions & call Healthline if symptomatic",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Wed, 11 Aug 2021",
         "time": "9:30 am - 8:30 pm",
         "timestamp": 1628631000,
         "month": 8,
         "day_of_month": 11,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628631000": [
+            "Wed, 11 Aug 2021",
+            "9:30 am - 8:30 pm"
+          ],
+          "1628715600": [
+            "Thu, 12 Aug 2021",
+            "9:00 am - 8:30 pm"
+          ],
+          "1628798400": [
+            "Fri, 13 Aug 2021",
+            "8:00 am - 4:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76682129671156,
-          -36.85265470637084
+          174.7667686162393,
+          -36.85261716055694
         ]
       }
     },
@@ -154,7 +192,13 @@
         "timestamp": 1628638200,
         "month": 8,
         "day_of_month": 11,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628638200": [
+            "Wed, 11 Aug 2021",
+            "11:30 am - 1:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -174,14 +218,20 @@
         "Start": "17\/08\/2021, 8:50 am",
         "End": "17\/08\/2021, 9:10 am",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 11:49:26",
+        "Added": "22\/08\/2021 11:49",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "8:50 am - 9:10 am",
         "timestamp": 1629147000,
         "month": 8,
         "day_of_month": 17,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1629147000": [
+            "Tue, 17 Aug 2021",
+            "8:50 am - 9:10 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -201,20 +251,30 @@
         "Start": "17\/08\/2021, 7:40 pm",
         "End": "17\/08\/2021, 7:45 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "7:40 pm - 7:45 pm",
         "timestamp": 1629186000,
         "month": 8,
         "day_of_month": 17,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1629079200": [
+            "Mon, 16 Aug 2021",
+            "2:00 pm - 2:10 pm"
+          ],
+          "1629186000": [
+            "Tue, 17 Aug 2021",
+            "7:40 pm - 7:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.85942337621154,
-          -36.95760068598379
+          174.85948523073384,
+          -36.95758935129597
         ]
       }
     },
@@ -228,20 +288,67 @@
         "Start": "17\/08\/2021, 6:30 pm",
         "End": "17\/08\/2021, 7:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "6:30 pm - 7:15 pm",
         "timestamp": 1629181800,
         "month": 8,
         "day_of_month": 17,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1629181800": [
+            "Tue, 17 Aug 2021",
+            "6:30 pm - 7:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           174.880198,
           -36.989633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004H7m",
+        "Event": "Koffee Bar West City Henderson",
+        "Location": "7 Catherine Street, Henderson, Auckland 0612",
+        "City": "Auckland",
+        "Start": "15\/08\/2021, 1:00 pm",
+        "End": "15\/08\/2021, 3:00 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 17:16:00",
+        "added_day": 22,
+        "day": "Sun, 15 Aug 2021",
+        "time": "1:00 pm - 3:00 pm",
+        "timestamp": 1628989200,
+        "month": 8,
+        "day_of_month": 15,
+        "hour": 13,
+        "visits": {
+          "1628829000": [
+            "Fri, 13 Aug 2021",
+            "4:30 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628989200": [
+            "Sun, 15 Aug 2021",
+            "1:00 pm - 3:00 pm"
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.63264493865935,
+          -36.882273161333494
         ]
       }
     },
@@ -255,20 +362,26 @@
         "Start": "20\/08\/2021, 10:50 am",
         "End": "20\/08\/2021, 10:55 am",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Fri, 20 Aug 2021",
         "time": "10:50 am - 10:55 am",
         "timestamp": 1629413400,
         "month": 8,
         "day_of_month": 20,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1629413400": [
+            "Fri, 20 Aug 2021",
+            "10:50 am - 10:55 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.87400206909328,
-          -36.961603192603214
+          174.87397000888495,
+          -36.96164696036726
         ]
       }
     },
@@ -289,13 +402,23 @@
         "timestamp": 1628726400,
         "month": 8,
         "day_of_month": 12,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628640000": [
+            "Wed, 11 Aug 2021",
+            "12:00 pm - 1:00 pm"
+          ],
+          "1628726400": [
+            "Thu, 12 Aug 2021",
+            "12:00 pm - 1:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76487916911051,
-          -36.85072805270032
+          174.76485840856122,
+          -36.85067342780603
         ]
       }
     },
@@ -316,7 +439,13 @@
         "timestamp": 1628787600,
         "month": 8,
         "day_of_month": 13,
-        "hour": 5
+        "hour": 5,
+        "visits": {
+          "1628787600": [
+            "Fri, 13 Aug 2021",
+            "5:00 am - 6:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -336,14 +465,20 @@
         "Start": "16\/08\/2021, 9:20 am",
         "End": "16\/08\/2021, 9:45 am",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "9:20 am - 9:45 am",
         "timestamp": 1629062400,
         "month": 8,
         "day_of_month": 16,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1629062400": [
+            "Mon, 16 Aug 2021",
+            "9:20 am - 9:45 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -370,7 +505,13 @@
         "timestamp": 1629154800,
         "month": 8,
         "day_of_month": 17,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1629154800": [
+            "Tue, 17 Aug 2021",
+            "11:00 am - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -397,7 +538,13 @@
         "timestamp": 1628992800,
         "month": 8,
         "day_of_month": 15,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1628992800": [
+            "Sun, 15 Aug 2021",
+            "2:00 pm - 4:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -424,7 +571,13 @@
         "timestamp": 1628925300,
         "month": 8,
         "day_of_month": 14,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1628925300": [
+            "Sat, 14 Aug 2021",
+            "7:15 pm - 8:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -444,14 +597,20 @@
         "Start": "16\/08\/2021, 9:45 am",
         "End": "16\/08\/2021, 10:45 am",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "9:45 am - 10:45 am",
         "timestamp": 1629063900,
         "month": 8,
         "day_of_month": 16,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1629063900": [
+            "Mon, 16 Aug 2021",
+            "9:45 am - 10:45 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -471,14 +630,20 @@
         "Start": "15\/08\/2021, 4:00 pm",
         "End": "15\/08\/2021, 5:00 pm",
         "Advice": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Sun, 15 Aug 2021",
         "time": "4:00 pm - 5:00 pm",
         "timestamp": 1629000000,
         "month": 8,
         "day_of_month": 15,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629000000": [
+            "Sun, 15 Aug 2021",
+            "4:00 pm - 5:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -498,14 +663,20 @@
         "Start": "16\/08\/2021, 3:00 pm",
         "End": "16\/08\/2021, 4:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "3:00 pm - 4:00 pm",
         "timestamp": 1629082800,
         "month": 8,
         "day_of_month": 16,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1629082800": [
+            "Mon, 16 Aug 2021",
+            "3:00 pm - 4:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -525,14 +696,20 @@
         "Start": "11\/08\/2021, 4:00 pm",
         "End": "11\/08\/2021, 5:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Wed, 11 Aug 2021",
         "time": "4:00 pm - 5:00 pm",
         "timestamp": 1628654400,
         "month": 8,
         "day_of_month": 11,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1628654400": [
+            "Wed, 11 Aug 2021",
+            "4:00 pm - 5:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -559,13 +736,23 @@
         "timestamp": 1628640000,
         "month": 8,
         "day_of_month": 11,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628640000": [
+            "Wed, 11 Aug 2021",
+            "12:00 pm - 1:00 pm"
+          ],
+          "1628726400": [
+            "Thu, 12 Aug 2021",
+            "12:00 pm - 1:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76489531033445,
-          -36.85073669460761
+          174.76489914553315,
+          -36.85068982168166
         ]
       }
     },
@@ -586,7 +773,13 @@
         "timestamp": 1628814600,
         "month": 8,
         "day_of_month": 13,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628814600": [
+            "Fri, 13 Aug 2021",
+            "12:30 pm - 1:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -606,20 +799,26 @@
         "Start": "16\/08\/2021, 1:15 pm",
         "End": "16\/08\/2021, 1:20 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "1:15 pm - 1:20 pm",
         "timestamp": 1629076500,
         "month": 8,
         "day_of_month": 16,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1629076500": [
+            "Mon, 16 Aug 2021",
+            "1:15 pm - 1:20 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.87400985340395,
-          -36.9615816028909
+          174.87396453798888,
+          -36.961556700693066
         ]
       }
     },
@@ -633,14 +832,20 @@
         "Start": "17\/08\/2021, 4:27 pm",
         "End": "17\/08\/2021, 4:37 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "4:27 pm - 4:37 pm",
         "timestamp": 1629174420,
         "month": 8,
         "day_of_month": 17,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629174420": [
+            "Tue, 17 Aug 2021",
+            "4:27 pm - 4:37 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -660,14 +865,20 @@
         "Start": "16\/08\/2021, 12:00 pm",
         "End": "16\/08\/2021, 12:45 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "12:00 pm - 12:45 pm",
         "timestamp": 1629072000,
         "month": 8,
         "day_of_month": 16,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1629072000": [
+            "Mon, 16 Aug 2021",
+            "12:00 pm - 12:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -684,23 +895,33 @@
         "Event": "Horizon Radiology \u014ctara",
         "Location": "3 Watford Street, \u014ctara, Auckland 2023",
         "City": "Auckland",
-        "Start": "17\/08\/2021, 1:15 pm",
-        "End": "17\/08\/2021, 2:30 pm",
+        "Start": "17\/08\/2021, 2:15 pm",
+        "End": "17\/08\/2021, 3:30 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
+        "Added": "22\/08\/2021 13:21",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
-        "time": "1:15 pm - 2:30 pm",
-        "timestamp": 1629162900,
+        "time": "2:15 pm - 3:30 pm",
+        "timestamp": 1629166500,
         "month": 8,
         "day_of_month": 17,
-        "hour": 13
+        "hour": 14,
+        "visits": {
+          "1629166500": [
+            "Tue, 17 Aug 2021",
+            "2:15 pm - 3:30 pm"
+          ],
+          "1629174060": [
+            "Tue, 17 Aug 2021",
+            "4:21 pm - 8:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.87290941876395,
-          -36.9621547590695
+          174.87290336107588,
+          -36.962068127382516
         ]
       }
     },
@@ -714,20 +935,30 @@
         "Start": "16\/08\/2021, 2:00 pm",
         "End": "16\/08\/2021, 2:10 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "2:00 pm - 2:10 pm",
         "timestamp": 1629079200,
         "month": 8,
         "day_of_month": 16,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1629079200": [
+            "Mon, 16 Aug 2021",
+            "2:00 pm - 2:10 pm"
+          ],
+          "1629186000": [
+            "Tue, 17 Aug 2021",
+            "7:40 pm - 7:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.8595084293373,
-          -36.95760164631825
+          174.85943983141263,
+          -36.95758529122929
         ]
       }
     },
@@ -741,14 +972,20 @@
         "Start": "16\/08\/2021, 4:00 pm",
         "End": "16\/08\/2021, 6:30 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "4:00 pm - 6:30 pm",
         "timestamp": 1629086400,
         "month": 8,
         "day_of_month": 16,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629086400": [
+            "Mon, 16 Aug 2021",
+            "4:00 pm - 6:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -768,14 +1005,20 @@
         "Start": "17\/08\/2021, 2:00 pm",
         "End": "17\/08\/2021, 2:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "2:00 pm - 2:15 pm",
         "timestamp": 1629165600,
         "month": 8,
         "day_of_month": 17,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1629165600": [
+            "Tue, 17 Aug 2021",
+            "2:00 pm - 2:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -795,20 +1038,137 @@
         "Start": "19\/08\/2021, 5:30 pm",
         "End": "19\/08\/2021, 6:15 pm",
         "Advice": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Thu, 19 Aug 2021",
         "time": "5:30 pm - 6:15 pm",
         "timestamp": 1629351000,
         "month": 8,
         "day_of_month": 19,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1629008400": [
+            "Sun, 15 Aug 2021",
+            "6:20 pm - 7:00 pm"
+          ],
+          "1629351000": [
+            "Thu, 19 Aug 2021",
+            "5:30 pm - 6:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.80995779050602,
-          -41.33469476858768
+          174.80987049130195,
+          -41.33468919956127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004Gs8",
+        "Event": "Kmart St Lukes",
+        "Location": "72 St Lukes Road, Mount Albert, Auckland 1025",
+        "City": "Auckland",
+        "Start": "17\/08\/2021, 8:45 pm",
+        "End": "17\/08\/2021, 9:05 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 16:08:28",
+        "added_day": 22,
+        "day": "Tue, 17 Aug 2021",
+        "time": "8:45 pm - 9:05 pm",
+        "timestamp": 1629189900,
+        "month": 8,
+        "day_of_month": 17,
+        "hour": 20,
+        "visits": {
+          "1629189900": [
+            "Tue, 17 Aug 2021",
+            "8:45 pm - 9:05 pm"
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.732213,
+          -36.882922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004GsD",
+        "Event": "Farro Grey Lynn",
+        "Location": "34 Westmoreland Street West, Grey Lynn, Auckland 1021",
+        "City": "Auckland",
+        "Start": "18\/08\/2021, 4:33 pm",
+        "End": "18\/08\/2021, 4:45 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 16:08:28",
+        "added_day": 22,
+        "day": "Wed, 18 Aug 2021",
+        "time": "4:33 pm - 4:45 pm",
+        "timestamp": 1629261180,
+        "month": 8,
+        "day_of_month": 18,
+        "hour": 16,
+        "visits": {
+          "1629182220": [
+            "Tue, 17 Aug 2021",
+            "6:37 pm - 6:50 pm"
+          ],
+          "1629261180": [
+            "Wed, 18 Aug 2021",
+            "4:33 pm - 4:45 pm"
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.73291690835146,
+          -36.85521187332933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004GsI",
+        "Event": "Countdown Grey Lynn",
+        "Location": "271 Richmond Road, Grey Lynn, Auckland 1022",
+        "City": "Auckland",
+        "Start": "18\/08\/2021, 4:55 pm",
+        "End": "18\/08\/2021, 5:30 pm",
+        "Advice": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+        "Added": "2021-08-22 16:08:28",
+        "added_day": 22,
+        "day": "Wed, 18 Aug 2021",
+        "time": "4:55 pm - 5:30 pm",
+        "timestamp": 1629262500,
+        "month": 8,
+        "day_of_month": 18,
+        "hour": 16,
+        "visits": {
+          "1629183120": [
+            "Tue, 17 Aug 2021",
+            "6:52 pm - 7:15 pm"
+          ],
+          "1629262500": [
+            "Wed, 18 Aug 2021",
+            "4:55 pm - 5:30 pm"
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.73190557418684,
+          -36.854306968689315
         ]
       }
     },
@@ -829,13 +1189,27 @@
         "timestamp": 1628921820,
         "month": 8,
         "day_of_month": 14,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628840400": [
+            "Fri, 13 Aug 2021",
+            "7:40 pm - 8:30 pm"
+          ],
+          "1628921820": [
+            "Sat, 14 Aug 2021",
+            "6:17 pm - 7:11 pm"
+          ],
+          "1628979240": [
+            "Sun, 15 Aug 2021",
+            "10:14 am - 11:10 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49707842193826,
-          -36.760056779177624
+          175.49705179603598,
+          -36.76005281093423
         ]
       }
     },
@@ -856,13 +1230,23 @@
         "timestamp": 1628910000,
         "month": 8,
         "day_of_month": 14,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628910000": [
+            "Sat, 14 Aug 2021",
+            "3:00 pm - 3:10 pm"
+          ],
+          "1628978400": [
+            "Sun, 15 Aug 2021",
+            "10:00 am - 10:05 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49767296659851,
-          -36.759531757899175
+          175.49767543457315,
+          -36.75955855680982
         ]
       }
     },
@@ -883,7 +1267,13 @@
         "timestamp": 1628911800,
         "month": 8,
         "day_of_month": 14,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628911800": [
+            "Sat, 14 Aug 2021",
+            "3:30 pm - 3:35 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -910,13 +1300,23 @@
         "timestamp": 1628978400,
         "month": 8,
         "day_of_month": 15,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628910000": [
+            "Sat, 14 Aug 2021",
+            "3:00 pm - 3:10 pm"
+          ],
+          "1628978400": [
+            "Sun, 15 Aug 2021",
+            "10:00 am - 10:05 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49764261060173,
-          -36.759492724708664
+          175.49766752459854,
+          -36.759554989030946
         ]
       }
     },
@@ -937,7 +1337,13 @@
         "timestamp": 1628719200,
         "month": 8,
         "day_of_month": 12,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628719200": [
+            "Thu, 12 Aug 2021",
+            "10:00 am - 10:10 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -964,13 +1370,27 @@
         "timestamp": 1628979240,
         "month": 8,
         "day_of_month": 15,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628840400": [
+            "Fri, 13 Aug 2021",
+            "7:40 pm - 8:30 pm"
+          ],
+          "1628921820": [
+            "Sat, 14 Aug 2021",
+            "6:17 pm - 7:11 pm"
+          ],
+          "1628979240": [
+            "Sun, 15 Aug 2021",
+            "10:14 am - 11:10 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49709930089097,
-          -36.760058000868305
+          175.49711823568867,
+          -36.760049738600806
         ]
       }
     },
@@ -991,7 +1411,13 @@
         "timestamp": 1628988000,
         "month": 8,
         "day_of_month": 15,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628988000": [
+            "Sun, 15 Aug 2021",
+            "12:40 pm - 1:25 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1018,7 +1444,13 @@
         "timestamp": 1628558100,
         "month": 8,
         "day_of_month": 10,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628558100": [
+            "Tue, 10 Aug 2021",
+            "1:15 pm - 1:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1045,13 +1477,19 @@
         "timestamp": 1628559000,
         "month": 8,
         "day_of_month": 10,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628559000": [
+            "Tue, 10 Aug 2021",
+            "1:30 pm - 4:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7638359462502,
-          -36.8515693309139
+          174.7638182993778,
+          -36.85150688036194
         ]
       }
     },
@@ -1072,13 +1510,19 @@
         "timestamp": 1628551800,
         "month": 8,
         "day_of_month": 10,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628551800": [
+            "Tue, 10 Aug 2021",
+            "11:30 am - 1:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7639613692781,
-          -36.85016268380114
+          174.76393966628075,
+          -36.850221048686834
         ]
       }
     },
@@ -1099,7 +1543,17 @@
         "timestamp": 1628801100,
         "month": 8,
         "day_of_month": 13,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628714700": [
+            "Thu, 12 Aug 2021",
+            "8:45 am - 3:15 pm"
+          ],
+          "1628801100": [
+            "Fri, 13 Aug 2021",
+            "8:45 am - 3:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1126,13 +1580,39 @@
         "timestamp": 1628831400,
         "month": 8,
         "day_of_month": 13,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628830800": [
+            "Fri, 13 Aug 2021",
+            "5:00 pm - 5:15 pm"
+          ],
+          "1628831400": [
+            "Fri, 13 Aug 2021",
+            "5:10 pm - 6:30 pm"
+          ],
+          "1628831700": [
+            "Fri, 13 Aug 2021",
+            "5:15 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628833500": [
+            "Fri, 13 Aug 2021",
+            "5:45 pm - 5:50 pm"
+          ],
+          "1629006300": [
+            "Sun, 15 Aug 2021",
+            "5:45 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7056184511227,
-          -36.72679417937327
+          174.7056273320333,
+          -36.72683294273357
         ]
       }
     },
@@ -1153,7 +1633,13 @@
         "timestamp": 1628859600,
         "month": 8,
         "day_of_month": 14,
-        "hour": 1
+        "hour": 1,
+        "visits": {
+          "1628859600": [
+            "Sat, 14 Aug 2021",
+            "1:00 am - 1:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1180,7 +1666,13 @@
         "timestamp": 1628860620,
         "month": 8,
         "day_of_month": 14,
-        "hour": 1
+        "hour": 1,
+        "visits": {
+          "1628860620": [
+            "Sat, 14 Aug 2021",
+            "1:17 am - 3:08 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1207,7 +1699,13 @@
         "timestamp": 1629086400,
         "month": 8,
         "day_of_month": 16,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629086400": [
+            "Mon, 16 Aug 2021",
+            "4:00 pm - 4:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1234,13 +1732,23 @@
         "timestamp": 1629074700,
         "month": 8,
         "day_of_month": 16,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1629074700": [
+            "Mon, 16 Aug 2021",
+            "12:45 pm - 1:15 pm"
+          ],
+          "1629145800": [
+            "Tue, 17 Aug 2021",
+            "8:30 am - 9:45 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70447591449033,
-          -36.80584918642288
+          174.7045108865767,
+          -36.80590236792168
         ]
       }
     },
@@ -1261,13 +1769,23 @@
         "timestamp": 1629073800,
         "month": 8,
         "day_of_month": 16,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1629054000": [
+            "Mon, 16 Aug 2021",
+            "7:00 am - 7:15 am"
+          ],
+          "1629073800": [
+            "Mon, 16 Aug 2021",
+            "12:30 pm - 12:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7250108064532,
-          -36.81126713243677
+          174.72496192856502,
+          -36.81130254513955
         ]
       }
     },
@@ -1288,7 +1806,13 @@
         "timestamp": 1629148500,
         "month": 8,
         "day_of_month": 17,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1629148500": [
+            "Tue, 17 Aug 2021",
+            "9:15 am - 9:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1315,7 +1839,13 @@
         "timestamp": 1629056700,
         "month": 8,
         "day_of_month": 16,
-        "hour": 7
+        "hour": 7,
+        "visits": {
+          "1629056700": [
+            "Mon, 16 Aug 2021",
+            "7:45 am - 8:15 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1342,13 +1872,23 @@
         "timestamp": 1629054000,
         "month": 8,
         "day_of_month": 16,
-        "hour": 7
+        "hour": 7,
+        "visits": {
+          "1629054000": [
+            "Mon, 16 Aug 2021",
+            "7:00 am - 7:15 am"
+          ],
+          "1629073800": [
+            "Mon, 16 Aug 2021",
+            "12:30 pm - 12:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.72496426056486,
-          -36.81129783363766
+          174.7250229767868,
+          -36.81130451843294
         ]
       }
     },
@@ -1369,7 +1909,13 @@
         "timestamp": 1629011700,
         "month": 8,
         "day_of_month": 15,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1629011700": [
+            "Sun, 15 Aug 2021",
+            "7:15 pm - 7:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1396,7 +1942,13 @@
         "timestamp": 1628917200,
         "month": 8,
         "day_of_month": 14,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628917200": [
+            "Sat, 14 Aug 2021",
+            "5:00 pm - 5:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1423,7 +1975,13 @@
         "timestamp": 1629162900,
         "month": 8,
         "day_of_month": 17,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1629162900": [
+            "Tue, 17 Aug 2021",
+            "1:15 pm - 1:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1450,7 +2008,13 @@
         "timestamp": 1628989200,
         "month": 8,
         "day_of_month": 15,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628989200": [
+            "Sun, 15 Aug 2021",
+            "1:00 pm - 2:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1477,7 +2041,13 @@
         "timestamp": 1628998200,
         "month": 8,
         "day_of_month": 15,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628998200": [
+            "Sun, 15 Aug 2021",
+            "3:30 pm - 7:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1504,7 +2074,13 @@
         "timestamp": 1628859600,
         "month": 8,
         "day_of_month": 14,
-        "hour": 1
+        "hour": 1,
+        "visits": {
+          "1628859600": [
+            "Sat, 14 Aug 2021",
+            "1:00 am - 1:15 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1531,7 +2107,13 @@
         "timestamp": 1628982000,
         "month": 8,
         "day_of_month": 15,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628982000": [
+            "Sun, 15 Aug 2021",
+            "11:00 am - 12:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1558,7 +2140,13 @@
         "timestamp": 1628922600,
         "month": 8,
         "day_of_month": 14,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628922600": [
+            "Sat, 14 Aug 2021",
+            "6:30 pm - 10:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1585,7 +2173,13 @@
         "timestamp": 1628987400,
         "month": 8,
         "day_of_month": 15,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628987400": [
+            "Sun, 15 Aug 2021",
+            "12:30 pm - 12:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1612,7 +2206,13 @@
         "timestamp": 1628980200,
         "month": 8,
         "day_of_month": 15,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628980200": [
+            "Sun, 15 Aug 2021",
+            "10:30 am - 10:45 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1639,13 +2239,23 @@
         "timestamp": 1628854980,
         "month": 8,
         "day_of_month": 13,
-        "hour": 23
+        "hour": 23,
+        "visits": {
+          "1628854980": [
+            "Fri, 13 Aug 2021",
+            "Fri, 11:43 pm - Sat, 1:13 am"
+          ],
+          "1628867280": [
+            "Sat, 14 Aug 2021",
+            "3:08 am - 3:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76423621157392,
-          -36.849715693604594
+          174.7641524883963,
+          -36.84971663906318
         ]
       }
     },
@@ -1666,7 +2276,13 @@
         "timestamp": 1628979300,
         "month": 8,
         "day_of_month": 15,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628979300": [
+            "Sun, 15 Aug 2021",
+            "10:15 am - 12:02 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1693,7 +2309,13 @@
         "timestamp": 1628911200,
         "month": 8,
         "day_of_month": 14,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628911200": [
+            "Sat, 14 Aug 2021",
+            "3:20 pm - 3:51 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1713,14 +2335,20 @@
         "Start": "17\/08\/2021, 11:30 am",
         "End": "17\/08\/2021, 1:00 pm",
         "Advice": "Staff & students at lecture theatre WG403 or the level 4 foyer outside will be sent information on isolation and testing by AUT. Students and staff elsewhere on the city campus need to follow Level 4 instructions and call Healthline if symptoms develop.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "11:30 am - 1:00 pm",
         "timestamp": 1629156600,
         "month": 8,
         "day_of_month": 17,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1629156600": [
+            "Tue, 17 Aug 2021",
+            "11:30 am - 1:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1747,13 +2375,23 @@
         "timestamp": 1628842500,
         "month": 8,
         "day_of_month": 13,
-        "hour": 20
+        "hour": 20,
+        "visits": {
+          "1628835300": [
+            "Fri, 13 Aug 2021",
+            "6:15 pm - 6:30 pm"
+          ],
+          "1628842500": [
+            "Fri, 13 Aug 2021",
+            "8:15 pm - 8:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74444371955937,
-          -36.85096254778761
+          174.74443994700846,
+          -36.85099297956257
         ]
       }
     },
@@ -1774,7 +2412,13 @@
         "timestamp": 1628824500,
         "month": 8,
         "day_of_month": 13,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628824500": [
+            "Fri, 13 Aug 2021",
+            "3:15 pm - 3:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1801,7 +2445,13 @@
         "timestamp": 1628746200,
         "month": 8,
         "day_of_month": 12,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628746200": [
+            "Thu, 12 Aug 2021",
+            "5:30 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1828,13 +2478,39 @@
         "timestamp": 1628832600,
         "month": 8,
         "day_of_month": 13,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628830800": [
+            "Fri, 13 Aug 2021",
+            "5:00 pm - 5:15 pm"
+          ],
+          "1628831400": [
+            "Fri, 13 Aug 2021",
+            "5:10 pm - 6:30 pm"
+          ],
+          "1628831700": [
+            "Fri, 13 Aug 2021",
+            "5:15 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628833500": [
+            "Fri, 13 Aug 2021",
+            "5:45 pm - 5:50 pm"
+          ],
+          "1629006300": [
+            "Sun, 15 Aug 2021",
+            "5:45 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70558722061952,
-          -36.72683563846297
+          174.7056500403538,
+          -36.726776069721055
         ]
       }
     },
@@ -1855,13 +2531,39 @@
         "timestamp": 1628831700,
         "month": 8,
         "day_of_month": 13,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628830800": [
+            "Fri, 13 Aug 2021",
+            "5:00 pm - 5:15 pm"
+          ],
+          "1628831400": [
+            "Fri, 13 Aug 2021",
+            "5:10 pm - 6:30 pm"
+          ],
+          "1628831700": [
+            "Fri, 13 Aug 2021",
+            "5:15 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628833500": [
+            "Fri, 13 Aug 2021",
+            "5:45 pm - 5:50 pm"
+          ],
+          "1629006300": [
+            "Sun, 15 Aug 2021",
+            "5:45 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70564815135992,
-          -36.726806199725985
+          174.7055651352291,
+          -36.726850163545095
         ]
       }
     },
@@ -1882,7 +2584,13 @@
         "timestamp": 1628897400,
         "month": 8,
         "day_of_month": 14,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628897400": [
+            "Sat, 14 Aug 2021",
+            "11:30 am - 11:45 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1909,7 +2617,13 @@
         "timestamp": 1628800200,
         "month": 8,
         "day_of_month": 13,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628800200": [
+            "Fri, 13 Aug 2021",
+            "8:30 am - 8:45 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1936,7 +2650,13 @@
         "timestamp": 1628748000,
         "month": 8,
         "day_of_month": 12,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628748000": [
+            "Thu, 12 Aug 2021",
+            "6:00 pm - 8:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1963,7 +2683,13 @@
         "timestamp": 1628732700,
         "month": 8,
         "day_of_month": 12,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628732700": [
+            "Thu, 12 Aug 2021",
+            "1:45 pm - 2:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -1990,13 +2716,39 @@
         "timestamp": 1628833500,
         "month": 8,
         "day_of_month": 13,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628830800": [
+            "Fri, 13 Aug 2021",
+            "5:00 pm - 5:15 pm"
+          ],
+          "1628831400": [
+            "Fri, 13 Aug 2021",
+            "5:10 pm - 6:30 pm"
+          ],
+          "1628831700": [
+            "Fri, 13 Aug 2021",
+            "5:15 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628833500": [
+            "Fri, 13 Aug 2021",
+            "5:45 pm - 5:50 pm"
+          ],
+          "1629006300": [
+            "Sun, 15 Aug 2021",
+            "5:45 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70563631240452,
-          -36.72678229672118
+          174.70556806626126,
+          -36.72685516281066
         ]
       }
     },
@@ -2017,13 +2769,39 @@
         "timestamp": 1628830800,
         "month": 8,
         "day_of_month": 13,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628830800": [
+            "Fri, 13 Aug 2021",
+            "5:00 pm - 5:15 pm"
+          ],
+          "1628831400": [
+            "Fri, 13 Aug 2021",
+            "5:10 pm - 6:30 pm"
+          ],
+          "1628831700": [
+            "Fri, 13 Aug 2021",
+            "5:15 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628833500": [
+            "Fri, 13 Aug 2021",
+            "5:45 pm - 5:50 pm"
+          ],
+          "1629006300": [
+            "Sun, 15 Aug 2021",
+            "5:45 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70557129906564,
-          -36.726824698049654
+          174.70559093458075,
+          -36.72678250798149
         ]
       }
     },
@@ -2044,13 +2822,23 @@
         "timestamp": 1628546400,
         "month": 8,
         "day_of_month": 10,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628455500": [
+            "Mon, 9 Aug 2021",
+            "8:45 am - 10:15 am"
+          ],
+          "1628546400": [
+            "Tue, 10 Aug 2021",
+            "10:00 am - 10:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84489224297576,
-          -36.916243107945135
+          174.8448638153916,
+          -36.91626903130381
         ]
       }
     },
@@ -2071,7 +2859,13 @@
         "timestamp": 1628336700,
         "month": 8,
         "day_of_month": 7,
-        "hour": 23
+        "hour": 23,
+        "visits": {
+          "1628336700": [
+            "Sat, 7 Aug 2021",
+            "Sat, 11:45 pm - Sun, 12:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2098,7 +2892,13 @@
         "timestamp": 1628548200,
         "month": 8,
         "day_of_month": 10,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628548200": [
+            "Tue, 10 Aug 2021",
+            "10:30 am - 10:51 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2125,13 +2925,27 @@
         "timestamp": 1628447400,
         "month": 8,
         "day_of_month": 9,
-        "hour": 6
+        "hour": 6,
+        "visits": {
+          "1628447400": [
+            "Mon, 9 Aug 2021",
+            "6:30 am - 7:45 am"
+          ],
+          "1629052800": [
+            "Mon, 16 Aug 2021",
+            "6:40 am - 7:17 pm"
+          ],
+          "1629163980": [
+            "Tue, 17 Aug 2021",
+            "1:33 pm - 1:35 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7850007369392,
-          -36.875732177113804
+          174.78505068748183,
+          -36.875738742070006
         ]
       }
     },
@@ -2152,7 +2966,13 @@
         "timestamp": 1628732700,
         "month": 8,
         "day_of_month": 12,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628732700": [
+            "Thu, 12 Aug 2021",
+            "1:45 pm - 2:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2179,7 +2999,13 @@
         "timestamp": 1628452800,
         "month": 8,
         "day_of_month": 9,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628452800": [
+            "Mon, 9 Aug 2021",
+            "8:00 am - 8:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2206,13 +3032,23 @@
         "timestamp": 1629145800,
         "month": 8,
         "day_of_month": 17,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1629074700": [
+            "Mon, 16 Aug 2021",
+            "12:45 pm - 1:15 pm"
+          ],
+          "1629145800": [
+            "Tue, 17 Aug 2021",
+            "8:30 am - 9:45 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70449714769074,
-          -36.80588010929634
+          174.70443700211493,
+          -36.80586951103255
         ]
       }
     },
@@ -2233,7 +3069,13 @@
         "timestamp": 1628841600,
         "month": 8,
         "day_of_month": 13,
-        "hour": 20
+        "hour": 20,
+        "visits": {
+          "1628841600": [
+            "Fri, 13 Aug 2021",
+            "8:00 pm - 8:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2260,13 +3102,23 @@
         "timestamp": 1628455500,
         "month": 8,
         "day_of_month": 9,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628455500": [
+            "Mon, 9 Aug 2021",
+            "8:45 am - 10:15 am"
+          ],
+          "1628546400": [
+            "Tue, 10 Aug 2021",
+            "10:00 am - 10:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84486504798664,
-          -36.91619724273932
+          174.84487907217812,
+          -36.9162035239298
         ]
       }
     },
@@ -2287,13 +3139,23 @@
         "timestamp": 1628938800,
         "month": 8,
         "day_of_month": 14,
-        "hour": 23
+        "hour": 23,
+        "visits": {
+          "1628852400": [
+            "Fri, 13 Aug 2021",
+            "Fri, 11:00 pm - Sat, 7:15 am"
+          ],
+          "1628938800": [
+            "Sat, 14 Aug 2021",
+            "Sat, 11:00 pm - Sun, 7:15 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.68354340195611,
-          -36.908303607196395
+          174.68355658923585,
+          -36.90824233352874
         ]
       }
     },
@@ -2305,22 +3167,32 @@
         "Location": "1 Memorial Drive, New Lynn, Auckland 0600",
         "City": "Auckland",
         "Start": "13\/08\/2021, 11:00 pm",
-        "End": "14\/08\/2021, 7:15 pm",
+        "End": "14\/08\/2021, 7:15 am",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 11:49:26",
+        "Added": "22\/08\/2021 11:49",
         "added_day": 22,
         "day": "Fri, 13 Aug 2021",
-        "time": "Fri, 11:00 pm - Sat, 7:15 pm",
+        "time": "Fri, 11:00 pm - Sat, 7:15 am",
         "timestamp": 1628852400,
         "month": 8,
         "day_of_month": 13,
-        "hour": 23
+        "hour": 23,
+        "visits": {
+          "1628852400": [
+            "Fri, 13 Aug 2021",
+            "Fri, 11:00 pm - Sat, 7:15 am"
+          ],
+          "1628938800": [
+            "Sat, 14 Aug 2021",
+            "Sat, 11:00 pm - Sun, 7:15 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.6835498551186,
-          -36.90824078424605
+          174.683533466355,
+          -36.90829471427243
         ]
       }
     },
@@ -2341,7 +3213,13 @@
         "timestamp": 1629152400,
         "month": 8,
         "day_of_month": 17,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1629152400": [
+            "Tue, 17 Aug 2021",
+            "10:20 am - 10:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2368,7 +3246,13 @@
         "timestamp": 1629153000,
         "month": 8,
         "day_of_month": 17,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1629153000": [
+            "Tue, 17 Aug 2021",
+            "10:30 am - 10:40 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2395,13 +3279,23 @@
         "timestamp": 1628836740,
         "month": 8,
         "day_of_month": 13,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628836740": [
+            "Fri, 13 Aug 2021",
+            "6:39 pm - 7:40 pm"
+          ],
+          "1628925060": [
+            "Sat, 14 Aug 2021",
+            "7:11 pm - 9:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49727833683923,
-          -36.76003348876708
+          175.4972833496385,
+          -36.76000949822859
         ]
       }
     },
@@ -2422,13 +3316,27 @@
         "timestamp": 1628840400,
         "month": 8,
         "day_of_month": 13,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1628840400": [
+            "Fri, 13 Aug 2021",
+            "7:40 pm - 8:30 pm"
+          ],
+          "1628921820": [
+            "Sat, 14 Aug 2021",
+            "6:17 pm - 7:11 pm"
+          ],
+          "1628979240": [
+            "Sun, 15 Aug 2021",
+            "10:14 am - 11:10 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49703187518676,
-          -36.760113504935894
+          175.49703096502807,
+          -36.76007168985088
         ]
       }
     },
@@ -2449,7 +3357,13 @@
         "timestamp": 1628895000,
         "month": 8,
         "day_of_month": 14,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628895000": [
+            "Sat, 14 Aug 2021",
+            "10:50 am - 11:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2476,7 +3390,13 @@
         "timestamp": 1629080100,
         "month": 8,
         "day_of_month": 16,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1629080100": [
+            "Mon, 16 Aug 2021",
+            "2:15 pm - 2:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2503,7 +3423,13 @@
         "timestamp": 1628904300,
         "month": 8,
         "day_of_month": 14,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628904300": [
+            "Sat, 14 Aug 2021",
+            "1:25 pm - 2:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2530,13 +3456,23 @@
         "timestamp": 1628925060,
         "month": 8,
         "day_of_month": 14,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1628836740": [
+            "Fri, 13 Aug 2021",
+            "6:39 pm - 7:40 pm"
+          ],
+          "1628925060": [
+            "Sat, 14 Aug 2021",
+            "7:11 pm - 9:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.4972195299668,
-          -36.76005106871123
+          175.49719869378507,
+          -36.75995957114303
         ]
       }
     },
@@ -2557,7 +3493,13 @@
         "timestamp": 1628890200,
         "month": 8,
         "day_of_month": 14,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628890200": [
+            "Sat, 14 Aug 2021",
+            "9:30 am - 9:40 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2584,13 +3526,23 @@
         "timestamp": 1628893800,
         "month": 8,
         "day_of_month": 14,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628893800": [
+            "Sat, 14 Aug 2021",
+            "10:30 am - 10:50 am"
+          ],
+          "1628896800": [
+            "Sat, 14 Aug 2021",
+            "11:20 am - 1:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.50338278102112,
-          -36.73715367726861
+          175.5033959657907,
+          -36.737085684186525
         ]
       }
     },
@@ -2611,13 +3563,23 @@
         "timestamp": 1628896800,
         "month": 8,
         "day_of_month": 14,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628893800": [
+            "Sat, 14 Aug 2021",
+            "10:30 am - 10:50 am"
+          ],
+          "1628896800": [
+            "Sat, 14 Aug 2021",
+            "11:20 am - 1:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.50332564969887,
-          -36.73710926847793
+          175.50339462901732,
+          -36.73714116316624
         ]
       }
     },
@@ -2638,7 +3600,13 @@
         "timestamp": 1628845200,
         "month": 8,
         "day_of_month": 13,
-        "hour": 21
+        "hour": 21,
+        "visits": {
+          "1628845200": [
+            "Fri, 13 Aug 2021",
+            "Fri, 9:00 pm - Sat, 12:00 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2665,7 +3633,13 @@
         "timestamp": 1628832120,
         "month": 8,
         "day_of_month": 13,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628832120": [
+            "Fri, 13 Aug 2021",
+            "5:22 pm - 5:29 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2685,14 +3659,20 @@
         "Start": "9\/08\/2021, 5:55 pm",
         "End": "9\/08\/2021, 8:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 11:49:26",
+        "Added": "22\/08\/2021 11:49",
         "added_day": 22,
         "day": "Mon, 9 Aug 2021",
         "time": "5:55 pm - 8:15 pm",
         "timestamp": 1628488500,
         "month": 8,
         "day_of_month": 9,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628488500": [
+            "Mon, 9 Aug 2021",
+            "5:55 pm - 8:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2719,7 +3699,33 @@
         "timestamp": 1628833500,
         "month": 8,
         "day_of_month": 13,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628830800": [
+            "Fri, 13 Aug 2021",
+            "5:00 pm - 5:15 pm"
+          ],
+          "1628831400": [
+            "Fri, 13 Aug 2021",
+            "5:10 pm - 6:30 pm"
+          ],
+          "1628831700": [
+            "Fri, 13 Aug 2021",
+            "5:15 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628833500": [
+            "Fri, 13 Aug 2021",
+            "5:45 pm - 5:50 pm"
+          ],
+          "1629006300": [
+            "Sun, 15 Aug 2021",
+            "5:45 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2746,13 +3752,23 @@
         "timestamp": 1628835300,
         "month": 8,
         "day_of_month": 13,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628835300": [
+            "Fri, 13 Aug 2021",
+            "6:15 pm - 6:30 pm"
+          ],
+          "1628842500": [
+            "Fri, 13 Aug 2021",
+            "8:15 pm - 8:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7444437608198,
-          -36.850995941216595
+          174.7444221599277,
+          -36.85102195755649
         ]
       }
     },
@@ -2773,7 +3789,13 @@
         "timestamp": 1629072000,
         "month": 8,
         "day_of_month": 16,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1629072000": [
+            "Mon, 16 Aug 2021",
+            "12:00 pm - 12:10 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2800,13 +3822,27 @@
         "timestamp": 1629052800,
         "month": 8,
         "day_of_month": 16,
-        "hour": 6
+        "hour": 6,
+        "visits": {
+          "1628447400": [
+            "Mon, 9 Aug 2021",
+            "6:30 am - 7:45 am"
+          ],
+          "1629052800": [
+            "Mon, 16 Aug 2021",
+            "6:40 am - 7:17 pm"
+          ],
+          "1629163980": [
+            "Tue, 17 Aug 2021",
+            "1:33 pm - 1:35 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.784997889878,
-          -36.87572764662289
+          174.78504136926307,
+          -36.87572925649408
         ]
       }
     },
@@ -2827,7 +3863,13 @@
         "timestamp": 1629006600,
         "month": 8,
         "day_of_month": 15,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1629006600": [
+            "Sun, 15 Aug 2021",
+            "5:50 pm - 6:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2854,7 +3896,13 @@
         "timestamp": 1628998560,
         "month": 8,
         "day_of_month": 15,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628998560": [
+            "Sun, 15 Aug 2021",
+            "3:36 pm - 5:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2881,7 +3929,13 @@
         "timestamp": 1628840700,
         "month": 8,
         "day_of_month": 13,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1628840700": [
+            "Fri, 13 Aug 2021",
+            "7:45 pm - 8:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2908,7 +3962,13 @@
         "timestamp": 1628997600,
         "month": 8,
         "day_of_month": 15,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628997600": [
+            "Sun, 15 Aug 2021",
+            "3:20 pm - 3:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2935,7 +3995,13 @@
         "timestamp": 1628895600,
         "month": 8,
         "day_of_month": 14,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628895600": [
+            "Sat, 14 Aug 2021",
+            "11:00 am - 11:10 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -2962,13 +4028,39 @@
         "timestamp": 1628456400,
         "month": 8,
         "day_of_month": 9,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628456400": [
+            "Mon, 9 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1628542800": [
+            "Tue, 10 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628629200": [
+            "Wed, 11 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628802000": [
+            "Fri, 13 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1629061200": [
+            "Mon, 16 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1629147600": [
+            "Tue, 17 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71528442830729,
-          -36.913118114554116
+          174.71531482792412,
+          -36.913078649446135
         ]
       }
     },
@@ -2989,13 +4081,39 @@
         "timestamp": 1628542800,
         "month": 8,
         "day_of_month": 10,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628456400": [
+            "Mon, 9 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1628542800": [
+            "Tue, 10 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628629200": [
+            "Wed, 11 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628802000": [
+            "Fri, 13 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1629061200": [
+            "Mon, 16 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1629147600": [
+            "Tue, 17 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71533931860768,
-          -36.91314786523867
+          174.71533285863887,
+          -36.91314053160651
         ]
       }
     },
@@ -3016,13 +4134,39 @@
         "timestamp": 1628629200,
         "month": 8,
         "day_of_month": 11,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628456400": [
+            "Mon, 9 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1628542800": [
+            "Tue, 10 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628629200": [
+            "Wed, 11 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628802000": [
+            "Fri, 13 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1629061200": [
+            "Mon, 16 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1629147600": [
+            "Tue, 17 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71535497506068,
-          -36.91311517334848
+          174.71527353943915,
+          -36.91310711272431
         ]
       }
     },
@@ -3043,7 +4187,13 @@
         "timestamp": 1628989200,
         "month": 8,
         "day_of_month": 15,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628989200": [
+            "Sun, 15 Aug 2021",
+            "1:00 pm - 2:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3070,7 +4220,13 @@
         "timestamp": 1628974800,
         "month": 8,
         "day_of_month": 15,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628974800": [
+            "Sun, 15 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3084,8 +4240,8 @@
       "type": "Feature",
       "properties": {
         "id": "a0l4a0000004FRC",
-        "Event": "The Cosmetic Clinic WestCity Henderson",
-        "Location": "Shop 237 West City Waitakere, Henderson, Auckland 0612",
+        "Event": "The Cosmetic Clinic West City Henderson",
+        "Location": "7 Catherine Street, Henderson, Auckland 0612",
         "City": "Auckland",
         "Start": "13\/08\/2021, 4:30 pm",
         "End": "13\/08\/2021, 5:30 pm",
@@ -3097,7 +4253,21 @@
         "timestamp": 1628829000,
         "month": 8,
         "day_of_month": 13,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1628829000": [
+            "Fri, 13 Aug 2021",
+            "4:30 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628989200": [
+            "Sun, 15 Aug 2021",
+            "1:00 pm - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3124,7 +4294,13 @@
         "timestamp": 1628895600,
         "month": 8,
         "day_of_month": 14,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628895600": [
+            "Sat, 14 Aug 2021",
+            "11:00 am - 11:15 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3151,7 +4327,13 @@
         "timestamp": 1628652600,
         "month": 8,
         "day_of_month": 11,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628652600": [
+            "Wed, 11 Aug 2021",
+            "3:30 pm - 3:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3178,7 +4360,13 @@
         "timestamp": 1629061200,
         "month": 8,
         "day_of_month": 16,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1629061200": [
+            "Mon, 16 Aug 2021",
+            "9:00 am - 3:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3205,7 +4393,13 @@
         "timestamp": 1628884800,
         "month": 8,
         "day_of_month": 14,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628884800": [
+            "Sat, 14 Aug 2021",
+            "8:00 am - 2:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3232,7 +4426,13 @@
         "timestamp": 1628911800,
         "month": 8,
         "day_of_month": 14,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628911800": [
+            "Sat, 14 Aug 2021",
+            "3:30 pm - 5:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3252,14 +4452,20 @@
         "Start": "14\/08\/2021, 4:00 pm",
         "End": "14\/08\/2021, 8:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Sat, 14 Aug 2021",
         "time": "4:00 pm - 8:00 pm",
         "timestamp": 1628913600,
         "month": 8,
         "day_of_month": 14,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1628913600": [
+            "Sat, 14 Aug 2021",
+            "4:00 pm - 8:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3286,7 +4492,13 @@
         "timestamp": 1628913600,
         "month": 8,
         "day_of_month": 14,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1628913600": [
+            "Sat, 14 Aug 2021",
+            "4:00 pm - 4:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3313,7 +4525,13 @@
         "timestamp": 1628901000,
         "month": 8,
         "day_of_month": 14,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628901000": [
+            "Sat, 14 Aug 2021",
+            "12:30 pm - 1:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3340,7 +4558,13 @@
         "timestamp": 1628989200,
         "month": 8,
         "day_of_month": 15,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628989200": [
+            "Sun, 15 Aug 2021",
+            "1:00 pm - 1:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3367,7 +4591,13 @@
         "timestamp": 1629064800,
         "month": 8,
         "day_of_month": 16,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1629064800": [
+            "Mon, 16 Aug 2021",
+            "10:00 am - 10:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3394,7 +4624,13 @@
         "timestamp": 1629147600,
         "month": 8,
         "day_of_month": 17,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1629147600": [
+            "Tue, 17 Aug 2021",
+            "9:00 am - 9:40 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3421,7 +4657,13 @@
         "timestamp": 1628982900,
         "month": 8,
         "day_of_month": 15,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628982900": [
+            "Sun, 15 Aug 2021",
+            "11:15 am - 11:45 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3448,13 +4690,23 @@
         "timestamp": 1629073800,
         "month": 8,
         "day_of_month": 16,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1629073800": [
+            "Mon, 16 Aug 2021",
+            "12:30 pm - 1:30 pm"
+          ],
+          "1629160200": [
+            "Tue, 17 Aug 2021",
+            "12:30 pm - 1:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.78631026501793,
-          -36.92076475450115
+          174.786293547762,
+          -36.92074393155416
         ]
       }
     },
@@ -3475,7 +4727,13 @@
         "timestamp": 1629178200,
         "month": 8,
         "day_of_month": 17,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1629178200": [
+            "Tue, 17 Aug 2021",
+            "5:30 pm - 5:40 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3502,7 +4760,13 @@
         "timestamp": 1628980200,
         "month": 8,
         "day_of_month": 15,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628980200": [
+            "Sun, 15 Aug 2021",
+            "10:30 am - 11:15 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3529,13 +4793,23 @@
         "timestamp": 1629160200,
         "month": 8,
         "day_of_month": 17,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1629073800": [
+            "Mon, 16 Aug 2021",
+            "12:30 pm - 1:30 pm"
+          ],
+          "1629160200": [
+            "Tue, 17 Aug 2021",
+            "12:30 pm - 1:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.78633920489938,
-          -36.920756589605844
+          174.78628223734572,
+          -36.92077107191798
         ]
       }
     },
@@ -3556,13 +4830,23 @@
         "timestamp": 1629174060,
         "month": 8,
         "day_of_month": 17,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629166500": [
+            "Tue, 17 Aug 2021",
+            "2:15 pm - 3:30 pm"
+          ],
+          "1629174060": [
+            "Tue, 17 Aug 2021",
+            "4:21 pm - 8:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.87290432718459,
-          -36.962127898180896
+          174.8728997960492,
+          -36.962128138076245
         ]
       }
     },
@@ -3576,14 +4860,20 @@
         "Start": "18\/08\/2021, 5:30 pm",
         "End": "18\/08\/2021, 5:45 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Wed, 18 Aug 2021",
         "time": "5:30 pm - 5:45 pm",
         "timestamp": 1629264600,
         "month": 8,
         "day_of_month": 18,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1629264600": [
+            "Wed, 18 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3603,14 +4893,20 @@
         "Start": "14\/08\/2021, 12:30 pm",
         "End": "14\/08\/2021, 3:30 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Sat, 14 Aug 2021",
         "time": "12:30 pm - 3:30 pm",
         "timestamp": 1628901000,
         "month": 8,
         "day_of_month": 14,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628901000": [
+            "Sat, 14 Aug 2021",
+            "12:30 pm - 3:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3637,7 +4933,13 @@
         "timestamp": 1629261000,
         "month": 8,
         "day_of_month": 18,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629261000": [
+            "Wed, 18 Aug 2021",
+            "4:30 pm - 5:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3664,7 +4966,13 @@
         "timestamp": 1629180900,
         "month": 8,
         "day_of_month": 17,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1629180900": [
+            "Tue, 17 Aug 2021",
+            "6:15 pm - 6:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3691,7 +4999,13 @@
         "timestamp": 1629177300,
         "month": 8,
         "day_of_month": 17,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1629177300": [
+            "Tue, 17 Aug 2021",
+            "5:15 pm - 5:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3718,7 +5032,13 @@
         "timestamp": 1629178200,
         "month": 8,
         "day_of_month": 17,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1629178200": [
+            "Tue, 17 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3745,7 +5065,13 @@
         "timestamp": 1629183600,
         "month": 8,
         "day_of_month": 17,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1629183600": [
+            "Tue, 17 Aug 2021",
+            "7:00 pm - 9:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3772,7 +5098,13 @@
         "timestamp": 1629260100,
         "month": 8,
         "day_of_month": 18,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629260100": [
+            "Wed, 18 Aug 2021",
+            "4:15 pm - 4:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3792,14 +5124,20 @@
         "Start": "16\/08\/2021, 9:30 am",
         "End": "16\/08\/2021, 9:45 am",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "9:30 am - 9:45 am",
         "timestamp": 1629063000,
         "month": 8,
         "day_of_month": 16,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1629063000": [
+            "Mon, 16 Aug 2021",
+            "9:30 am - 9:45 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3819,14 +5157,20 @@
         "Start": "16\/08\/2021, 6:30 pm",
         "End": "16\/08\/2021, 7:00 pm",
         "Advice": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "6:30 pm - 7:00 pm",
         "timestamp": 1629095400,
         "month": 8,
         "day_of_month": 16,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1629095400": [
+            "Mon, 16 Aug 2021",
+            "6:30 pm - 7:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3846,14 +5190,20 @@
         "Start": "16\/08\/2021, 6:30 pm",
         "End": "16\/08\/2021, 7:00 pm",
         "Advice": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "6:30 pm - 7:00 pm",
         "timestamp": 1629095400,
         "month": 8,
         "day_of_month": 16,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1629095400": [
+            "Mon, 16 Aug 2021",
+            "6:30 pm - 7:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3873,20 +5223,30 @@
         "Start": "15\/08\/2021, 6:20 pm",
         "End": "15\/08\/2021, 7:00 pm",
         "Advice": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Sun, 15 Aug 2021",
         "time": "6:20 pm - 7:00 pm",
         "timestamp": 1629008400,
         "month": 8,
         "day_of_month": 15,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1629008400": [
+            "Sun, 15 Aug 2021",
+            "6:20 pm - 7:00 pm"
+          ],
+          "1629351000": [
+            "Thu, 19 Aug 2021",
+            "5:30 pm - 6:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.80993561170934,
-          -41.33469678065657
+          174.8099423728527,
+          -41.334654222324836
         ]
       }
     },
@@ -3900,14 +5260,20 @@
         "Start": "16\/08\/2021, 9:30 pm",
         "End": "16\/08\/2021, 10:00 pm",
         "Advice": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "9:30 pm - 10:00 pm",
         "timestamp": 1629106200,
         "month": 8,
         "day_of_month": 16,
-        "hour": 21
+        "hour": 21,
+        "visits": {
+          "1629106200": [
+            "Mon, 16 Aug 2021",
+            "9:30 pm - 10:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3934,7 +5300,13 @@
         "timestamp": 1629144900,
         "month": 8,
         "day_of_month": 17,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1629144900": [
+            "Tue, 17 Aug 2021",
+            "8:15 am - 3:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -3954,20 +5326,42 @@
         "Start": "17\/08\/2021, 8:30 am",
         "End": "17\/08\/2021, 3:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "8:30 am - 3:15 pm",
         "timestamp": 1629145800,
         "month": 8,
         "day_of_month": 17,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628627400": [
+            "Wed, 11 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1628713800": [
+            "Thu, 12 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1628800200": [
+            "Fri, 13 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1629059400": [
+            "Mon, 16 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1629145800": [
+            "Tue, 17 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84843874651855,
-          -36.94444282503816
+          174.84849855693918,
+          -36.944483344026175
         ]
       }
     },
@@ -3981,20 +5375,42 @@
         "Start": "11\/08\/2021, 8:30 am",
         "End": "11\/08\/2021, 3:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Wed, 11 Aug 2021",
         "time": "8:30 am - 3:15 pm",
         "timestamp": 1628627400,
         "month": 8,
         "day_of_month": 11,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628627400": [
+            "Wed, 11 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1628713800": [
+            "Thu, 12 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1628800200": [
+            "Fri, 13 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1629059400": [
+            "Mon, 16 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1629145800": [
+            "Tue, 17 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.8485140857233,
-          -36.94445537363247
+          174.84846302105893,
+          -36.94453476007116
         ]
       }
     },
@@ -4008,20 +5424,42 @@
         "Start": "13\/08\/2021, 8:30 am",
         "End": "13\/08\/2021, 3:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Fri, 13 Aug 2021",
         "time": "8:30 am - 3:15 pm",
         "timestamp": 1628800200,
         "month": 8,
         "day_of_month": 13,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628627400": [
+            "Wed, 11 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1628713800": [
+            "Thu, 12 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1628800200": [
+            "Fri, 13 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1629059400": [
+            "Mon, 16 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1629145800": [
+            "Tue, 17 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84842558165718,
-          -36.94445783006803
+          174.84849455584836,
+          -36.94447629176044
         ]
       }
     },
@@ -4035,20 +5473,42 @@
         "Start": "12\/08\/2021, 8:30 am",
         "End": "12\/08\/2021, 3:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Thu, 12 Aug 2021",
         "time": "8:30 am - 3:15 pm",
         "timestamp": 1628713800,
         "month": 8,
         "day_of_month": 12,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628627400": [
+            "Wed, 11 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1628713800": [
+            "Thu, 12 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1628800200": [
+            "Fri, 13 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1629059400": [
+            "Mon, 16 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1629145800": [
+            "Tue, 17 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84842473765332,
-          -36.94444188077411
+          174.84844140150005,
+          -36.944441982547175
         ]
       }
     },
@@ -4062,20 +5522,42 @@
         "Start": "16\/08\/2021, 8:30 am",
         "End": "16\/08\/2021, 3:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "8:30 am - 3:15 pm",
         "timestamp": 1629059400,
         "month": 8,
         "day_of_month": 16,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628627400": [
+            "Wed, 11 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1628713800": [
+            "Thu, 12 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1628800200": [
+            "Fri, 13 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1629059400": [
+            "Mon, 16 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ],
+          "1629145800": [
+            "Tue, 17 Aug 2021",
+            "8:30 am - 3:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84846374520944,
-          -36.94446507347078
+          174.84848829185054,
+          -36.94453977023948
         ]
       }
     },
@@ -4096,7 +5578,13 @@
         "timestamp": 1629348300,
         "month": 8,
         "day_of_month": 19,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629348300": [
+            "Thu, 19 Aug 2021",
+            "4:45 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4116,20 +5604,26 @@
         "Start": "13\/08\/2021, 12:00 am",
         "End": "13\/08\/2021, 11:45 pm",
         "Advice": "Residents and staff Isolate 14 days from last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline. Visitors monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you test negative.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Fri, 13 Aug 2021",
         "time": "12:00 am - 11:45 pm",
         "timestamp": 1628769600,
         "month": 8,
         "day_of_month": 13,
-        "hour": 0
+        "hour": 0,
+        "visits": {
+          "1628769600": [
+            "Fri, 13 Aug 2021",
+            "Fri, 12:00 am - Thu, 11:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76559475285367,
-          -36.857988790110355
+          174.7655167663032,
+          -36.85803691258316
         ]
       }
     },
@@ -4150,67 +5644,19 @@
         "timestamp": 1629403500,
         "month": 8,
         "day_of_month": 20,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1629403500": [
+            "Fri, 20 Aug 2021",
+            "8:05 am - 9:45 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           174.7775,
           -41.3073
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004GUu",
-        "Event": "Whitaker Hall Auckland University Grafton Campus",
-        "Location": "27 Whitaker Place, Grafton, Auckland 1010",
-        "City": "Auckland",
-        "Start": "15\/08\/2021, 12:00 am",
-        "End": "15\/08\/2021, 11:45 pm",
-        "Advice": "Residents & staff isolate 14 days from last exposure. Test immediately & on days 5 & 12 after last exposure and call Healthline. Visitors self-monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test",
-        "Added": "2021-08-22 09:40:43",
-        "added_day": 22,
-        "day": "Sun, 15 Aug 2021",
-        "time": "12:00 am - 11:45 pm",
-        "timestamp": 1628942400,
-        "month": 8,
-        "day_of_month": 15,
-        "hour": 0
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.7655653136461,
-          -36.858073254995794
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004GUz",
-        "Event": "Whitaker Hall Auckland University Grafton Campus",
-        "Location": "27 Whitaker Place, Grafton, Auckland 1010",
-        "City": "Auckland",
-        "Start": "16\/08\/2021, 12:00 am",
-        "End": "16\/08\/2021, 11:45 pm",
-        "Advice": "Residents & staff isolate 14 days from last exposure. Test immediately & on days 5 & 12 after last exposure and call Healthline. Visitors self-monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test",
-        "Added": "2021-08-22 09:40:43",
-        "added_day": 22,
-        "day": "Mon, 16 Aug 2021",
-        "time": "12:00 am - 11:45 pm",
-        "timestamp": 1629028800,
-        "month": 8,
-        "day_of_month": 16,
-        "hour": 0
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.76553947788895,
-          -36.85803765853464
         ]
       }
     },
@@ -4231,67 +5677,23 @@
         "timestamp": 1629331800,
         "month": 8,
         "day_of_month": 19,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1629228300": [
+            "Wed, 18 Aug 2021",
+            "7:25 am - 7:40 am"
+          ],
+          "1629331800": [
+            "Thu, 19 Aug 2021",
+            "12:10 pm - 12:25 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.79645681040472,
-          -41.318325848746746
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004GV4",
-        "Event": "Whitaker Hall Auckland University Grafton Campus",
-        "Location": "27 Whitaker Place, Grafton, Auckland 1010",
-        "City": "Auckland",
-        "Start": "17\/08\/2021, 12:00 am",
-        "End": "17\/08\/2021, 11:45 pm",
-        "Advice": "Residents & staff isolate 14 days from last exposure. Test immediately & on days 5 & 12 after last exposure and call Healthline. Visitors self-monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test",
-        "Added": "2021-08-22 09:40:43",
-        "added_day": 22,
-        "day": "Tue, 17 Aug 2021",
-        "time": "12:00 am - 11:45 pm",
-        "timestamp": 1629115200,
-        "month": 8,
-        "day_of_month": 17,
-        "hour": 0
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.76555004776662,
-          -36.8580293778066
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004GUf",
-        "Event": "Whitaker Hall Auckland University Grafton Campus",
-        "Location": "27 Whitaker Place, Grafton, Auckland 1010",
-        "City": "Auckland",
-        "Start": "14\/08\/2021, 12:00 am",
-        "End": "14\/08\/2021, 11:45 pm",
-        "Advice": "Residents & staff Isolate 14 days from last exposure. Test immediately, & on days 5 & 12 after last exposure and call Healthline. Visitors Self-monitor for symptoms for 14 days.If symptoms develop, get a test and stay at home until you get a negative test",
-        "Added": "2021-08-22 09:40:43",
-        "added_day": 22,
-        "day": "Sat, 14 Aug 2021",
-        "time": "12:00 am - 11:45 pm",
-        "timestamp": 1628856000,
-        "month": 8,
-        "day_of_month": 14,
-        "hour": 0
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.7655450209757,
-          -36.85800413414938
+          174.79650147384893,
+          -41.31836831705039
         ]
       }
     },
@@ -4305,20 +5707,42 @@
         "Start": "14\/08\/2021, 4:30 pm",
         "End": "14\/08\/2021, 5:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
+        "Added": "22\/08\/2021 13:21",
         "added_day": 22,
         "day": "Sat, 14 Aug 2021",
         "time": "4:30 pm - 5:15 pm",
         "timestamp": 1628915400,
         "month": 8,
         "day_of_month": 14,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1628834400": [
+            "Fri, 13 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1628915400": [
+            "Sat, 14 Aug 2021",
+            "4:30 pm - 5:15 pm"
+          ],
+          "1629007200": [
+            "Sun, 15 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1629093600": [
+            "Mon, 16 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1629180000": [
+            "Tue, 17 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76642545658234,
-          -36.8577843376976
+          174.76642421416688,
+          -36.857781696585825
         ]
       }
     },
@@ -4332,20 +5756,42 @@
         "Start": "13\/08\/2021, 6:00 pm",
         "End": "13\/08\/2021, 7:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
+        "Added": "22\/08\/2021 13:21",
         "added_day": 22,
         "day": "Fri, 13 Aug 2021",
         "time": "6:00 pm - 7:00 pm",
         "timestamp": 1628834400,
         "month": 8,
         "day_of_month": 13,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628834400": [
+            "Fri, 13 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1628915400": [
+            "Sat, 14 Aug 2021",
+            "4:30 pm - 5:15 pm"
+          ],
+          "1629007200": [
+            "Sun, 15 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1629093600": [
+            "Mon, 16 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1629180000": [
+            "Tue, 17 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.766445520901,
-          -36.857707150221785
+          174.76645216233524,
+          -36.85775676413759
         ]
       }
     },
@@ -4356,50 +5802,29 @@
         "Event": "Whitaker Hall Auckland University Grafton Campus",
         "Location": "27 Whitaker Place, Grafton, Auckland 1010",
         "City": "Auckland",
-        "Start": "19\/08\/2021, 12:00 am",
+        "Start": "13\/08\/2021, 12:00 am",
         "End": "19\/08\/2021, 11:45 pm",
         "Advice": "Residents & staff isolate 14 days from last exposure. Test immediately & on days 5 & 12 after last exposure and call Healthline. Visitors self-monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
-        "day": "Thu, 19 Aug 2021",
-        "time": "12:00 am - 11:45 pm",
-        "timestamp": 1629288000,
+        "day": "Fri, 13 Aug 2021",
+        "time": "Fri, 12:00 am - Thu, 11:45 pm",
+        "timestamp": 1628769600,
         "month": 8,
-        "day_of_month": 19,
-        "hour": 0
+        "day_of_month": 13,
+        "hour": 0,
+        "visits": {
+          "1628769600": [
+            "Fri, 13 Aug 2021",
+            "Fri, 12:00 am - Thu, 11:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7655083888285,
-          -36.858060135267394
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004GVE",
-        "Event": "Whitaker Hall Auckland University Grafton Campus",
-        "Location": "27 Whitaker Place, Grafton, Auckland 1010",
-        "City": "Auckland",
-        "Start": "18\/08\/2021, 12:00 am",
-        "End": "18\/08\/2021, 11:45 pm",
-        "Advice": "Residents & staff isolate 14 days from last exposure. Test immediately & on days 5 & 12 after last exposure and call Healthline. Visitors self-monitor for symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test",
-        "Added": "2021-08-22 09:40:43",
-        "added_day": 22,
-        "day": "Wed, 18 Aug 2021",
-        "time": "12:00 am - 11:45 pm",
-        "timestamp": 1629201600,
-        "month": 8,
-        "day_of_month": 18,
-        "hour": 0
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.76551290510588,
-          -36.857991504094095
+          174.7655549929241,
+          -36.85805456378336
         ]
       }
     },
@@ -4413,20 +5838,30 @@
         "Start": "14\/08\/2021, 7:00 pm",
         "End": "14\/08\/2021, 11:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Sat, 14 Aug 2021",
         "time": "7:00 pm - 11:00 pm",
         "timestamp": 1628924400,
         "month": 8,
         "day_of_month": 14,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1628813700": [
+            "Fri, 13 Aug 2021",
+            "12:15 pm - 12:30 pm"
+          ],
+          "1628924400": [
+            "Sat, 14 Aug 2021",
+            "7:00 pm - 11:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.761557791772,
-          -36.851846581964644
+          174.76156739436763,
+          -36.85186187495481
         ]
       }
     },
@@ -4440,20 +5875,42 @@
         "Start": "16\/08\/2021, 6:00 pm",
         "End": "16\/08\/2021, 7:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
+        "Added": "22\/08\/2021 13:21",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "6:00 pm - 7:00 pm",
         "timestamp": 1629093600,
         "month": 8,
         "day_of_month": 16,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628834400": [
+            "Fri, 13 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1628915400": [
+            "Sat, 14 Aug 2021",
+            "4:30 pm - 5:15 pm"
+          ],
+          "1629007200": [
+            "Sun, 15 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1629093600": [
+            "Mon, 16 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1629180000": [
+            "Tue, 17 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7664473960665,
-          -36.85778093266362
+          174.76650142369888,
+          -36.85776571324757
         ]
       }
     },
@@ -4467,20 +5924,30 @@
         "Start": "13\/08\/2021, 11:45 am",
         "End": "13\/08\/2021, 2:00 pm",
         "Advice": "All at Statistics 101; Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Fri, 13 Aug 2021",
         "time": "11:45 am - 2:00 pm",
         "timestamp": 1628811900,
         "month": 8,
         "day_of_month": 13,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628811900": [
+            "Fri, 13 Aug 2021",
+            "11:45 am - 2:00 pm"
+          ],
+          "1629162000": [
+            "Tue, 17 Aug 2021",
+            "1:00 pm - 2:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7709358608,
-          -36.85328581303944
+          174.77096354176814,
+          -36.85330679854764
         ]
       }
     },
@@ -4494,20 +5961,42 @@
         "Start": "15\/08\/2021, 6:00 pm",
         "End": "15\/08\/2021, 7:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
+        "Added": "22\/08\/2021 13:21",
         "added_day": 22,
         "day": "Sun, 15 Aug 2021",
         "time": "6:00 pm - 7:00 pm",
         "timestamp": 1629007200,
         "month": 8,
         "day_of_month": 15,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628834400": [
+            "Fri, 13 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1628915400": [
+            "Sat, 14 Aug 2021",
+            "4:30 pm - 5:15 pm"
+          ],
+          "1629007200": [
+            "Sun, 15 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1629093600": [
+            "Mon, 16 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1629180000": [
+            "Tue, 17 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76642677638128,
-          -36.857712351841016
+          174.76641809070256,
+          -36.857758351371885
         ]
       }
     },
@@ -4521,20 +6010,42 @@
         "Start": "17\/08\/2021, 6:00 pm",
         "End": "17\/08\/2021, 7:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
+        "Added": "22\/08\/2021 13:21",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "6:00 pm - 7:00 pm",
         "timestamp": 1629180000,
         "month": 8,
         "day_of_month": 17,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628834400": [
+            "Fri, 13 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1628915400": [
+            "Sat, 14 Aug 2021",
+            "4:30 pm - 5:15 pm"
+          ],
+          "1629007200": [
+            "Sun, 15 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1629093600": [
+            "Mon, 16 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ],
+          "1629180000": [
+            "Tue, 17 Aug 2021",
+            "6:00 pm - 7:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76642730962828,
-          -36.857702520011834
+          174.7664147439123,
+          -36.857776249278274
         ]
       }
     },
@@ -4548,14 +6059,20 @@
         "Start": "13\/08\/2021, 8:00 am",
         "End": "13\/08\/2021, 10:00 am",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Fri, 13 Aug 2021",
         "time": "8:00 am - 10:00 am",
         "timestamp": 1628798400,
         "month": 8,
         "day_of_month": 13,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628798400": [
+            "Fri, 13 Aug 2021",
+            "8:00 am - 10:00 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4575,20 +6092,30 @@
         "Start": "17\/08\/2021, 8:00 am",
         "End": "17\/08\/2021, 4:30 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
+        "Added": "22\/08\/2021 13:21",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "8:00 am - 4:30 pm",
         "timestamp": 1629144000,
         "month": 8,
         "day_of_month": 17,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1629057600": [
+            "Mon, 16 Aug 2021",
+            "8:00 am - 4:00 pm"
+          ],
+          "1629144000": [
+            "Tue, 17 Aug 2021",
+            "8:00 am - 4:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.90600727683736,
-          -37.20591093300381
+          174.90608445852703,
+          -37.20596047393137
         ]
       }
     },
@@ -4602,20 +6129,104 @@
         "Start": "16\/08\/2021, 8:00 am",
         "End": "16\/08\/2021, 4:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
+        "Added": "22\/08\/2021 13:21",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "8:00 am - 4:00 pm",
         "timestamp": 1629057600,
         "month": 8,
         "day_of_month": 16,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1629057600": [
+            "Mon, 16 Aug 2021",
+            "8:00 am - 4:00 pm"
+          ],
+          "1629144000": [
+            "Tue, 17 Aug 2021",
+            "8:00 am - 4:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.90609390859458,
-          -37.205971233449134
+          174.90604966541022,
+          -37.20596860763575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004GrK",
+        "Event": "Farro Grey Lynn",
+        "Location": "34 Westmoreland Street West, Grey Lynn, Auckland 1021",
+        "City": "Auckland",
+        "Start": "17\/08\/2021, 6:37 pm",
+        "End": "17\/08\/2021, 6:50 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 16:08:28",
+        "added_day": 22,
+        "day": "Tue, 17 Aug 2021",
+        "time": "6:37 pm - 6:50 pm",
+        "timestamp": 1629182220,
+        "month": 8,
+        "day_of_month": 17,
+        "hour": 18,
+        "visits": {
+          "1629182220": [
+            "Tue, 17 Aug 2021",
+            "6:37 pm - 6:50 pm"
+          ],
+          "1629261180": [
+            "Wed, 18 Aug 2021",
+            "4:33 pm - 4:45 pm"
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.73296864930043,
+          -36.85530141012538
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004Gre",
+        "Event": "Countdown Grey Lynn",
+        "Location": "271 Richmond Road, Grey Lynn, Auckland 1022",
+        "City": "Auckland",
+        "Start": "17\/08\/2021, 6:52 pm",
+        "End": "17\/08\/2021, 7:15 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 16:08:28",
+        "added_day": 22,
+        "day": "Tue, 17 Aug 2021",
+        "time": "6:52 pm - 7:15 pm",
+        "timestamp": 1629183120,
+        "month": 8,
+        "day_of_month": 17,
+        "hour": 18,
+        "visits": {
+          "1629183120": [
+            "Tue, 17 Aug 2021",
+            "6:52 pm - 7:15 pm"
+          ],
+          "1629262500": [
+            "Wed, 18 Aug 2021",
+            "4:55 pm - 5:30 pm"
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.73192280882554,
+          -36.854377399638345
         ]
       }
     },
@@ -4629,20 +6240,79 @@
         "Start": "15\/08\/2021, 5:45 pm",
         "End": "15\/08\/2021, 6:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
+        "Added": "22\/08\/2021 13:21",
         "added_day": 22,
         "day": "Sun, 15 Aug 2021",
         "time": "5:45 pm - 6:00 pm",
         "timestamp": 1629006300,
         "month": 8,
         "day_of_month": 15,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628830800": [
+            "Fri, 13 Aug 2021",
+            "5:00 pm - 5:15 pm"
+          ],
+          "1628831400": [
+            "Fri, 13 Aug 2021",
+            "5:10 pm - 6:30 pm"
+          ],
+          "1628831700": [
+            "Fri, 13 Aug 2021",
+            "5:15 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628833500": [
+            "Fri, 13 Aug 2021",
+            "5:45 pm - 5:50 pm"
+          ],
+          "1629006300": [
+            "Sun, 15 Aug 2021",
+            "5:45 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7056464688635,
-          -36.72682351580592
+          174.70561044013593,
+          -36.726796146091594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004H3G",
+        "Event": "SuperValue Avondale",
+        "Location": "2021 Great North Road, Avondale, Auckland 1026",
+        "City": "Auckland",
+        "Start": "17\/08\/2021, 5:00 pm",
+        "End": "17\/08\/2021, 6:30 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 17:16:00",
+        "added_day": 22,
+        "day": "Tue, 17 Aug 2021",
+        "time": "5:00 pm - 6:30 pm",
+        "timestamp": 1629176400,
+        "month": 8,
+        "day_of_month": 17,
+        "hour": 17,
+        "visits": {
+          "1629176400": [
+            "Tue, 17 Aug 2021",
+            "5:00 pm - 6:30 pm"
+          ]
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.696859,
+          -36.897848
         ]
       }
     },
@@ -4663,7 +6333,13 @@
         "timestamp": 1628728200,
         "month": 8,
         "day_of_month": 12,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628728200": [
+            "Thu, 12 Aug 2021",
+            "12:30 pm - 1:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4690,7 +6366,13 @@
         "timestamp": 1628728200,
         "month": 8,
         "day_of_month": 12,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628728200": [
+            "Thu, 12 Aug 2021",
+            "12:30 pm - 1:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4717,7 +6399,13 @@
         "timestamp": 1628989200,
         "month": 8,
         "day_of_month": 15,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628989200": [
+            "Sun, 15 Aug 2021",
+            "1:00 pm - 2:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4744,7 +6432,13 @@
         "timestamp": 1629005100,
         "month": 8,
         "day_of_month": 15,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1629005100": [
+            "Sun, 15 Aug 2021",
+            "5:25 pm - 6:29 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4771,7 +6465,13 @@
         "timestamp": 1628836200,
         "month": 8,
         "day_of_month": 13,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628836200": [
+            "Fri, 13 Aug 2021",
+            "6:30 pm - 8:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4798,7 +6498,13 @@
         "timestamp": 1629014400,
         "month": 8,
         "day_of_month": 15,
-        "hour": 20
+        "hour": 20,
+        "visits": {
+          "1629014400": [
+            "Sun, 15 Aug 2021",
+            "8:00 pm - 8:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4825,7 +6531,17 @@
         "timestamp": 1628714700,
         "month": 8,
         "day_of_month": 12,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628714700": [
+            "Thu, 12 Aug 2021",
+            "8:45 am - 3:15 pm"
+          ],
+          "1628801100": [
+            "Fri, 13 Aug 2021",
+            "8:45 am - 3:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4852,13 +6568,19 @@
         "timestamp": 1628834400,
         "month": 8,
         "day_of_month": 13,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628834400": [
+            "Fri, 13 Aug 2021",
+            "6:00 pm - 6:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.72504278872404,
-          -36.811314983655215
+          174.7250451733573,
+          -36.81133158370257
         ]
       }
     },
@@ -4879,7 +6601,13 @@
         "timestamp": 1629168600,
         "month": 8,
         "day_of_month": 17,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1629168600": [
+            "Tue, 17 Aug 2021",
+            "2:50 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4893,7 +6621,7 @@
       "type": "Feature",
       "properties": {
         "id": "a0l4a0000004EuS",
-        "Event": "McDonald's Stoddard Road",
+        "Event": "McDonald's Stoddard Road Wesley",
         "Location": "22 Stoddard Road, Wesley, Auckland 1041",
         "City": "Auckland",
         "Start": "13\/08\/2021, 10:00 pm",
@@ -4906,7 +6634,13 @@
         "timestamp": 1628848800,
         "month": 8,
         "day_of_month": 13,
-        "hour": 22
+        "hour": 22,
+        "visits": {
+          "1628848800": [
+            "Fri, 13 Aug 2021",
+            "10:00 pm - 10:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4933,7 +6667,13 @@
         "timestamp": 1628986200,
         "month": 8,
         "day_of_month": 15,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628986200": [
+            "Sun, 15 Aug 2021",
+            "12:10 pm - 1:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4960,7 +6700,13 @@
         "timestamp": 1628836800,
         "month": 8,
         "day_of_month": 13,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1628836800": [
+            "Fri, 13 Aug 2021",
+            "6:40 pm - 6:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -4987,13 +6733,23 @@
         "timestamp": 1628867280,
         "month": 8,
         "day_of_month": 14,
-        "hour": 3
+        "hour": 3,
+        "visits": {
+          "1628854980": [
+            "Fri, 13 Aug 2021",
+            "Fri, 11:43 pm - Sat, 1:13 am"
+          ],
+          "1628867280": [
+            "Sat, 14 Aug 2021",
+            "3:08 am - 3:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76419507284766,
-          -36.84971085807933
+          174.76415264356612,
+          -36.84971684577714
         ]
       }
     },
@@ -5014,13 +6770,19 @@
         "timestamp": 1628640000,
         "month": 8,
         "day_of_month": 11,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628640000": [
+            "Wed, 11 Aug 2021",
+            "12:00 pm - 2:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76389728198254,
-          -36.85155239231312
+          174.76383290149334,
+          -36.85151782671888
         ]
       }
     },
@@ -5041,7 +6803,21 @@
         "timestamp": 1629163980,
         "month": 8,
         "day_of_month": 17,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628447400": [
+            "Mon, 9 Aug 2021",
+            "6:30 am - 7:45 am"
+          ],
+          "1629052800": [
+            "Mon, 16 Aug 2021",
+            "6:40 am - 7:17 pm"
+          ],
+          "1629163980": [
+            "Tue, 17 Aug 2021",
+            "1:33 pm - 1:35 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5068,7 +6844,13 @@
         "timestamp": 1628559900,
         "month": 8,
         "day_of_month": 10,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628559900": [
+            "Tue, 10 Aug 2021",
+            "1:45 pm - 1:55 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5095,13 +6877,19 @@
         "timestamp": 1628638200,
         "month": 8,
         "day_of_month": 11,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628638200": [
+            "Wed, 11 Aug 2021",
+            "11:30 am - 12:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76390182627512,
-          -36.85015489317604
+          174.76388444625024,
+          -36.85022257068792
         ]
       }
     },
@@ -5122,7 +6910,13 @@
         "timestamp": 1629183600,
         "month": 8,
         "day_of_month": 17,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1629183600": [
+            "Tue, 17 Aug 2021",
+            "7:00 pm - 8:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5149,7 +6943,13 @@
         "timestamp": 1629079200,
         "month": 8,
         "day_of_month": 16,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1629079200": [
+            "Mon, 16 Aug 2021",
+            "2:00 pm - 2:45 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5176,13 +6976,23 @@
         "timestamp": 1629060300,
         "month": 8,
         "day_of_month": 16,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1629060300": [
+            "Mon, 16 Aug 2021",
+            "8:45 am - 3:00 pm"
+          ],
+          "1629146700": [
+            "Tue, 17 Aug 2021",
+            "8:45 am - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7152091564187,
-          -36.921494050445574
+          174.71518128769586,
+          -36.92150764938519
         ]
       }
     },
@@ -5203,7 +7013,13 @@
         "timestamp": 1628650560,
         "month": 8,
         "day_of_month": 11,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1628650560": [
+            "Wed, 11 Aug 2021",
+            "2:56 pm - 3:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5230,13 +7046,23 @@
         "timestamp": 1629146700,
         "month": 8,
         "day_of_month": 17,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1629060300": [
+            "Mon, 16 Aug 2021",
+            "8:45 am - 3:00 pm"
+          ],
+          "1629146700": [
+            "Tue, 17 Aug 2021",
+            "8:45 am - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71512182659572,
-          -36.92155923351092
+          174.71520198906907,
+          -36.921586934500425
         ]
       }
     },
@@ -5257,7 +7083,13 @@
         "timestamp": 1629097200,
         "month": 8,
         "day_of_month": 16,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1629097200": [
+            "Mon, 16 Aug 2021",
+            "7:00 pm - 7:20 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5284,7 +7116,13 @@
         "timestamp": 1628936100,
         "month": 8,
         "day_of_month": 14,
-        "hour": 22
+        "hour": 22,
+        "visits": {
+          "1628936100": [
+            "Sat, 14 Aug 2021",
+            "10:15 pm - 10:20 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5311,13 +7149,39 @@
         "timestamp": 1629147600,
         "month": 8,
         "day_of_month": 17,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628456400": [
+            "Mon, 9 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1628542800": [
+            "Tue, 10 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628629200": [
+            "Wed, 11 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628802000": [
+            "Fri, 13 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1629061200": [
+            "Mon, 16 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1629147600": [
+            "Tue, 17 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7153560020982,
-          -36.91315591202783
+          174.71531711109154,
+          -36.91311694381526
         ]
       }
     },
@@ -5338,13 +7202,39 @@
         "timestamp": 1628802000,
         "month": 8,
         "day_of_month": 13,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628456400": [
+            "Mon, 9 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1628542800": [
+            "Tue, 10 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628629200": [
+            "Wed, 11 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628802000": [
+            "Fri, 13 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1629061200": [
+            "Mon, 16 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1629147600": [
+            "Tue, 17 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71529950838942,
-          -36.9131572034186
+          174.71526874977812,
+          -36.91310288398545
         ]
       }
     },
@@ -5365,13 +7255,39 @@
         "timestamp": 1629061200,
         "month": 8,
         "day_of_month": 16,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628456400": [
+            "Mon, 9 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1628542800": [
+            "Tue, 10 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628629200": [
+            "Wed, 11 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1628802000": [
+            "Fri, 13 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ],
+          "1629061200": [
+            "Mon, 16 Aug 2021",
+            "9:00 am - 12:00 pm"
+          ],
+          "1629147600": [
+            "Tue, 17 Aug 2021",
+            "9:00 am - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71533684665485,
-          -36.913093914671286
+          174.71532874674278,
+          -36.913160982947986
         ]
       }
     },
@@ -5392,7 +7308,13 @@
         "timestamp": 1628888400,
         "month": 8,
         "day_of_month": 14,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628888400": [
+            "Sat, 14 Aug 2021",
+            "9:00 am - 4:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5419,7 +7341,13 @@
         "timestamp": 1628805600,
         "month": 8,
         "day_of_month": 13,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628805600": [
+            "Fri, 13 Aug 2021",
+            "10:00 am - 10:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5446,13 +7374,31 @@
         "timestamp": 1629010800,
         "month": 8,
         "day_of_month": 15,
-        "hour": 19
+        "hour": 19,
+        "visits": {
+          "1628919000": [
+            "Sat, 14 Aug 2021",
+            "5:30 pm - 10:00 pm"
+          ],
+          "1628982000": [
+            "Sun, 15 Aug 2021",
+            "11:00 am - 1:30 pm"
+          ],
+          "1628994600": [
+            "Sun, 15 Aug 2021",
+            "2:30 pm - 3:30 pm"
+          ],
+          "1629010800": [
+            "Sun, 15 Aug 2021",
+            "7:00 pm - 9:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74121190488614,
-          -36.90448606488109
+          174.74122462806696,
+          -36.90450883760118
         ]
       }
     },
@@ -5473,7 +7419,13 @@
         "timestamp": 1628652600,
         "month": 8,
         "day_of_month": 11,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628652600": [
+            "Wed, 11 Aug 2021",
+            "3:30 pm - 4:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5500,13 +7452,31 @@
         "timestamp": 1628982000,
         "month": 8,
         "day_of_month": 15,
-        "hour": 11
+        "hour": 11,
+        "visits": {
+          "1628919000": [
+            "Sat, 14 Aug 2021",
+            "5:30 pm - 10:00 pm"
+          ],
+          "1628982000": [
+            "Sun, 15 Aug 2021",
+            "11:00 am - 1:30 pm"
+          ],
+          "1628994600": [
+            "Sun, 15 Aug 2021",
+            "2:30 pm - 3:30 pm"
+          ],
+          "1629010800": [
+            "Sun, 15 Aug 2021",
+            "7:00 pm - 9:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74123231319396,
-          -36.90447633983801
+          174.74128539860604,
+          -36.904526296071275
         ]
       }
     },
@@ -5527,7 +7497,13 @@
         "timestamp": 1628726400,
         "month": 8,
         "day_of_month": 12,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628726400": [
+            "Thu, 12 Aug 2021",
+            "12:00 pm - 5:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5554,7 +7530,13 @@
         "timestamp": 1628991000,
         "month": 8,
         "day_of_month": 15,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628991000": [
+            "Sun, 15 Aug 2021",
+            "1:30 pm - 2:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5581,13 +7563,31 @@
         "timestamp": 1628994600,
         "month": 8,
         "day_of_month": 15,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1628919000": [
+            "Sat, 14 Aug 2021",
+            "5:30 pm - 10:00 pm"
+          ],
+          "1628982000": [
+            "Sun, 15 Aug 2021",
+            "11:00 am - 1:30 pm"
+          ],
+          "1628994600": [
+            "Sun, 15 Aug 2021",
+            "2:30 pm - 3:30 pm"
+          ],
+          "1629010800": [
+            "Sun, 15 Aug 2021",
+            "7:00 pm - 9:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74121533577417,
-          -36.90449335289356
+          174.74127360340327,
+          -36.904507656240305
         ]
       }
     },
@@ -5608,13 +7608,31 @@
         "timestamp": 1628919000,
         "month": 8,
         "day_of_month": 14,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628919000": [
+            "Sat, 14 Aug 2021",
+            "5:30 pm - 10:00 pm"
+          ],
+          "1628982000": [
+            "Sun, 15 Aug 2021",
+            "11:00 am - 1:30 pm"
+          ],
+          "1628994600": [
+            "Sun, 15 Aug 2021",
+            "2:30 pm - 3:30 pm"
+          ],
+          "1629010800": [
+            "Sun, 15 Aug 2021",
+            "7:00 pm - 9:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74128296592204,
-          -36.904522833294756
+          174.74124195769872,
+          -36.904437737784704
         ]
       }
     },
@@ -5635,7 +7653,17 @@
         "timestamp": 1629058200,
         "month": 8,
         "day_of_month": 16,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1629058200": [
+            "Mon, 16 Aug 2021",
+            "8:10 am - 8:20 am"
+          ],
+          "1629058800": [
+            "Mon, 16 Aug 2021",
+            "8:20 am - 8:25 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5662,7 +7690,17 @@
         "timestamp": 1629058800,
         "month": 8,
         "day_of_month": 16,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1629058200": [
+            "Mon, 16 Aug 2021",
+            "8:10 am - 8:20 am"
+          ],
+          "1629058800": [
+            "Mon, 16 Aug 2021",
+            "8:20 am - 8:25 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5689,7 +7727,13 @@
         "timestamp": 1629000600,
         "month": 8,
         "day_of_month": 15,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629000600": [
+            "Sun, 15 Aug 2021",
+            "4:10 pm - 4:20 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5716,7 +7760,13 @@
         "timestamp": 1628571600,
         "month": 8,
         "day_of_month": 10,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628571600": [
+            "Tue, 10 Aug 2021",
+            "5:00 pm - 10:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5743,7 +7793,13 @@
         "timestamp": 1628900100,
         "month": 8,
         "day_of_month": 14,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628900100": [
+            "Sat, 14 Aug 2021",
+            "12:15 pm - 12:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5763,20 +7819,34 @@
         "Start": "13\/08\/2021, 8:00 am",
         "End": "13\/08\/2021, 4:00 pm",
         "Advice": "All at 10am-12pm WF313 COMP501\/52 Computing Technology in Society & 3-4pm WG403 COMP500\/51 Programming 1 will be sent information on isolation & testing by AUT. All elsewhere on city campus follow Level 4 instructions & call Healthline if symptomatic.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Fri, 13 Aug 2021",
         "time": "8:00 am - 4:00 pm",
         "timestamp": 1628798400,
         "month": 8,
         "day_of_month": 13,
-        "hour": 8
+        "hour": 8,
+        "visits": {
+          "1628631000": [
+            "Wed, 11 Aug 2021",
+            "9:30 am - 8:30 pm"
+          ],
+          "1628715600": [
+            "Thu, 12 Aug 2021",
+            "9:00 am - 8:30 pm"
+          ],
+          "1628798400": [
+            "Fri, 13 Aug 2021",
+            "8:00 am - 4:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76682029314298,
-          -36.852622773494744
+          174.76682622218567,
+          -36.85261508948615
         ]
       }
     },
@@ -5790,20 +7860,34 @@
         "Start": "12\/08\/2021, 9:00 am",
         "End": "12\/08\/2021, 8:30 pm",
         "Advice": "All at 2-5pm WZ514 COMP500\/51 Programming 1 will be sent information on isolation & testing by AUT. All elsewhere on city campus follow Level 4 instructions & call Healthline if symptomatic.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Thu, 12 Aug 2021",
         "time": "9:00 am - 8:30 pm",
         "timestamp": 1628715600,
         "month": 8,
         "day_of_month": 12,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1628631000": [
+            "Wed, 11 Aug 2021",
+            "9:30 am - 8:30 pm"
+          ],
+          "1628715600": [
+            "Thu, 12 Aug 2021",
+            "9:00 am - 8:30 pm"
+          ],
+          "1628798400": [
+            "Fri, 13 Aug 2021",
+            "8:00 am - 4:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7667876972015,
-          -36.85265375373956
+          174.76674863862092,
+          -36.85263483448751
         ]
       }
     },
@@ -5824,13 +7908,23 @@
         "timestamp": 1628813700,
         "month": 8,
         "day_of_month": 13,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1628813700": [
+            "Fri, 13 Aug 2021",
+            "12:15 pm - 12:30 pm"
+          ],
+          "1628924400": [
+            "Sat, 14 Aug 2021",
+            "7:00 pm - 11:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76161255393936,
-          -36.85178492068577
+          174.76160957581797,
+          -36.85181779486517
         ]
       }
     },
@@ -5851,7 +7945,13 @@
         "timestamp": 1628892000,
         "month": 8,
         "day_of_month": 14,
-        "hour": 10
+        "hour": 10,
+        "visits": {
+          "1628892000": [
+            "Sat, 14 Aug 2021",
+            "10:00 am - 10:10 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5878,13 +7978,27 @@
         "timestamp": 1628832600,
         "month": 8,
         "day_of_month": 13,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628829000": [
+            "Fri, 13 Aug 2021",
+            "4:30 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628989200": [
+            "Sun, 15 Aug 2021",
+            "1:00 pm - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.63266327418566,
-          -36.88226653142145
+          174.6326837708622,
+          -36.88223400755569
         ]
       }
     },
@@ -5905,7 +8019,13 @@
         "timestamp": 1628737200,
         "month": 8,
         "day_of_month": 12,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1628737200": [
+            "Thu, 12 Aug 2021",
+            "Thu, 3:00 pm - Fri, 12:00 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5932,13 +8052,27 @@
         "timestamp": 1628832600,
         "month": 8,
         "day_of_month": 13,
-        "hour": 17
+        "hour": 17,
+        "visits": {
+          "1628829000": [
+            "Fri, 13 Aug 2021",
+            "4:30 pm - 5:30 pm"
+          ],
+          "1628832600": [
+            "Fri, 13 Aug 2021",
+            "5:30 pm - 5:45 pm"
+          ],
+          "1628989200": [
+            "Sun, 15 Aug 2021",
+            "1:00 pm - 3:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.6326526801139,
-          -36.88227580545321
+          174.63272068412587,
+          -36.88221068245585
         ]
       }
     },
@@ -5959,7 +8093,13 @@
         "timestamp": 1628906400,
         "month": 8,
         "day_of_month": 14,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1628906400": [
+            "Sat, 14 Aug 2021",
+            "2:00 pm - 4:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -5986,7 +8126,13 @@
         "timestamp": 1629014400,
         "month": 8,
         "day_of_month": 15,
-        "hour": 20
+        "hour": 20,
+        "visits": {
+          "1629014400": [
+            "Sun, 15 Aug 2021",
+            "8:00 pm - 11:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -6006,20 +8152,30 @@
         "Start": "17\/08\/2021, 1:00 pm",
         "End": "17\/08\/2021, 2:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "1:00 pm - 2:15 pm",
         "timestamp": 1629162000,
         "month": 8,
         "day_of_month": 17,
-        "hour": 13
+        "hour": 13,
+        "visits": {
+          "1628811900": [
+            "Fri, 13 Aug 2021",
+            "11:45 am - 2:00 pm"
+          ],
+          "1629162000": [
+            "Tue, 17 Aug 2021",
+            "1:00 pm - 2:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7709774546294,
-          -36.85330640369842
+          174.77092997531258,
+          -36.85332415392247
         ]
       }
     },
@@ -6040,13 +8196,23 @@
         "timestamp": 1629228300,
         "month": 8,
         "day_of_month": 18,
-        "hour": 7
+        "hour": 7,
+        "visits": {
+          "1629228300": [
+            "Wed, 18 Aug 2021",
+            "7:25 am - 7:40 am"
+          ],
+          "1629331800": [
+            "Thu, 19 Aug 2021",
+            "12:10 pm - 12:25 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.79647434869676,
-          -41.31833562262741
+          174.79649885498236,
+          -41.318368013623314
         ]
       }
     },
@@ -6060,14 +8226,20 @@
         "Start": "16\/08\/2021, 12:30 pm",
         "End": "16\/08\/2021, 1:30 pm",
         "Advice": "All on level3: isolate 14 days from last exposure. Test immediately & on days 5 & 12 after last exposure. Call Healthline. All on other levels: self-monitor for symptoms for 14 days. Get a test and isolate until you get a negative test, if symptomatic",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "12:30 pm - 1:30 pm",
         "timestamp": 1629073800,
         "month": 8,
         "day_of_month": 16,
-        "hour": 12
+        "hour": 12,
+        "visits": {
+          "1629073800": [
+            "Mon, 16 Aug 2021",
+            "12:30 pm - 1:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -6087,20 +8259,30 @@
         "Start": "16\/08\/2021, 9:00 am",
         "End": "16\/08\/2021, 11:00 am",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Mon, 16 Aug 2021",
         "time": "9:00 am - 11:00 am",
         "timestamp": 1629061200,
         "month": 8,
         "day_of_month": 16,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1629061200": [
+            "Mon, 16 Aug 2021",
+            "9:00 am - 11:00 am"
+          ],
+          "1629172800": [
+            "Tue, 17 Aug 2021",
+            "4:00 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7699688244359,
-          -36.86134774011278
+          174.7700075073554,
+          -36.86135572553545
         ]
       }
     },
@@ -6114,20 +8296,30 @@
         "Start": "17\/08\/2021, 4:00 pm",
         "End": "17\/08\/2021, 6:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "4:00 pm - 6:00 pm",
         "timestamp": 1629172800,
         "month": 8,
         "day_of_month": 17,
-        "hour": 16
+        "hour": 16,
+        "visits": {
+          "1629061200": [
+            "Mon, 16 Aug 2021",
+            "9:00 am - 11:00 am"
+          ],
+          "1629172800": [
+            "Tue, 17 Aug 2021",
+            "4:00 pm - 6:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76996132153914,
-          -36.861363866741954
+          174.7699827048562,
+          -36.86131984147664
         ]
       }
     },
@@ -6141,14 +8333,20 @@
         "Start": "17\/08\/2021, 6:00 pm",
         "End": "17\/08\/2021, 6:30 pm",
         "Advice": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Tue, 17 Aug 2021",
         "time": "6:00 pm - 6:30 pm",
         "timestamp": 1629180000,
         "month": 8,
         "day_of_month": 17,
-        "hour": 18
+        "hour": 18,
+        "visits": {
+          "1629180000": [
+            "Tue, 17 Aug 2021",
+            "6:00 pm - 6:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -6167,15 +8365,21 @@
         "City": "Auckland",
         "Start": "20\/08\/2021, 9:50 am",
         "End": "20\/08\/2021, 10:15 am",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Advice": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Fri, 20 Aug 2021",
         "time": "9:50 am - 10:15 am",
         "timestamp": 1629409800,
         "month": 8,
         "day_of_month": 20,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1629409800": [
+            "Fri, 20 Aug 2021",
+            "9:50 am - 10:15 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -6195,14 +8399,20 @@
         "Start": "12\/08\/2021, 2:15 pm",
         "End": "12\/08\/2021, 2:30 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Thu, 12 Aug 2021",
         "time": "2:15 pm - 2:30 pm",
         "timestamp": 1628734500,
         "month": 8,
         "day_of_month": 12,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1628734500": [
+            "Thu, 12 Aug 2021",
+            "2:15 pm - 2:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -6222,14 +8432,20 @@
         "Start": "12\/08\/2021, 2:30 pm",
         "End": "12\/08\/2021, 4:00 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Thu, 12 Aug 2021",
         "time": "2:30 pm - 4:00 pm",
         "timestamp": 1628735400,
         "month": 8,
         "day_of_month": 12,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1628735400": [
+            "Thu, 12 Aug 2021",
+            "2:30 pm - 4:00 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -6248,15 +8464,21 @@
         "City": "Auckland",
         "Start": "19\/08\/2021, 3:30 pm",
         "End": "19\/08\/2021, 4:30 pm",
-        "Advice": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Advice": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Thu, 19 Aug 2021",
         "time": "3:30 pm - 4:30 pm",
         "timestamp": 1629343800,
         "month": 8,
         "day_of_month": 19,
-        "hour": 15
+        "hour": 15,
+        "visits": {
+          "1629343800": [
+            "Thu, 19 Aug 2021",
+            "3:30 pm - 4:30 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -6269,48 +8491,27 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "a0l4a0000004Gi8",
-        "Event": "Laundromat, \u014ctara,",
-        "Location": "11 Wymondley Road, \u014ctara, Auckland 2025",
-        "City": "Auckland",
-        "Start": "21\/08\/2021, 8:40 am",
-        "End": "21\/08\/2021, 10:30 am",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
-        "added_day": 22,
-        "day": "Sat, 21 Aug 2021",
-        "time": "8:40 am - 10:30 am",
-        "timestamp": 1629492000,
-        "month": 8,
-        "day_of_month": 21,
-        "hour": 8
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.860119,
-          -36.956709
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a0l4a0000004Ght",
         "Event": "New World Papatoetoe",
         "Location": "63 St George Street, Papatoetoe, Auckland 2025",
         "City": "Auckland",
         "Start": "19\/08\/2021, 9:53 am",
         "End": "19\/08\/2021, 10:30 am",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 13:21:42",
+        "Advice": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+        "Added": "22\/08\/2021 13:21",
         "added_day": 22,
         "day": "Thu, 19 Aug 2021",
         "time": "9:53 am - 10:30 am",
         "timestamp": 1629323580,
         "month": 8,
         "day_of_month": 19,
-        "hour": 9
+        "hour": 9,
+        "visits": {
+          "1629323580": [
+            "Thu, 19 Aug 2021",
+            "9:53 am - 10:30 am"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -6330,14 +8531,20 @@
         "Start": "15\/08\/2021, 2:30 pm",
         "End": "15\/08\/2021, 3:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "2021-08-22 09:40:43",
+        "Added": "22\/08\/2021 9:40",
         "added_day": 22,
         "day": "Sun, 15 Aug 2021",
         "time": "2:30 pm - 3:15 pm",
         "timestamp": 1628994600,
         "month": 8,
         "day_of_month": 15,
-        "hour": 14
+        "hour": 14,
+        "visits": {
+          "1628994600": [
+            "Sun, 15 Aug 2021",
+            "2:30 pm - 3:15 pm"
+          ]
+        }
       },
       "geometry": {
         "type": "Point",
@@ -6351,19 +8558,23 @@
   "days": {
     "19": {
       "name": "19 Thu",
-      "count": 8
+      "count": 7
     },
     "17": {
       "name": "17 Tue",
-      "count": 35
+      "count": 38
     },
     "13": {
       "name": "13 Fri",
-      "count": 38
+      "count": 39
     },
     "11": {
       "name": "11 Wed",
       "count": 11
+    },
+    "15": {
+      "name": "15 Sun",
+      "count": 35
     },
     "20": {
       "name": "20 Fri",
@@ -6375,15 +8586,15 @@
     },
     "16": {
       "name": "16 Mon",
-      "count": 34
-    },
-    "15": {
-      "name": "15 Sun",
-      "count": 35
+      "count": 33
     },
     "14": {
       "name": "14 Sat",
-      "count": 36
+      "count": 35
+    },
+    "18": {
+      "name": "18 Wed",
+      "count": 6
     },
     "10": {
       "name": "10 Tue",
@@ -6396,15 +8607,7 @@
     "9": {
       "name": "9 Mon",
       "count": 5
-    },
-    "18": {
-      "name": "18 Wed",
-      "count": 5
-    },
-    "21": {
-      "name": "21 Sat",
-      "count": 1
     }
   },
-  "data_update_time": "1:21 pm, Sun 22 Aug"
+  "data_update_time": "5:16 pm, Sun 22 Aug"
 }

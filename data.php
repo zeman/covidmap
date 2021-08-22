@@ -19,6 +19,8 @@ $days = [];
 // track the latest data update time
 $data_updated = 0;
 $data_update_time = "";
+// look for duplicate locations
+$locations = [];
 
 foreach($data['features'] as $feature) {
 
@@ -50,7 +52,10 @@ foreach($data['features'] as $feature) {
     // check for new Added property
     // 2021-08-22 09:40:43
     if (isset($feature['properties']['Added']) && $feature['properties']['Added'] != "") {
-        $add = date_create_from_format('Y-m-d H:i:s', $feature['properties']['Added']);
+        $add = date_create_from_format('j/m/Y G:i', $feature['properties']['Added']);
+        if(!$add) {
+            $add = date_create_from_format('Y-m-d H:i:s', $feature['properties']['Added']);
+        }
         $added = $add->format('j');
         if($add->getTimestamp() > $data_updated) {
             $data_updated = $add->getTimestamp();
@@ -86,6 +91,15 @@ foreach($data['features'] as $feature) {
         $feature['geometry']['coordinates'] = [174.91092161703608, -36.930528119701215];
     }
 
+    // track locations in case of duplicates
+    if (isset($locations[$feature['properties']['Location']])) {
+        $locations[$feature['properties']['Location']][$feature['properties']['timestamp']] = [$feature['properties']['day'], $feature['properties']['time']];
+    } else {
+        $locations[$feature['properties']['Location']] = [
+            $feature['properties']['timestamp'] => [$feature['properties']['day'], $feature['properties']['time']]
+        ];
+    }
+
     // add the data
     $features[] = $feature;
 
@@ -101,6 +115,16 @@ foreach($data['features'] as $feature) {
 
 }
 
+// now update all features with merged
+foreach ($features as $key => $feature) {
+    if (isset($locations[$feature['properties']['Location']])) {
+        // sort visits by timestamp
+        $visits = $locations[$feature['properties']['Location']];
+        ksort($visits);
+        $features[$key]['properties']['visits'] = $visits;
+    }
+}
+
 echo json_encode([
     'type' => 'FeatureCollection',
     'name' => 'locations-of-interest',
@@ -108,5 +132,3 @@ echo json_encode([
     'days' => $days,
     'data_update_time' => $data_update_time
 ]);
-
-
