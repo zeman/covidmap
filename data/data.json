@@ -119,7 +119,7 @@
         "City": "Auckland",
         "Start": "11\/08\/2021, 9:30 am",
         "End": "11\/08\/2021, 8:30 pm",
-        "Advice": "3-5pm: All at WA220 COMP501\/52 Computing Technology in Society; 5-8pm: All at WG707\/708 DIGD507\/51 Mahi tahi; will be sent information on isolation & testing by AUT. All elsewhere on city campus follow Level 4 instructions & call Healthline if symptomatic",
+        "Advice": "All at 3-5pm WA220 COMP501\/52 Computing Technology in Society and 5-8pm WG707\/708 DIGD507\/51 Mahi tahi will be sent information on isolation & testing by AUT. All elsewhere on city campus follow Level 4 instructions & call Healthline if symptomatic",
         "Added": "2021-08-22 09:40:43",
         "added_day": 22,
         "day": "Wed, 11 Aug 2021",
@@ -132,8 +132,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76680813427248,
-          -36.85264965665374
+          174.76682960441374,
+          -36.8526144919949
         ]
       }
     },
@@ -167,6 +167,33 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "a0l4a0000004GcK",
+        "Event": "Wymondley Early Learning Centre \u014ctara",
+        "Location": "77s Wymondley Road, \u014ctara, Auckland 2025",
+        "City": "Auckland",
+        "Start": "17\/08\/2021, 8:50 am",
+        "End": "17\/08\/2021, 9:10 am",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 11:49:26",
+        "added_day": 22,
+        "day": "Tue, 17 Aug 2021",
+        "time": "8:50 am - 9:10 am",
+        "timestamp": 1629147000,
+        "month": 8,
+        "day_of_month": 17,
+        "hour": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8565,
+          -36.951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "a0l4a0000004Gd3",
         "Event": "Wymondley Road Superette \u014ctara",
         "Location": "2 Wymondley Road, \u014ctara, Auckland 2025",
@@ -186,8 +213,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.85947910994128,
-          -36.95760390387568
+          174.8594360906307,
+          -36.95754051369409
         ]
       }
     },
@@ -240,8 +267,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.8739753512148,
-          -36.961566618418715
+          174.873968456427,
+          -36.96160834559069
         ]
       }
     },
@@ -267,8 +294,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76483237443196,
-          -36.850740875029686
+          174.7648776889874,
+          -36.85067355221317
         ]
       }
     },
@@ -537,8 +564,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76484979757657,
-          -36.850673627698704
+          174.76484783339419,
+          -36.85066842591842
         ]
       }
     },
@@ -591,8 +618,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.87400586051635,
-          -36.96162074063492
+          174.87403996593133,
+          -36.96160207057821
         ]
       }
     },
@@ -672,8 +699,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.8595164249789,
-          -36.957538899073995
+          174.85945401617238,
+          -36.95751563981207
         ]
       }
     },
@@ -753,8 +780,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.80991209318782,
-          -41.3346347568182
+          174.80987048747488,
+          -41.3346767701647
         ]
       }
     },
@@ -780,8 +807,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49709065862768,
-          -36.76007341266722
+          175.49704341859078,
+          -36.760127968107675
         ]
       }
     },
@@ -807,8 +834,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49760885397095,
-          -36.75949049945877
+          175.49763165338996,
+          -36.75951361721489
         ]
       }
     },
@@ -861,8 +888,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49768304654287,
-          -36.759500355351356
+          175.4976931098613,
+          -36.75947180246253
         ]
       }
     },
@@ -915,8 +942,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.4971111434332,
-          -36.760091933227194
+          175.49703076215832,
+          -36.760103496277196
         ]
       }
     },
@@ -996,8 +1023,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7638919044875,
-          -36.851478196309344
+          174.7638837471941,
+          -36.85151117745342
         ]
       }
     },
@@ -1023,8 +1050,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76388377853243,
-          -36.850196490616064
+          174.76395341281088,
+          -36.850213898825054
         ]
       }
     },
@@ -1077,8 +1104,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70558541662976,
-          -36.726781090010505
+          174.70557910952496,
+          -36.72676445230338
         ]
       }
     },
@@ -1185,8 +1212,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7045166231454,
-          -36.80591712564654
+          174.70452376667515,
+          -36.80590815726849
         ]
       }
     },
@@ -1212,8 +1239,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.72499296035332,
-          -36.81125105901472
+          174.72498419657322,
+          -36.811251981216415
         ]
       }
     },
@@ -1293,8 +1320,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.72503717748356,
-          -36.811317599344626
+          174.72501393404804,
+          -36.81132592799929
         ]
       }
     },
@@ -1590,8 +1617,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76421273357997,
-          -36.849650448693936
+          174.76416461199995,
+          -36.84967294679358
         ]
       }
     },
@@ -1698,8 +1725,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74442280893587,
-          -36.85096593758255
+          174.74440189202778,
+          -36.85104378058273
         ]
       }
     },
@@ -1779,8 +1806,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70564236025797,
-          -36.72680675240829
+          174.7056366218827,
+          -36.72682627908074
         ]
       }
     },
@@ -1806,8 +1833,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7056105003311,
-          -36.72685806922292
+          174.7056130783378,
+          -36.72683411904633
         ]
       }
     },
@@ -1941,8 +1968,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70557348966625,
-          -36.72684954088981
+          174.70560474072425,
+          -36.72683708085475
         ]
       }
     },
@@ -1968,8 +1995,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7055629598835,
-          -36.72677482900686
+          174.70565636317474,
+          -36.726760221982644
         ]
       }
     },
@@ -1995,89 +2022,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84487874496006,
-          -36.916218127975206
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004F7H",
-        "Event": "Bunnings Warehouse Glenfield",
-        "Location": "Cnr Wairau and, Archers Road, Wairau Valley, Auckland 0627",
-        "City": "Auckland",
-        "Start": "7\/08\/2021, 12:45 pm",
-        "End": "7\/08\/2021, 1:00 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Sat, 7 Aug 2021",
-        "time": "12:45 pm - 1:00 pm",
-        "timestamp": 1628297100,
-        "month": 8,
-        "day_of_month": 7,
-        "hour": 12
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.7442,
-          -36.777
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004F77",
-        "Event": "Subway Smales Farm",
-        "Location": "74 Taharoto Road, Takapuna, Auckland 0622",
-        "City": "Auckland",
-        "Start": "7\/08\/2021, 1:00 pm",
-        "End": "7\/08\/2021, 1:15 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Sat, 7 Aug 2021",
-        "time": "1:00 pm - 1:15 pm",
-        "timestamp": 1628298000,
-        "month": 8,
-        "day_of_month": 7,
-        "hour": 13
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.754764,
-          -36.784721
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004F72",
-        "Event": "The Bottle-O Glenfield",
-        "Location": "47 Downing Street, Glenfield, Auckland 0629",
-        "City": "Auckland",
-        "Start": "7\/08\/2021, 3:15 pm",
-        "End": "7\/08\/2021, 3:30 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Sat, 7 Aug 2021",
-        "time": "3:15 pm - 3:30 pm",
-        "timestamp": 1628306100,
-        "month": 8,
-        "day_of_month": 7,
-        "hour": 15
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.7223,
-          -36.7836
+          174.8448933217179,
+          -36.91626051205987
         ]
       }
     },
@@ -2111,33 +2057,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "a0l4a0000004F6Y",
-        "Event": "Bar 101 Auckland CBD",
-        "Location": "18 Elliott Street, Auckland, Auckland CBD 1010",
-        "City": "Auckland CBD",
-        "Start": "7\/08\/2021, 10:30 pm",
-        "End": "7\/08\/2021, 11:45 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Sat, 7 Aug 2021",
-        "time": "10:30 pm - 11:45 pm",
-        "timestamp": 1628332200,
-        "month": 8,
-        "day_of_month": 7,
-        "hour": 22
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.7642480156961,
-          -36.849747800037264
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a0l4a0000004F7M",
         "Event": "J. A. Russell Ltd Mt Wellington",
         "Location": "Unit D\/68 Carbine Road, Mount Wellington, Auckland 1062",
@@ -2165,33 +2084,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "a0l4a0000004F6i",
-        "Event": "Wairau Sports Bar Glenfield",
-        "Location": "75 View Road, Glenfield, Auckland 0627",
-        "City": "Auckland",
-        "Start": "7\/08\/2021, 7:45 pm",
-        "End": "7\/08\/2021, 9:30 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Sat, 7 Aug 2021",
-        "time": "7:45 pm - 9:30 pm",
-        "timestamp": 1628322300,
-        "month": 8,
-        "day_of_month": 7,
-        "hour": 19
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.737,
-          -36.7719
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a0l4a0000004F7l",
         "Event": "Remuera Exchange Auckland",
         "Location": "2A Dilworth Avenue, Remuera, Auckland 1050",
@@ -2211,8 +2103,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.78503735164747,
-          -36.87573654616121
+          174.7850238598108,
+          -36.87567873394402
         ]
       }
     },
@@ -2240,33 +2132,6 @@
         "coordinates": [
           174.8922,
           -36.9488
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004F6n",
-        "Event": "The Elephant Wrestler Takapuna",
-        "Location": "138 Hurstmere Road, Takapuna, Auckland 0622",
-        "City": "Auckland",
-        "Start": "7\/08\/2021, 6:45 pm",
-        "End": "7\/08\/2021, 7:15 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Sat, 7 Aug 2021",
-        "time": "6:45 pm - 7:15 pm",
-        "timestamp": 1628318700,
-        "month": 8,
-        "day_of_month": 7,
-        "hour": 18
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.7732,
-          -36.7848
         ]
       }
     },
@@ -2319,8 +2184,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70445952046953,
-          -36.805878609800125
+          174.70448146069938,
+          -36.805942644359796
         ]
       }
     },
@@ -2373,8 +2238,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.8449358868974,
-          -36.91619194431071
+          174.84488229702563,
+          -36.91625406188647
         ]
       }
     },
@@ -2400,8 +2265,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.68357,
-          -36.908262
+          174.6835650912439,
+          -36.90822691872743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004F9I",
+        "Event": "McDonalds New Lynn",
+        "Location": "1 Memorial Drive, New Lynn, Auckland 0600",
+        "City": "Auckland",
+        "Start": "13\/08\/2021, 11:00 pm",
+        "End": "14\/08\/2021, 7:15 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 11:49:26",
+        "added_day": 22,
+        "day": "Fri, 13 Aug 2021",
+        "time": "Fri, 11:00 pm - Sat, 7:15 pm",
+        "timestamp": 1628852400,
+        "month": 8,
+        "day_of_month": 13,
+        "hour": 23
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.68354007706574,
+          -36.90825301083158
         ]
       }
     },
@@ -2481,8 +2373,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49720694227355,
-          -36.76002239695184
+          175.49720228847926,
+          -36.75997217194866
         ]
       }
     },
@@ -2508,8 +2400,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49711921906066,
-          -36.76013556991248
+          175.49708884788237,
+          -36.7601082934367
         ]
       }
     },
@@ -2616,8 +2508,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.4972685218365,
-          -36.760007385458884
+          175.49723967473457,
+          -36.76001813485531
         ]
       }
     },
@@ -2670,8 +2562,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.50333063841762,
-          -36.737090837416545
+          175.50330504901098,
+          -36.73710643465931
         ]
       }
     },
@@ -2697,8 +2589,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.50337611237254,
-          -36.73709829491354
+          175.5033936478918,
+          -36.737149885823094
         ]
       }
     },
@@ -2732,33 +2624,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "a0l4a0000004Eyt",
-        "Event": "LynnMall",
-        "Location": "3058 Great North Road, New Lynn, Auckland 0600",
-        "City": "Auckland",
-        "Start": "6\/08\/2021, 6:00 pm",
-        "End": "6\/08\/2021, 7:30 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Fri, 6 Aug 2021",
-        "time": "6:00 pm - 7:30 pm",
-        "timestamp": 1628229600,
-        "month": 8,
-        "day_of_month": 6,
-        "hour": 18
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.68499,
-          -36.906516
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a0l4a0000004EyP",
         "Event": "HYPE DC Albany Mall",
         "Location": "Shop 254\/219 Don McKinnon Drive, Albany, Auckland 0632",
@@ -2786,27 +2651,27 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "a0l4a0000004EzN",
-        "Event": "Starbucks Auckland CBD",
-        "Location": "220 Queen Street, Auckland Central, Auckland 1010",
+        "id": "a0l4a0000004Exw",
+        "Event": "Mexico Britomart Auckland CBD",
+        "Location": "23 Britomart Place, Auckland Central, Auckland 1010",
         "City": "Auckland",
-        "Start": "5\/08\/2021, 12:15 pm",
-        "End": "5\/08\/2021, 12:30 pm",
+        "Start": "9\/08\/2021, 5:55 pm",
+        "End": "9\/08\/2021, 8:15 pm",
         "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Thu, 5 Aug 2021",
-        "time": "12:15 pm - 12:30 pm",
-        "timestamp": 1628122500,
+        "Added": "2021-08-22 11:49:26",
+        "added_day": 22,
+        "day": "Mon, 9 Aug 2021",
+        "time": "5:55 pm - 8:15 pm",
+        "timestamp": 1628488500,
         "month": 8,
-        "day_of_month": 5,
-        "hour": 12
+        "day_of_month": 9,
+        "hour": 17
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.765469,
-          -36.849304
+          174.770225,
+          -36.845228
         ]
       }
     },
@@ -2859,89 +2724,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74444131353403,
-          -36.850976057961404
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004F0a",
-        "Event": "Countdown Lynfield",
-        "Location": "570 Hillsborough Road, Mount Roskill, Auckland 1041",
-        "City": "Auckland",
-        "Start": "4\/08\/2021, 2:45 pm",
-        "End": "4\/08\/2021, 3:05 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Wed, 4 Aug 2021",
-        "time": "2:45 pm - 3:05 pm",
-        "timestamp": 1628045100,
-        "month": 8,
-        "day_of_month": 4,
-        "hour": 14
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.72263023942352,
-          -36.924514961628994
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004F1J",
-        "Event": "Farewell party at Blockhouse Bay Christian Kindergarten",
-        "Location": "76 Dundale Avenue, Blockhouse Bay, Auckland 0600",
-        "City": "Auckland",
-        "Start": "4\/08\/2021, 10:00 am",
-        "End": "4\/08\/2021, 11:00 am",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Wed, 4 Aug 2021",
-        "time": "10:00 am - 11:00 am",
-        "timestamp": 1628028000,
-        "month": 8,
-        "day_of_month": 4,
-        "hour": 10
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.71535079274707,
-          -36.91313934840225
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004F1i",
-        "Event": "Sumthin Dumpling Auckland CBD",
-        "Location": "18 Wellesley Street East, Auckland Central, Auckland 1010",
-        "City": "Auckland",
-        "Start": "3\/08\/2021, 1:45 pm",
-        "End": "3\/08\/2021, 2:00 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Tue, 3 Aug 2021",
-        "time": "1:45 pm - 2:00 pm",
-        "timestamp": 1627955100,
-        "month": 8,
-        "day_of_month": 3,
-        "hour": 13
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.765498,
-          -36.850983
+          174.7444485109895,
+          -36.850981907801454
         ]
       }
     },
@@ -2994,8 +2778,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7849885384102,
-          -36.87572491253944
+          174.7850117115629,
+          -36.875677517711104
         ]
       }
     },
@@ -3137,60 +2921,6 @@
     {
       "type": "Feature",
       "properties": {
-        "id": "a0l4a0000004FM2",
-        "Event": "Blockhouse Bay Christian Kindergarten",
-        "Location": "76 Dundale Avenue, Blockhouse Bay, Auckland 0600",
-        "City": "Auckland",
-        "Start": "5\/08\/2021, 9:00 am",
-        "End": "5\/08\/2021, 12:00 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Thu, 5 Aug 2021",
-        "time": "9:00 am - 12:00 pm",
-        "timestamp": 1628110800,
-        "month": 8,
-        "day_of_month": 5,
-        "hour": 9
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.71526357758853,
-          -36.913075205514
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004FM7",
-        "Event": "Blockhouse Bay Christian Kindergarten",
-        "Location": "76 Dundale Avenue, Blockhouse Bay, Auckland 0600",
-        "City": "Auckland",
-        "Start": "6\/08\/2021, 9:00 am",
-        "End": "6\/08\/2021, 12:00 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Fri, 6 Aug 2021",
-        "time": "9:00 am - 12:00 pm",
-        "timestamp": 1628197200,
-        "month": 8,
-        "day_of_month": 6,
-        "hour": 9
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.71530029500556,
-          -36.91309865191716
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "id": "a0l4a0000004FMg",
         "Event": "Blockhouse Bay Christian Kindergarten",
         "Location": "76 Dundale Avenue, Blockhouse Bay, Auckland 0600",
@@ -3210,8 +2940,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7152748223474,
-          -36.91314517325454
+          174.71527705662717,
+          -36.913172405409746
         ]
       }
     },
@@ -3237,35 +2967,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7153314089293,
-          -36.913141714938455
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004FO8",
-        "Event": "Blockhouse Bay Christian Kindergarten",
-        "Location": "76 Dundale Avenue, Blockhouse Bay, Auckland 0600",
-        "City": "Auckland",
-        "Start": "4\/08\/2021, 9:00 am",
-        "End": "4\/08\/2021, 3:00 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Wed, 4 Aug 2021",
-        "time": "9:00 am - 3:00 pm",
-        "timestamp": 1628024400,
-        "month": 8,
-        "day_of_month": 4,
-        "hour": 9
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.71527015483616,
-          -36.91311902225791
+          174.71527682696015,
+          -36.913140191361286
         ]
       }
     },
@@ -3291,35 +2994,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71527412687166,
-          -36.913160232116006
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004FOc",
-        "Event": "Blockhouse Bay Christian Kindergarten",
-        "Location": "76 Dundale Avenue, Blockhouse Bay, Auckland 0600",
-        "City": "Auckland",
-        "Start": "3\/08\/2021, 9:00 am",
-        "End": "3\/08\/2021, 3:00 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Tue, 3 Aug 2021",
-        "time": "9:00 am - 3:00 pm",
-        "timestamp": 1627938000,
-        "month": 8,
-        "day_of_month": 3,
-        "hour": 9
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.71532889661324,
-          -36.913087632352045
+          174.71531000131023,
+          -36.91313836420206
         ]
       }
     },
@@ -3750,8 +3426,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.78629258952753,
-          -36.9207610566746
+          174.7862861984097,
+          -36.92075168670283
         ]
       }
     },
@@ -3831,8 +3507,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.78629562458235,
-          -36.92076477527872
+          174.78628351275657,
+          -36.92075601756351
         ]
       }
     },
@@ -4182,8 +3858,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.8098843186091,
-          -41.33463642427827
+          174.80992102579248,
+          -41.334714523181454
         ]
       }
     },
@@ -4263,8 +3939,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84843113193432,
-          -36.944478888518724
+          174.84843395104517,
+          -36.94452728503196
         ]
       }
     },
@@ -4272,7 +3948,7 @@
       "type": "Feature",
       "properties": {
         "id": "a0l4a0000004GSK",
-        "Event": "McAuley High School ",
+        "Event": "McAuley High School \u014ct\u0101huhu",
         "Location": "26 High Street, \u014ct\u0101huhu, Auckland 1062",
         "City": "Auckland",
         "Start": "11\/08\/2021, 8:30 am",
@@ -4290,8 +3966,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84849654131915,
-          -36.94449199193051
+          174.84842927417617,
+          -36.944488266762214
         ]
       }
     },
@@ -4317,8 +3993,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84849823622267,
-          -36.94445163170591
+          174.84844221313105,
+          -36.94453281010262
         ]
       }
     },
@@ -4344,8 +4020,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84851885892311,
-          -36.944524543419746
+          174.8484815867718,
+          -36.94449470508779
         ]
       }
     },
@@ -4371,8 +4047,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84842426444743,
-          -36.94447337602566
+          174.84846241106354,
+          -36.944480447558064
         ]
       }
     },
@@ -4425,8 +4101,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76559547454846,
-          -36.85798945332793
+          174.76557590563266,
+          -36.85800314978335
         ]
       }
     },
@@ -4479,8 +4155,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7655847843366,
-          -36.85801513802444
+          174.76552107400886,
+          -36.85805421981246
         ]
       }
     },
@@ -4506,8 +4182,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76555502197036,
-          -36.85798922384306
+          174.7655307100363,
+          -36.85797860001887
         ]
       }
     },
@@ -4533,8 +4209,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.79651756350054,
-          -41.318364509930554
+          174.7964800290329,
+          -41.31833436698537
         ]
       }
     },
@@ -4560,8 +4236,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7655547128923,
-          -36.85802598500091
+          174.7655657252635,
+          -36.85806731484381
         ]
       }
     },
@@ -4587,8 +4263,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76552846687645,
-          -36.85800297634003
+          174.76556098299412,
+          -36.857996916633724
         ]
       }
     },
@@ -4614,8 +4290,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76555786195476,
-          -36.857981529851884
+          174.76560643489765,
+          -36.85802721327909
         ]
       }
     },
@@ -4641,8 +4317,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76553790056184,
-          -36.85804541417516
+          174.76552119006726,
+          -36.8580740770491
         ]
       }
     },
@@ -4668,8 +4344,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76160412030256,
-          -36.85180930613338
+          174.76158966015058,
+          -36.851796209223416
         ]
       }
     },
@@ -4695,8 +4371,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.77088555985915,
-          -36.85334858352812
+          174.770921898676,
+          -36.85333061403767
         ]
       }
     },
@@ -4884,8 +4560,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.72261966691087,
-          -36.92451508872819
+          174.722664,
+          -36.924519
         ]
       }
     },
@@ -4938,8 +4614,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7249589621465,
-          -36.81126062491204
+          174.72496993180684,
+          -36.8113229714599
         ]
       }
     },
@@ -5073,8 +4749,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76422253859664,
-          -36.84971291812754
+          174.76424438697816,
+          -36.84969073702271
         ]
       }
     },
@@ -5100,8 +4776,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76387608784484,
-          -36.85152036121613
+          174.76381746694722,
+          -36.85148497356998
         ]
       }
     },
@@ -5181,35 +4857,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76394451502708,
-          -36.85014558544028
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004FHM",
-        "Event": "Downtown Carpark Auckland CBD",
-        "Location": "31 Customs Street West, Auckland CBD, Auckland CBD Auckland 1010",
-        "City": "Auckland CBD",
-        "Start": "7\/08\/2021, 9:45 pm",
-        "End": "7\/08\/2021, 10:15 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Sat, 7 Aug 2021",
-        "time": "9:45 pm - 10:15 pm",
-        "timestamp": 1628329500,
-        "month": 8,
-        "day_of_month": 7,
-        "hour": 21
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.7643,
-          -36.844
+          174.76392713793138,
+          -36.85012907691164
         ]
       }
     },
@@ -5289,8 +4938,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71519329167205,
-          -36.921567367406034
+          174.7151154442051,
+          -36.92154153295714
         ]
       }
     },
@@ -5343,8 +4992,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7151513940633,
-          -36.92149544396876
+          174.71512882411153,
+          -36.92153831269907
         ]
       }
     },
@@ -5424,8 +5073,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71526785614373,
-          -36.91310060390888
+          174.7152888659298,
+          -36.91317111248481
         ]
       }
     },
@@ -5451,8 +5100,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71531861055192,
-          -36.91307769265522
+          174.71528761807693,
+          -36.91314176833017
         ]
       }
     },
@@ -5478,8 +5127,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71528256891102,
-          -36.91309297312291
+          174.71527635037603,
+          -36.9131513951944
         ]
       }
     },
@@ -5507,87 +5156,6 @@
         "coordinates": [
           174.914768,
           -37.039598
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004FRg",
-        "Event": "Mitre 10 MEGA New Lynn",
-        "Location": "5 Astley Avenue, New Lynn, Auckland 0600",
-        "City": "Auckland",
-        "Start": "5\/08\/2021, 12:30 pm",
-        "End": "5\/08\/2021, 1:30 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Thu, 5 Aug 2021",
-        "time": "12:30 pm - 1:30 pm",
-        "timestamp": 1628123400,
-        "month": 8,
-        "day_of_month": 5,
-        "hour": 12
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.68812,
-          -36.912256
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004FSK",
-        "Event": "Chipmunks Playland and Cafe New Lynn",
-        "Location": "6\/2 Margan Avenue, New Lynn, Auckland 0600",
-        "City": "Auckland",
-        "Start": "2\/08\/2021, 1:00 pm",
-        "End": "2\/08\/2021, 5:00 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Mon, 2 Aug 2021",
-        "time": "1:00 pm - 5:00 pm",
-        "timestamp": 1627866000,
-        "month": 8,
-        "day_of_month": 2,
-        "hour": 13
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.676236,
-          -36.911987
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "id": "a0l4a0000004FSt",
-        "Event": "MELBA Hillsborough Mount Roskill",
-        "Location": "1\/602 Hillsborough Road, Mount Roskill, Auckland 1041",
-        "City": "Auckland",
-        "Start": "1\/08\/2021, 1:00 pm",
-        "End": "1\/08\/2021, 1:45 pm",
-        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
-        "Added": "",
-        "added_day": 0,
-        "day": "Sun, 1 Aug 2021",
-        "time": "1:00 pm - 1:45 pm",
-        "timestamp": 1627779600,
-        "month": 8,
-        "day_of_month": 1,
-        "hour": 13
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          174.720119,
-          -36.92277
         ]
       }
     },
@@ -5640,8 +5208,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74129849750466,
-          -36.904472562735094
+          174.7412082430489,
+          -36.904497817860786
         ]
       }
     },
@@ -5694,8 +5262,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74124944297628,
-          -36.90445190182906
+          174.74127049468018,
+          -36.90453005405584
         ]
       }
     },
@@ -5775,8 +5343,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74122832645858,
-          -36.90451096016302
+          174.74123304273496,
+          -36.904469725239515
         ]
       }
     },
@@ -5802,8 +5370,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74127052971366,
-          -36.904448550486386
+          174.74121103869555,
+          -36.90446914451384
         ]
       }
     },
@@ -5964,8 +5532,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76676879874668,
-          -36.85265044825758
+          174.7667654458297,
+          -36.852667566396
         ]
       }
     },
@@ -5991,8 +5559,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76682907358773,
-          -36.85267322581444
+          174.76683110056203,
+          -36.85263312657165
         ]
       }
     },
@@ -6018,8 +5586,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.761615625496,
-          -36.85180894539671
+          174.76153698572733,
+          -36.85180731529934
         ]
       }
     },
@@ -6072,8 +5640,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.63264097125713,
-          -36.882209232463175
+          174.63269792066365,
+          -36.88222441566239
         ]
       }
     },
@@ -6126,8 +5694,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.63266961714004,
-          -36.88223237499036
+          174.63270999280195,
+          -36.882287316944215
         ]
       }
     },
@@ -6207,8 +5775,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7709737644547,
-          -36.85333541137105
+          174.77090187856052,
+          -36.85334048306681
         ]
       }
     },
@@ -6234,8 +5802,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.796518818161,
-          -41.31832961059215
+          174.79650750075518,
+          -41.31835257362158
         ]
       }
     },
@@ -6288,8 +5856,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76999610485078,
-          -36.86136930517002
+          174.77002332158492,
+          -36.86135046062467
         ]
       }
     },
@@ -6315,8 +5883,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.77003455912802,
-          -36.861340114466934
+          174.77001524744793,
+          -36.8613668490208
         ]
       }
     },
@@ -6490,11 +6058,11 @@
     },
     "17": {
       "name": "17 Tue",
-      "count": 31
+      "count": 32
     },
     "13": {
       "name": "13 Fri",
-      "count": 36
+      "count": 37
     },
     "11": {
       "name": "11 Wed",
@@ -6526,40 +6094,16 @@
     },
     "7": {
       "name": "7 Sat",
-      "count": 8
+      "count": 1
     },
     "9": {
       "name": "9 Mon",
-      "count": 4
-    },
-    "6": {
-      "name": "6 Fri",
-      "count": 2
-    },
-    "5": {
-      "name": "5 Thu",
-      "count": 3
-    },
-    "4": {
-      "name": "4 Wed",
-      "count": 3
-    },
-    "3": {
-      "name": "3 Tue",
-      "count": 2
+      "count": 5
     },
     "18": {
       "name": "18 Wed",
       "count": 5
-    },
-    "2": {
-      "name": "2 Mon",
-      "count": 1
-    },
-    "1": {
-      "name": "1 Sun",
-      "count": 1
     }
   },
-  "data_update_time": "9:40 am, Sun 22 Aug"
+  "data_update_time": "11:49 am, Sun 22 Aug"
 }

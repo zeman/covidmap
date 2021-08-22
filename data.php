@@ -1,10 +1,17 @@
 <?php
 
 // add more context to location data
-// https://github.com/minhealthnz/nz-covid-data/blob/main/locations-of-interest/august-2021/locations-of-interest.geojson
+$data_url = 'https://raw.githubusercontent.com/minhealthnz/nz-covid-data/main/locations-of-interest/august-2021/locations-of-interest.geojson';
 date_default_timezone_set('Pacific/Auckland');
-$json = file_get_contents("data/locations-of-interest.geojson");
-$data = json_decode($json, true);
+
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_URL, $data_url);
+$result = curl_exec($ch);
+curl_close($ch);
+
+$data = json_decode($result, true);
 
 // init our data arrays
 $features = [];
