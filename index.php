@@ -46,23 +46,38 @@ ksort($days);
         #map {
             position: absolute;
             top: 45px;
-            bottom: 155px;
+            bottom: 160px;
             width: 100%;
             z-index: 1;
         }
 
-        .locations {
+        .filters {
             box-sizing: border-box;
-            padding-right: 10px;
             position: absolute;
             width: 100%;
+            padding: 0 10px;
+            bottom: 10px;
+            z-index: 2;
+        }
+        @media (max-width: 500px) {
+            .filters {
+                bottom: 133px;
+            }
+        }
+
+        .locations {
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            width: 100%;
             height: 40px;
-            bottom: 55px;
-            background-color: white;
-            z-index: 3;
             display: grid;
             grid-template-columns: 80px 1fr 1fr 1fr 1fr;
             grid-gap: 5px
+        }
+        @media (max-width: 500px) {
+            .locations {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
         }
 
         .location {
@@ -79,16 +94,17 @@ ksort($days);
 
         .added {
             box-sizing: border-box;
-            padding-right: 10px;
-            position: absolute;
+            margin-bottom: 10px;
             width: 100%;
             height: 40px;
-            bottom: 105px;
-            background-color: white;
-            z-index: 3;
             display: grid;
             grid-template-columns: 80px 1fr 1fr 1fr;
             grid-gap: 5px
+        }
+        @media (max-width: 500px) {
+            .added {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
         }
 
         .add {
@@ -105,11 +121,8 @@ ksort($days);
 
         #time {
             box-sizing: border-box;
-            padding-right: 10px;
-            position: absolute;
             width: 100%;
             height: 40px;
-            bottom: 5px;
             background-color: white;
             z-index: 2;
         }
@@ -120,7 +133,7 @@ ksort($days);
         }
         @media (max-width: 450px){
             #map {
-                bottom: 155px;
+                bottom: 285px;
             }
             #time {
                 height: 40px;
@@ -210,6 +223,11 @@ ksort($days);
         .links a {
             color: #000000;
         }
+        @media (max-width: 500px) {
+            .mobile_hide {
+                display: none;
+            }
+        }
     </style>
 </head>
 <body>
@@ -218,28 +236,30 @@ ksort($days);
         <div class="links"><a href="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-health-advice-public/contact-tracing-covid-19/covid-19-contact-tracing-locations-interest/covid-19-contact-tracing-locations-interest-map" target="_blank" rel="nofollow">Updated <?= $data['data_update_time'] ?></a></div>
     </div>
     <div id='map'></div>
-    <div class="locations">
-        <div class="label">Location:</div>
-        <div class="location location--active" data-loc="all">All</div>
-        <div class="location" data-loc="auck">Auckland</div>
-        <div class="location" data-loc="coro">Coromandel</div>
-        <div class="location" data-loc="welly">Wellington</div>
-    </div>
-    <div id="time" class="days">
-        <div class="label">Day:</div>
-        <div class="day day--active" data-day="0">All</div>
-        <?php
-        foreach ($days as $day => $value) {
-            $color = "color_" .  round($value['count']/7.2);
-            echo "<div class='day $color' data-day='$day'>{$value['name']}</div>";
-        }
-        ?>
-    </div>
-    <div class="added">
-        <div class="label">Added:</div>
-        <div class="add add--active" data-add="0">All</div>
-        <div class="add" data-add="21">Sat 21</div>
-        <div class="add" data-add="22">Sun 22</div>
+    <div class="filters">
+        <div class="added">
+            <div class="label">Added:</div>
+            <div class="add add--active" data-add="0">All</div>
+            <div class="add" data-add="21">Sat 21</div>
+            <div class="add" data-add="22">Sun 22</div>
+        </div>
+        <div class="locations">
+            <div class="label">Location:</div>
+            <div class="location location--active" data-loc="all">All</div>
+            <div class="location" data-loc="auck">Auckland</div>
+            <div class="location mobile_hide" data-loc="coro">Coromandel</div>
+            <div class="location" data-loc="welly">Wellington</div>
+        </div>
+        <div id="time" class="days">
+            <div class="label">Day:</div>
+            <div class="day day--active" data-day="0">All</div>
+            <?php
+            foreach ($days as $day => $value) {
+                $color = "color_" .  round($value['count']/7.2);
+                echo "<div class='day $color' data-day='$day'>{$value['name']}</div>";
+            }
+            ?>
+        </div>
     </div>
     <script>
 

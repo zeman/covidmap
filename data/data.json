@@ -132,8 +132,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76682960441374,
-          -36.8526144919949
+          174.76682129671156,
+          -36.85265470637084
         ]
       }
     },
@@ -213,8 +213,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.8594360906307,
-          -36.95754051369409
+          174.85942337621154,
+          -36.95760068598379
         ]
       }
     },
@@ -267,8 +267,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.873968456427,
-          -36.96160834559069
+          174.87400206909328,
+          -36.961603192603214
         ]
       }
     },
@@ -294,8 +294,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7648776889874,
-          -36.85067355221317
+          174.76487916911051,
+          -36.85072805270032
         ]
       }
     },
@@ -564,8 +564,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76484783339419,
-          -36.85066842591842
+          174.76489531033445,
+          -36.85073669460761
         ]
       }
     },
@@ -573,7 +573,7 @@
       "type": "Feature",
       "properties": {
         "id": "a0l4a0000004G3y",
-        "Event": "Palsun Korean Resturant",
+        "Event": "Palsun Korean Restaurant",
         "Location": "57 Lorne Street, Auckland Central, Auckland 1010",
         "City": "Auckland",
         "Start": "13\/08\/2021, 12:30 pm",
@@ -618,8 +618,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.87403996593133,
-          -36.96160207057821
+          174.87400985340395,
+          -36.9615816028909
         ]
       }
     },
@@ -680,6 +680,33 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "a0l4a0000004Gez",
+        "Event": "Horizon Radiology \u014ctara",
+        "Location": "3 Watford Street, \u014ctara, Auckland 2023",
+        "City": "Auckland",
+        "Start": "17\/08\/2021, 1:15 pm",
+        "End": "17\/08\/2021, 2:30 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Tue, 17 Aug 2021",
+        "time": "1:15 pm - 2:30 pm",
+        "timestamp": 1629162900,
+        "month": 8,
+        "day_of_month": 17,
+        "hour": 13
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.87290941876395,
+          -36.9621547590695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "a0l4a0000004Gf5",
         "Event": "Wymondley Road Superette \u014ctara",
         "Location": "2 Wymondley Road, \u014ctara, Auckland 2025",
@@ -699,8 +726,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.85945401617238,
-          -36.95751563981207
+          174.8595084293373,
+          -36.95760164631825
         ]
       }
     },
@@ -767,7 +794,7 @@
         "City": "Wellington",
         "Start": "19\/08\/2021, 5:30 pm",
         "End": "19\/08\/2021, 6:15 pm",
-        "Advice": "Stay at home, test immediately and on or around day 5 after last exposure and continue to stay at home until you receive a negative day 5 test result. Call Healthline for what to do next.",
+        "Advice": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
         "Added": "2021-08-22 09:40:43",
         "added_day": 22,
         "day": "Thu, 19 Aug 2021",
@@ -780,8 +807,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.80987048747488,
-          -41.3346767701647
+          174.80995779050602,
+          -41.33469476858768
         ]
       }
     },
@@ -807,8 +834,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49704341859078,
-          -36.760127968107675
+          175.49707842193826,
+          -36.760056779177624
         ]
       }
     },
@@ -834,8 +861,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49763165338996,
-          -36.75951361721489
+          175.49767296659851,
+          -36.759531757899175
         ]
       }
     },
@@ -888,8 +915,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.4976931098613,
-          -36.75947180246253
+          175.49764261060173,
+          -36.759492724708664
         ]
       }
     },
@@ -942,8 +969,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49703076215832,
-          -36.760103496277196
+          175.49709930089097,
+          -36.760058000868305
         ]
       }
     },
@@ -1023,8 +1050,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7638837471941,
-          -36.85151117745342
+          174.7638359462502,
+          -36.8515693309139
         ]
       }
     },
@@ -1050,8 +1077,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76395341281088,
-          -36.850213898825054
+          174.7639613692781,
+          -36.85016268380114
         ]
       }
     },
@@ -1104,8 +1131,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70557910952496,
-          -36.72676445230338
+          174.7056184511227,
+          -36.72679417937327
         ]
       }
     },
@@ -1212,8 +1239,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70452376667515,
-          -36.80590815726849
+          174.70447591449033,
+          -36.80584918642288
         ]
       }
     },
@@ -1239,8 +1266,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.72498419657322,
-          -36.811251981216415
+          174.7250108064532,
+          -36.81126713243677
         ]
       }
     },
@@ -1320,8 +1347,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.72501393404804,
-          -36.81132592799929
+          174.72496426056486,
+          -36.81129783363766
         ]
       }
     },
@@ -1617,8 +1644,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76416461199995,
-          -36.84967294679358
+          174.76423621157392,
+          -36.849715693604594
         ]
       }
     },
@@ -1725,8 +1752,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74440189202778,
-          -36.85104378058273
+          174.74444371955937,
+          -36.85096254778761
         ]
       }
     },
@@ -1806,8 +1833,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7056366218827,
-          -36.72682627908074
+          174.70558722061952,
+          -36.72683563846297
         ]
       }
     },
@@ -1833,8 +1860,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7056130783378,
-          -36.72683411904633
+          174.70564815135992,
+          -36.726806199725985
         ]
       }
     },
@@ -1968,8 +1995,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70560474072425,
-          -36.72683708085475
+          174.70563631240452,
+          -36.72678229672118
         ]
       }
     },
@@ -1995,8 +2022,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70565636317474,
-          -36.726760221982644
+          174.70557129906564,
+          -36.726824698049654
         ]
       }
     },
@@ -2022,8 +2049,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.8448933217179,
-          -36.91626051205987
+          174.84489224297576,
+          -36.916243107945135
         ]
       }
     },
@@ -2103,8 +2130,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7850238598108,
-          -36.87567873394402
+          174.7850007369392,
+          -36.875732177113804
         ]
       }
     },
@@ -2184,8 +2211,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.70448146069938,
-          -36.805942644359796
+          174.70449714769074,
+          -36.80588010929634
         ]
       }
     },
@@ -2238,8 +2265,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84488229702563,
-          -36.91625406188647
+          174.84486504798664,
+          -36.91619724273932
         ]
       }
     },
@@ -2265,8 +2292,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.6835650912439,
-          -36.90822691872743
+          174.68354340195611,
+          -36.908303607196395
         ]
       }
     },
@@ -2292,8 +2319,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.68354007706574,
-          -36.90825301083158
+          174.6835498551186,
+          -36.90824078424605
         ]
       }
     },
@@ -2373,8 +2400,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49720228847926,
-          -36.75997217194866
+          175.49727833683923,
+          -36.76003348876708
         ]
       }
     },
@@ -2400,8 +2427,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49708884788237,
-          -36.7601082934367
+          175.49703187518676,
+          -36.760113504935894
         ]
       }
     },
@@ -2508,8 +2535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.49723967473457,
-          -36.76001813485531
+          175.4972195299668,
+          -36.76005106871123
         ]
       }
     },
@@ -2562,8 +2589,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.50330504901098,
-          -36.73710643465931
+          175.50338278102112,
+          -36.73715367726861
         ]
       }
     },
@@ -2589,8 +2616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          175.5033936478918,
-          -36.737149885823094
+          175.50332564969887,
+          -36.73710926847793
         ]
       }
     },
@@ -2724,8 +2751,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7444485109895,
-          -36.850981907801454
+          174.7444437608198,
+          -36.850995941216595
         ]
       }
     },
@@ -2778,8 +2805,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7850117115629,
-          -36.875677517711104
+          174.784997889878,
+          -36.87572764662289
         ]
       }
     },
@@ -2940,8 +2967,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71527705662717,
-          -36.913172405409746
+          174.71528442830729,
+          -36.913118114554116
         ]
       }
     },
@@ -2967,8 +2994,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71527682696015,
-          -36.913140191361286
+          174.71533931860768,
+          -36.91314786523867
         ]
       }
     },
@@ -2994,8 +3021,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71531000131023,
-          -36.91313836420206
+          174.71535497506068,
+          -36.91311517334848
         ]
       }
     },
@@ -3426,8 +3453,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7862861984097,
-          -36.92075168670283
+          174.78631026501793,
+          -36.92076475450115
         ]
       }
     },
@@ -3507,8 +3534,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.78628351275657,
-          -36.92075601756351
+          174.78633920489938,
+          -36.920756589605844
         ]
       }
     },
@@ -3534,8 +3561,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.872911,
-          -36.962111
+          174.87290432718459,
+          -36.962127898180896
         ]
       }
     },
@@ -3843,14 +3870,14 @@
         "Event": "Wellington Airport",
         "Location": "1 Stewart Duff Drive, Rongotai, Wellington 6022",
         "City": "Wellington",
-        "Start": "15\/08\/2021, 6:00 pm",
-        "End": "15\/08\/2021, 6:15 pm",
+        "Start": "15\/08\/2021, 6:20 pm",
+        "End": "15\/08\/2021, 7:00 pm",
         "Advice": "Self-monitor for COVID-19 symptoms for 14 days. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
         "Added": "2021-08-22 09:40:43",
         "added_day": 22,
         "day": "Sun, 15 Aug 2021",
-        "time": "6:00 pm - 6:15 pm",
-        "timestamp": 1629007200,
+        "time": "6:20 pm - 7:00 pm",
+        "timestamp": 1629008400,
         "month": 8,
         "day_of_month": 15,
         "hour": 18
@@ -3858,8 +3885,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.80992102579248,
-          -41.334714523181454
+          174.80993561170934,
+          -41.33469678065657
         ]
       }
     },
@@ -3939,8 +3966,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84843395104517,
-          -36.94452728503196
+          174.84843874651855,
+          -36.94444282503816
         ]
       }
     },
@@ -3966,8 +3993,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84842927417617,
-          -36.944488266762214
+          174.8485140857233,
+          -36.94445537363247
         ]
       }
     },
@@ -3993,8 +4020,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84844221313105,
-          -36.94453281010262
+          174.84842558165718,
+          -36.94445783006803
         ]
       }
     },
@@ -4020,8 +4047,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.8484815867718,
-          -36.94449470508779
+          174.84842473765332,
+          -36.94444188077411
         ]
       }
     },
@@ -4047,8 +4074,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.84846241106354,
-          -36.944480447558064
+          174.84846374520944,
+          -36.94446507347078
         ]
       }
     },
@@ -4101,8 +4128,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76557590563266,
-          -36.85800314978335
+          174.76559475285367,
+          -36.857988790110355
         ]
       }
     },
@@ -4155,8 +4182,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76552107400886,
-          -36.85805421981246
+          174.7655653136461,
+          -36.858073254995794
         ]
       }
     },
@@ -4182,8 +4209,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7655307100363,
-          -36.85797860001887
+          174.76553947788895,
+          -36.85803765853464
         ]
       }
     },
@@ -4209,8 +4236,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7964800290329,
-          -41.31833436698537
+          174.79645681040472,
+          -41.318325848746746
         ]
       }
     },
@@ -4236,8 +4263,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7655657252635,
-          -36.85806731484381
+          174.76555004776662,
+          -36.8580293778066
         ]
       }
     },
@@ -4263,8 +4290,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76556098299412,
-          -36.857996916633724
+          174.7655450209757,
+          -36.85800413414938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004GVd",
+        "Event": "Waiparuru Dining Hall Grafton Campus University of Auckland",
+        "Location": "35 Whitaker Place, Grafton, Auckland 1010",
+        "City": "Auckland",
+        "Start": "14\/08\/2021, 4:30 pm",
+        "End": "14\/08\/2021, 5:15 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Sat, 14 Aug 2021",
+        "time": "4:30 pm - 5:15 pm",
+        "timestamp": 1628915400,
+        "month": 8,
+        "day_of_month": 14,
+        "hour": 16
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.76642545658234,
+          -36.8577843376976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004GVY",
+        "Event": "Waiparuru Dining Hall Grafton Campus University of Auckland",
+        "Location": "35 Whitaker Place, Grafton, Auckland 1010",
+        "City": "Auckland",
+        "Start": "13\/08\/2021, 6:00 pm",
+        "End": "13\/08\/2021, 7:00 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Fri, 13 Aug 2021",
+        "time": "6:00 pm - 7:00 pm",
+        "timestamp": 1628834400,
+        "month": 8,
+        "day_of_month": 13,
+        "hour": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.766445520901,
+          -36.857707150221785
         ]
       }
     },
@@ -4290,8 +4371,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76560643489765,
-          -36.85802721327909
+          174.7655083888285,
+          -36.858060135267394
         ]
       }
     },
@@ -4317,8 +4398,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76552119006726,
-          -36.8580740770491
+          174.76551290510588,
+          -36.857991504094095
         ]
       }
     },
@@ -4344,8 +4425,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76158966015058,
-          -36.851796209223416
+          174.761557791772,
+          -36.851846581964644
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004GVx",
+        "Event": "Waiparuru Dining Hall Grafton Campus University of Auckland",
+        "Location": "35 Whitaker Place, Grafton, Auckland 1010",
+        "City": "Auckland",
+        "Start": "16\/08\/2021, 6:00 pm",
+        "End": "16\/08\/2021, 7:00 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Mon, 16 Aug 2021",
+        "time": "6:00 pm - 7:00 pm",
+        "timestamp": 1629093600,
+        "month": 8,
+        "day_of_month": 16,
+        "hour": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7664473960665,
+          -36.85778093266362
         ]
       }
     },
@@ -4371,8 +4479,62 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.770921898676,
-          -36.85333061403767
+          174.7709358608,
+          -36.85328581303944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004GVs",
+        "Event": "Waiparuru Dining Hall Grafton Campus University of Auckland",
+        "Location": "35 Whitaker Place, Grafton, Auckland 1010",
+        "City": "Auckland",
+        "Start": "15\/08\/2021, 6:00 pm",
+        "End": "15\/08\/2021, 7:00 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Sun, 15 Aug 2021",
+        "time": "6:00 pm - 7:00 pm",
+        "timestamp": 1629007200,
+        "month": 8,
+        "day_of_month": 15,
+        "hour": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.76642677638128,
+          -36.857712351841016
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004GW2",
+        "Event": "Waiparuru Dining Hall Grafton Campus University of Auckland",
+        "Location": "35 Whitaker Place, Grafton, Auckland 1010",
+        "City": "Auckland",
+        "Start": "17\/08\/2021, 6:00 pm",
+        "End": "17\/08\/2021, 7:00 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Tue, 17 Aug 2021",
+        "time": "6:00 pm - 7:00 pm",
+        "timestamp": 1629180000,
+        "month": 8,
+        "day_of_month": 17,
+        "hour": 18
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.76642730962828,
+          -36.857702520011834
         ]
       }
     },
@@ -4400,6 +4562,87 @@
         "coordinates": [
           174.770124,
           -36.862548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004Glq",
+        "Event": "Pukekohe High School",
+        "Location": "14 Harris Street, Pukekohe, Pukekohe 2120",
+        "City": "Pukekohe",
+        "Start": "17\/08\/2021, 8:00 am",
+        "End": "17\/08\/2021, 4:30 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Tue, 17 Aug 2021",
+        "time": "8:00 am - 4:30 pm",
+        "timestamp": 1629144000,
+        "month": 8,
+        "day_of_month": 17,
+        "hour": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.90600727683736,
+          -37.20591093300381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004Gll",
+        "Event": "Pukekohe High School",
+        "Location": "14 Harris Street, Pukekohe, Pukekohe 2120",
+        "City": "Pukekohe",
+        "Start": "16\/08\/2021, 8:00 am",
+        "End": "16\/08\/2021, 4:00 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Mon, 16 Aug 2021",
+        "time": "8:00 am - 4:00 pm",
+        "timestamp": 1629057600,
+        "month": 8,
+        "day_of_month": 16,
+        "hour": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.90609390859458,
+          -37.205971233449134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004GzO",
+        "Event": "Starbucks Westfield Albany mall",
+        "Location": "219 Don McKinnon Drive, Albany, Auckland 0632",
+        "City": "Auckland",
+        "Start": "15\/08\/2021, 5:45 pm",
+        "End": "15\/08\/2021, 6:00 pm",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Sun, 15 Aug 2021",
+        "time": "5:45 pm - 6:00 pm",
+        "timestamp": 1629006300,
+        "month": 8,
+        "day_of_month": 15,
+        "hour": 17
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.7056464688635,
+          -36.72682351580592
         ]
       }
     },
@@ -4614,8 +4857,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.72496993180684,
-          -36.8113229714599
+          174.72504278872404,
+          -36.811314983655215
         ]
       }
     },
@@ -4749,8 +4992,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76424438697816,
-          -36.84969073702271
+          174.76419507284766,
+          -36.84971085807933
         ]
       }
     },
@@ -4776,8 +5019,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76381746694722,
-          -36.85148497356998
+          174.76389728198254,
+          -36.85155239231312
         ]
       }
     },
@@ -4857,8 +5100,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76392713793138,
-          -36.85012907691164
+          174.76390182627512,
+          -36.85015489317604
         ]
       }
     },
@@ -4938,8 +5181,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7151154442051,
-          -36.92154153295714
+          174.7152091564187,
+          -36.921494050445574
         ]
       }
     },
@@ -4992,8 +5235,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71512882411153,
-          -36.92153831269907
+          174.71512182659572,
+          -36.92155923351092
         ]
       }
     },
@@ -5073,8 +5316,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7152888659298,
-          -36.91317111248481
+          174.7153560020982,
+          -36.91315591202783
         ]
       }
     },
@@ -5100,8 +5343,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71528761807693,
-          -36.91314176833017
+          174.71529950838942,
+          -36.9131572034186
         ]
       }
     },
@@ -5127,8 +5370,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.71527635037603,
-          -36.9131513951944
+          174.71533684665485,
+          -36.913093914671286
         ]
       }
     },
@@ -5208,8 +5451,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7412082430489,
-          -36.904497817860786
+          174.74121190488614,
+          -36.90448606488109
         ]
       }
     },
@@ -5262,8 +5505,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74127049468018,
-          -36.90453005405584
+          174.74123231319396,
+          -36.90447633983801
         ]
       }
     },
@@ -5343,8 +5586,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74123304273496,
-          -36.904469725239515
+          174.74121533577417,
+          -36.90449335289356
         ]
       }
     },
@@ -5370,8 +5613,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.74121103869555,
-          -36.90446914451384
+          174.74128296592204,
+          -36.904522833294756
         ]
       }
     },
@@ -5532,8 +5775,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.7667654458297,
-          -36.852667566396
+          174.76682029314298,
+          -36.852622773494744
         ]
       }
     },
@@ -5559,8 +5802,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76683110056203,
-          -36.85263312657165
+          174.7667876972015,
+          -36.85265375373956
         ]
       }
     },
@@ -5586,8 +5829,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.76153698572733,
-          -36.85180731529934
+          174.76161255393936,
+          -36.85178492068577
         ]
       }
     },
@@ -5640,8 +5883,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.63269792066365,
-          -36.88222441566239
+          174.63266327418566,
+          -36.88226653142145
         ]
       }
     },
@@ -5694,8 +5937,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.63270999280195,
-          -36.882287316944215
+          174.6326526801139,
+          -36.88227580545321
         ]
       }
     },
@@ -5775,8 +6018,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.77090187856052,
-          -36.85334048306681
+          174.7709774546294,
+          -36.85330640369842
         ]
       }
     },
@@ -5802,8 +6045,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.79650750075518,
-          -41.31835257362158
+          174.79647434869676,
+          -41.31833562262741
         ]
       }
     },
@@ -5856,8 +6099,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.77002332158492,
-          -36.86135046062467
+          174.7699688244359,
+          -36.86134774011278
         ]
       }
     },
@@ -5883,8 +6126,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          174.77001524744793,
-          -36.8613668490208
+          174.76996132153914,
+          -36.861363866741954
         ]
       }
     },
@@ -6026,6 +6269,60 @@
     {
       "type": "Feature",
       "properties": {
+        "id": "a0l4a0000004Gi8",
+        "Event": "Laundromat, \u014ctara,",
+        "Location": "11 Wymondley Road, \u014ctara, Auckland 2025",
+        "City": "Auckland",
+        "Start": "21\/08\/2021, 8:40 am",
+        "End": "21\/08\/2021, 10:30 am",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Sat, 21 Aug 2021",
+        "time": "8:40 am - 10:30 am",
+        "timestamp": 1629492000,
+        "month": 8,
+        "day_of_month": 21,
+        "hour": 8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.860119,
+          -36.956709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "a0l4a0000004Ght",
+        "Event": "New World Papatoetoe",
+        "Location": "63 St George Street, Papatoetoe, Auckland 2025",
+        "City": "Auckland",
+        "Start": "19\/08\/2021, 9:53 am",
+        "End": "19\/08\/2021, 10:30 am",
+        "Advice": "Isolate at home for 14 days from date of last exposure. Test immediately, and on days 5 & 12 after last exposure. Call Healthline for what to do next.",
+        "Added": "2021-08-22 13:21:42",
+        "added_day": 22,
+        "day": "Thu, 19 Aug 2021",
+        "time": "9:53 am - 10:30 am",
+        "timestamp": 1629323580,
+        "month": 8,
+        "day_of_month": 19,
+        "hour": 9
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.8535,
+          -36.9798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "id": "a0l4a0000004GkE",
         "Event": "Countdown Auckland Victoria Street West",
         "Location": "1\/25 Victoria Street West, Auckland Central, Auckland 1010",
@@ -6054,15 +6351,15 @@
   "days": {
     "19": {
       "name": "19 Thu",
-      "count": 7
+      "count": 8
     },
     "17": {
       "name": "17 Tue",
-      "count": 32
+      "count": 35
     },
     "13": {
       "name": "13 Fri",
-      "count": 37
+      "count": 38
     },
     "11": {
       "name": "11 Wed",
@@ -6078,15 +6375,15 @@
     },
     "16": {
       "name": "16 Mon",
-      "count": 32
+      "count": 34
     },
     "15": {
       "name": "15 Sun",
-      "count": 33
+      "count": 35
     },
     "14": {
       "name": "14 Sat",
-      "count": 35
+      "count": 36
     },
     "10": {
       "name": "10 Tue",
@@ -6103,7 +6400,11 @@
     "18": {
       "name": "18 Wed",
       "count": 5
+    },
+    "21": {
+      "name": "21 Sat",
+      "count": 1
     }
   },
-  "data_update_time": "11:49 am, Sun 22 Aug"
+  "data_update_time": "1:21 pm, Sun 22 Aug"
 }

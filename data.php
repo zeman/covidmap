@@ -5,7 +5,7 @@ $data_url = 'https://raw.githubusercontent.com/minhealthnz/nz-covid-data/main/lo
 date_default_timezone_set('Pacific/Auckland');
 
 $ch = curl_init();
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($ch, CURLOPT_URL, $data_url);
 $result = curl_exec($ch);
