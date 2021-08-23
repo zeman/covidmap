@@ -130,10 +130,14 @@ foreach ($features as $key => $feature) {
     }
 }
 
-echo json_encode([
+$json = json_encode([
     'type' => 'FeatureCollection',
     'name' => 'locations-of-interest',
     'features' => $features,
     'days' => $days,
     'data_update_time' => $data_update_time
 ]);
+
+file_put_contents('data.json', $json);
+
+echo "data.json saved";

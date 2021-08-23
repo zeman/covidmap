@@ -1,6 +1,6 @@
 <?php
 // get the json so we can use it in php as well
-$data = json_decode(file_get_contents('data/data.json'), true);
+$data = json_decode(file_get_contents('data.json'), true);
 $days = $data['days'];
 ksort($days);
 // highest count
@@ -105,7 +105,7 @@ foreach($days as $day){
             width: 100%;
             height: 40px;
             display: grid;
-            grid-template-columns: 80px 1fr 1fr 1fr;
+            grid-template-columns: 80px 1fr 1fr 1fr 1fr;
             grid-gap: 5px
         }
         @media (max-width: 768px) {
@@ -248,10 +248,11 @@ foreach($days as $day){
     <div id='map'></div>
     <div class="filters">
         <div class="added">
-            <div class="label">Added:</div>
+            <div class="label">Updated:</div>
             <div class="add add--active" data-add="0">All</div>
-            <div class="add" data-add="21">21 Sat</div>
+            <div class="add mobile_hide" data-add="21">21 Sat</div>
             <div class="add" data-add="22">22 Sun</div>
+            <div class="add" data-add="22">23 Mon</div>
         </div>
         <div class="locations">
             <div class="label">Location:</div>
