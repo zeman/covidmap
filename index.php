@@ -252,7 +252,7 @@ foreach($days as $day){
             <div class="add add--active" data-add="0">All</div>
             <div class="add mobile_hide" data-add="21">21 Sat</div>
             <div class="add" data-add="22">22 Sun</div>
-            <div class="add" data-add="22">23 Mon</div>
+            <div class="add" data-add="23">23 Mon</div>
         </div>
         <div class="locations">
             <div class="label">Location:</div>
