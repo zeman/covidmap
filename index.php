@@ -156,11 +156,14 @@ foreach($days as $day){
             background-color: #ffffff;
         }
         .marker {
+            background-color: rgba(171,7,7,0.5);
+            width: 16px;
+            height: 16px;
+            border-radius: 8px;
+        }
+        .marker:hover {
             background-color: #000000;
-            width: 20px;
-            height: 20px;
-            border-radius: 10px;
-            opacity: 0;
+            cursor: pointer;
         }
         .mapboxgl-popup-close-button{
             outline: 0;
@@ -283,8 +286,9 @@ foreach($days as $day){
             zoom: 6
         });
 
-        var geojson = <?= file_get_contents('data/data.json'); ?>
+        var geojson = <?= file_get_contents('data.json'); ?>
 
+        /*
         map.on('load', function() {
             map.addLayer({
                 id: 'locations',
@@ -298,44 +302,76 @@ foreach($days as $day){
                 }
             });
         });
+         */
 
         map.addControl(new mapboxgl.NavigationControl());
 
-        // add markers to map
-        geojson.features.forEach(function (marker) {
-            // create a HTML element for each feature
-            var el = document.createElement('div');
-            el.className = 'marker';
+        // markers saved here
+        var currentMarkers=[];
 
-            let visits = "";
-            marker.properties.visits.forEach(visit => {
-                visit.forEach(line => {
-                   visits += line + '<br>';
-                });
-                visits += "<br>";
-            });
-            // make a marker for each feature and add it to the map
-            new mapboxgl.Marker(el)
-                .setLngLat(marker.geometry.coordinates)
-                .setPopup(
-                    new mapboxgl.Popup({ offset: 25 }) // add popups
-                        .setHTML(
-                            '<h3>' + marker.properties.Event + '</h3>' +
-                            '<div class="popup__time">' + visits + '</div>' +
-                            '<div class="popup__location">' + marker.properties.Location + '</div>'
+        // add markers to map
+        function updateMarkers(type, value) {
+
+            // first remove all markers
+            if (currentMarkers!==null) {
+                for (let i = currentMarkers.length - 1; i >= 0; i--) {
+                    currentMarkers[i].remove();
+                }
+            }
+
+            // now look through geojson to add markers
+            geojson.features.forEach(function (marker) {
+
+                let add_marker = false;
+
+                if(type === "all") {
+                    add_marker = true;
+                } else {
+                    if (marker.properties[type] === value) {
+                        add_marker = true;
+                    }
+                }
+
+                if (add_marker) {
+                    var el = document.createElement('div');
+                    el.className = 'marker';
+
+                    // create html for mutiple visits
+                    let visits = "";
+                    marker.properties.visits.forEach(visit => {
+                        visit.forEach(line => {
+                            visits += line + '<br>';
+                        });
+                        visits += "<br>";
+                    });
+                    // make a marker for each feature and add it to the map
+                    let new_marker = new mapboxgl.Marker(el)
+                        .setLngLat(marker.geometry.coordinates)
+                        .setPopup(
+                            new mapboxgl.Popup({offset: 25}) // add popups
+                                .setHTML(
+                                    '<h3>' + marker.properties.Event + '</h3>' +
+                                    '<div class="popup__time">' + visits + '</div>' +
+                                    '<div class="popup__location">' + marker.properties.Location + '</div>'
+                                )
                         )
-                )
-                .addTo(map);
-        });
+                        .addTo(map);
+
+                    currentMarkers.push(new_marker);
+                }
+            });
+        }
+
+        updateMarkers('all', 'all');
 
         flyTo('all');
 
         document.querySelectorAll('.day').forEach(item => {
             item.addEventListener('click', e => {
                 if (e.target.dataset.day === '0') {
-                    map.setFilter('locations', null);
+                    updateMarkers("all", 'all');
                 } else {
-                    map.setFilter('locations', ['==', ['number', ['get', 'day_of_month']], parseInt(e.target.dataset.day)]);
+                    updateMarkers("day_of_month", parseInt(e.target.dataset.day));
                 }
                 var days = document.getElementsByClassName("day");
                 for (var i = 0; i < days.length; i++) {
@@ -373,9 +409,9 @@ foreach($days as $day){
         document.querySelectorAll('.add').forEach(item => {
             item.addEventListener('click', e => {
                 if (e.target.dataset.add === '0') {
-                    map.setFilter('locations', null);
+                    updateMarkers("all", 'all');
                 } else {
-                    map.setFilter('locations', ['==', ['number', ['get', 'added_day']], parseInt(e.target.dataset.add)]);
+                    updateMarkers("added_day", parseInt(e.target.dataset.add));
                 }
                 var added = document.getElementsByClassName("add");
                 for (var i = 0; i < added.length; i++) {

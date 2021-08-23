@@ -140,4 +140,4 @@ $json = json_encode([
 
 file_put_contents('data.json', $json);
 
-echo "data.json saved";
+echo "data.json saved, last updated at " . $data_update_time;
