@@ -16,6 +16,7 @@ $data = json_decode($result, true);
 // init our data arrays
 $features = [];
 $days = [];
+$updated = [];
 // track the latest data update time
 $data_updated = 0;
 $data_update_time = "";
@@ -60,6 +61,10 @@ foreach($data['features'] as $feature) {
         if($add->getTimestamp() > $data_updated) {
             $data_updated = $add->getTimestamp();
             $data_update_time = $add->format("g:i a, D j M");
+        }
+        // collect the number of days with updates
+        if (!isset($updated[$added])) {
+           $updated[$added] = ['day' => $add->format("j"), 'name' => $add->format("j D")];
         }
     }
     $feature['properties']['added_day'] = (int)$added;
@@ -118,23 +123,26 @@ foreach($data['features'] as $feature) {
 
 }
 
-// now update all features with merged
+// now update all features with merged visits
 foreach ($features as $key => $feature) {
     if (isset($locations[$feature['properties']['Location']])) {
         // sort visits by timestamp
         $visits = $locations[$feature['properties']['Location']];
         ksort($visits);
-        //print_r($visits);
-        //exit();
         $features[$key]['properties']['visits'] = array_values($visits);
     }
 }
+
+// sort days with updates
+ksort($updated);
+$updated = array_values($updated);
 
 $json = json_encode([
     'type' => 'FeatureCollection',
     'name' => 'locations-of-interest',
     'features' => $features,
     'days' => $days,
+    'updated' => $updated,
     'data_update_time' => $data_update_time
 ]);
 

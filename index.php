@@ -11,7 +11,6 @@ foreach($days as $day){
     }
 }
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -62,10 +61,9 @@ foreach($days as $day){
             box-sizing: border-box;
             position: absolute;
             width: 100%;
-            padding: 10px;
-            bottom: 0;
+            padding: 0 10px;
+            bottom: 10px;
             z-index: 2;
-            background-color: #efefef;
         }
         @media (max-width: 768px) {
             .filters {
@@ -93,7 +91,6 @@ foreach($days as $day){
             text-align: center;
             background-color: #e0e0e0;
             cursor: pointer;
-            border-radius: 5px;
         }
 
         .location--active {
@@ -108,11 +105,19 @@ foreach($days as $day){
             height: 40px;
             display: grid;
             grid-template-columns: 80px 1fr 1fr 1fr;
+            grid-gap: 5px
         }
         @media (max-width: 768px) {
             .added {
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
+        }
+
+        .add {
+            padding-top: 10px;
+            text-align: center;
+            background-color: #e0e0e0;
+            cursor: pointer;
         }
 
         .add--active {
@@ -148,10 +153,9 @@ foreach($days as $day){
             padding: 10px 5px;
             text-align: center;
             background-color: #ffffff;
-            border-radius: 5px;
         }
         .marker {
-            background-color: rgba(171,7,7,0.4);
+            background-color: rgba(171,7,7,0.5);
             width: 16px;
             height: 16px;
             border-radius: 8px;
@@ -236,26 +240,6 @@ foreach($days as $day){
                 display: none;
             }
         }
-        .toggle {
-            border-top: solid 1px #cccccc;
-            border-bottom: solid 1px #cccccc;
-            border-left: solid 1px #cccccc;
-            padding-top: 10px;
-            text-align: center;
-            background-color: #ffffff;
-            cursor: pointer;
-        }
-        .toggle--first {
-            border-bottom-left-radius: 5px;
-            border-top-left-radius: 5px;
-        }
-        .toggle--last {
-            border-bottom-right-radius: 5px;
-            border-top-right-radius: 5px;
-        }
-        .toggle--active {
-            background-color: #d8d8d8;
-        }
     </style>
 </head>
 <body>
@@ -266,10 +250,10 @@ foreach($days as $day){
     <div id='map'></div>
     <div class="filters">
         <div class="added">
-            <div class="label">Updated</div>
-            <div class="day toggle toggle--first toggle--active" data-add="0">All</div>
-            <div class="day toggle" data-add="<?= $data['updated'][count($data['updated'])-2]['name'] ?>"><?= $data['updated'][count($data['updated'])-2]['name'] ?></div>
-            <div class="day toggle toggle--last" data-add="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $data['updated'][count($data['updated'])-1]['name'] ?></div>
+            <div class="label">Updated:</div>
+            <div class="add add--active" data-add="0">All</div>
+            <div class="add" data-add="<?= $data['updated'][count($data['updated'])-2]['name'] ?>"><?= $data['updated'][count($data['updated'])-2]['name'] ?></div>
+            <div class="add" data-add="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $data['updated'][count($data['updated'])-1]['name'] ?></div>
         </div>
         <div class="locations">
             <div class="label">Location:</div>
@@ -429,9 +413,9 @@ foreach($days as $day){
                 }
                 var added = document.getElementsByClassName("add");
                 for (var i = 0; i < added.length; i++) {
-                    added[i].classList.remove("toggle--active");
+                    added[i].classList.remove("add--active");
                 }
-                e.target.classList.add('toggle--active');
+                e.target.classList.add('add--active');
                 // can only have single filter at the mo
                 var days = document.getElementsByClassName("day");
                 for (var i = 0; i < days.length; i++) {
