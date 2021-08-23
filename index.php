@@ -107,7 +107,7 @@ foreach($days as $day){
             width: 100%;
             height: 40px;
             display: grid;
-            grid-template-columns: 80px 1fr 1fr 1fr 1fr;
+            grid-template-columns: 80px 1fr 1fr 1fr;
         }
         @media (max-width: 768px) {
             .added {
@@ -268,9 +268,8 @@ foreach($days as $day){
         <div class="added">
             <div class="label">Updated</div>
             <div class="day toggle toggle--first toggle--active" data-add="0">All</div>
-            <div class="day toggle mobile_hide" data-add="21">21 Sat</div>
-            <div class="day toggle" data-add="22">22 Sun</div>
-            <div class="day toggle toggle--last" data-add="23">23 Mon</div>
+            <div class="day toggle" data-add="<?= $data['updated'][count($data['updated'])-2]['name'] ?>"><?= $data['updated'][count($data['updated'])-2]['name'] ?></div>
+            <div class="day toggle toggle--last" data-add="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $data['updated'][count($data['updated'])-1]['name'] ?></div>
         </div>
         <div class="locations">
             <div class="label">Location:</div>
