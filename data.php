@@ -116,6 +116,7 @@ foreach($data['features'] as $feature) {
         $days[$feature['properties']['day_of_month']]['count'] ++;
     }else{
         $days[$feature['properties']['day_of_month']] = [
+            'day' => $feature['properties']['day_of_month'],
             'name' => $start->format("j D"),
             'count' => 1
         ];

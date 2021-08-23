@@ -3,6 +3,7 @@
 $data = json_decode(file_get_contents('data.json'), true);
 $days = $data['days'];
 ksort($days);
+$days = array_values($days);
 // highest count
 $day_max = 0;
 foreach($days as $day){
@@ -61,9 +62,10 @@ foreach($days as $day){
             box-sizing: border-box;
             position: absolute;
             width: 100%;
-            padding: 0 10px;
-            bottom: 10px;
+            padding: 10px;
+            bottom: 0;
             z-index: 2;
+            background-color: #ffffff;
         }
         @media (max-width: 768px) {
             .filters {
@@ -77,25 +79,12 @@ foreach($days as $day){
             width: 100%;
             height: 40px;
             display: grid;
-            grid-template-columns: 80px 1fr 1fr 1fr 1fr;
-            grid-gap: 5px
+            grid-template-columns: 90px 1fr 1fr 1fr 1fr;
         }
         @media (max-width: 768px) {
             .locations {
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
-        }
-
-        .location {
-            padding-top: 10px;
-            text-align: center;
-            background-color: #e0e0e0;
-            cursor: pointer;
-        }
-
-        .location--active {
-            background-color: #000000;
-            color: #ffffff;
         }
 
         .added {
@@ -104,25 +93,12 @@ foreach($days as $day){
             width: 100%;
             height: 40px;
             display: grid;
-            grid-template-columns: 80px 1fr 1fr 1fr;
-            grid-gap: 5px
+            grid-template-columns: 90px 1fr 1fr 1fr;
         }
         @media (max-width: 768px) {
             .added {
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
-        }
-
-        .add {
-            padding-top: 10px;
-            text-align: center;
-            background-color: #e0e0e0;
-            cursor: pointer;
-        }
-
-        .add--active {
-            background-color: #000000;
-            color: #ffffff;
         }
 
         #time {
@@ -134,8 +110,7 @@ foreach($days as $day){
         }
         .days {
             display: grid;
-            grid-template-columns: 80px repeat(<?= count($days)+1 ?>, 1fr);
-            grid-gap: 5px;
+            grid-template-columns: 90px repeat(<?= count($days)+1 ?>, 1fr);
         }
         @media (max-width: 768px){
             #map {
@@ -148,14 +123,8 @@ foreach($days as $day){
                 grid-template-columns: 1fr 1fr 1fr 1fr;
             }
         }
-        .day {
-            cursor: pointer;
-            padding: 10px 5px;
-            text-align: center;
-            background-color: #ffffff;
-        }
         .marker {
-            background-color: rgba(171,7,7,0.5);
+            background-color: rgba(171,7,7,0.4);
             width: 16px;
             height: 16px;
             border-radius: 8px;
@@ -166,33 +135,6 @@ foreach($days as $day){
         }
         .mapboxgl-popup-close-button{
             outline: 0;
-        }
-        .color_none {
-            background-color: #e0e0e0
-        }
-        .color_0 {
-            background-color: #fef0d9
-        }
-        .color_1 {
-            background-color: #fef0d9
-        }
-        .color_2 {
-            background-color: #fdcc8a
-        }
-        .color_3 {
-            background-color: #fc8d59
-        }
-        .color_4 {
-            color: #fff;
-            background-color: #e34a33
-        }
-        .color_5 {
-            color: #fff;
-            background-color: #b30000
-        }
-        .day--active {
-            background-color: #000000;
-            color: white;
         }
         .label {
             padding: 10px 0 0 10px;
@@ -240,6 +182,40 @@ foreach($days as $day){
                 display: none;
             }
         }
+        .toggle {
+            border-top: solid 1px #cccccc;
+            border-bottom: solid 1px #cccccc;
+            border-left: solid 1px #cccccc;
+            border-right: solid 1px #cccccc;
+            padding-top: 10px;
+            text-align: center;
+            background-color: #ffffff;
+            cursor: pointer;
+            height: 30px;
+        }
+        .toggle:hover {
+            background-color: #ececec;
+        }
+        @media (max-width: 768px) {
+            .toggle:hover {
+                background-color: #d8d8d8;
+            }
+        }
+        .toggle:focus, .toggle:active {
+            background-color: #d8d8d8;
+        }
+        .toggle--first {
+            border-bottom-left-radius: 5px;
+            border-top-left-radius: 5px;
+        }
+        .toggle--last {
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
+            border-right: solid 1px #cccccc;
+        }
+        .toggle--active {
+            background-color: #d8d8d8;
+        }
     </style>
 </head>
 <body>
@@ -250,25 +226,28 @@ foreach($days as $day){
     <div id='map'></div>
     <div class="filters">
         <div class="added">
-            <div class="label">Updated:</div>
-            <div class="add add--active" data-add="0">All</div>
-            <div class="add" data-add="<?= $data['updated'][count($data['updated'])-2]['name'] ?>"><?= $data['updated'][count($data['updated'])-2]['name'] ?></div>
-            <div class="add" data-add="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $data['updated'][count($data['updated'])-1]['name'] ?></div>
+            <div class="label">Updated</div>
+            <div class="add toggle toggle--first toggle--active" data-add="0">All</div>
+            <div class="add toggle" data-add="<?= $data['updated'][count($data['updated'])-2]['name'] ?>"><?= $data['updated'][count($data['updated'])-2]['name'] ?></div>
+            <div class="add toggle toggle--last" data-add="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $data['updated'][count($data['updated'])-1]['name'] ?></div>
         </div>
         <div class="locations">
-            <div class="label">Location:</div>
-            <div class="location location--active" data-loc="all">All</div>
-            <div class="location" data-loc="auck">Auckland</div>
-            <div class="location mobile_hide" data-loc="coro">Coromandel</div>
-            <div class="location" data-loc="welly">Wellington</div>
+            <div class="label">Location</div>
+            <div class="location toggle toggle--first toggle--active" data-loc="all">All</div>
+            <div class="location toggle" data-loc="auck">Auckland</div>
+            <div class="location toggle mobile_hide" data-loc="coro">Coromandel</div>
+            <div class="location toggle toggle--last" data-loc="welly">Wellington</div>
         </div>
         <div id="time" class="days">
-            <div class="label">Day:</div>
-            <div class="day day--active color_none" data-day="0">All</div>
+            <div class="label">Day</div>
+            <div class="day toggle toggle--first toggle--active" data-day="0">All</div>
             <?php
-            foreach ($days as $day => $value) {
-                $color = "color_" .  round($value['count']/($day_max/5));
-                echo "<div class='day $color' data-day='$day'>{$value['name']}</div>";
+            foreach ($days as $value) {
+                $class = "";
+                if ($value['name'] === $days[count($days)-1]['name']) {
+                   $class = " toggle--last";
+                }
+                echo "<div class='day toggle{$class}' data-day='{$value['day']}'>{$value['name']}</div>";
             }
             ?>
         </div>
@@ -373,15 +352,15 @@ foreach($days as $day){
                 }
                 var days = document.getElementsByClassName("day");
                 for (var i = 0; i < days.length; i++) {
-                    days[i].classList.remove("day--active");
+                    days[i].classList.remove("toggle--active");
                 }
-                e.target.classList.add('day--active');
+                e.target.classList.add('toggle--active');
                 // can only have single filter at the mo
                 var added = document.getElementsByClassName("add");
                 for (var i = 0; i < added.length; i++) {
-                    added[i].classList.remove("add--active");
+                    added[i].classList.remove("toggle--active");
                 }
-                document.querySelector('.add').classList.add('add--active');
+                document.querySelector('.add').classList.add('toggle--active');
             })
         });
 
@@ -398,9 +377,9 @@ foreach($days as $day){
                 }
                 var locations = document.getElementsByClassName("location");
                 for (var i = 0; i < locations.length; i++) {
-                    locations[i].classList.remove("location--active");
+                    locations[i].classList.remove("toggle--active");
                 }
-                e.target.classList.add('location--active');
+                e.target.classList.add('toggle--active');
             });
         });
 
@@ -413,15 +392,15 @@ foreach($days as $day){
                 }
                 var added = document.getElementsByClassName("add");
                 for (var i = 0; i < added.length; i++) {
-                    added[i].classList.remove("add--active");
+                    added[i].classList.remove("toggle--active");
                 }
-                e.target.classList.add('add--active');
+                e.target.classList.add('toggle--active');
                 // can only have single filter at the mo
                 var days = document.getElementsByClassName("day");
                 for (var i = 0; i < days.length; i++) {
-                    days[i].classList.remove("day--active");
+                    days[i].classList.remove("toggle--active");
                 }
-                document.querySelector('.day').classList.add('day--active');
+                document.querySelector('.day').classList.add('toggle--active');
             })
         });
 
