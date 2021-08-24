@@ -50,10 +50,10 @@ foreach($days as $day){
             font-size: 12px;
         }
 
-        #map {
+        .map {
             position: absolute;
             top: 45px;
-            bottom: 160px;
+            bottom: 231px;
             width: 100%;
             z-index: 1;
         }
@@ -62,20 +62,29 @@ foreach($days as $day){
             box-sizing: border-box;
             position: absolute;
             width: 100%;
-            padding: 10px;
+            padding: 0 20px;
+            margin: 20px 0;
             bottom: 0;
             z-index: 2;
             background-color: #ffffff;
-        }
-        @media (max-width: 768px) {
-            .filters {
-                bottom: 133px;
-            }
         }
 
         .locations {
             box-sizing: border-box;
             margin-bottom: 10px;
+            width: 100%;
+            height: 40px;
+            display: grid;
+            grid-template-columns: 90px 1fr 1fr 1fr 1fr;
+        }
+        @media (max-width: 768px) {
+            .locations {
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+        }
+
+        .locations, .times {
+            box-sizing: border-box;
             width: 100%;
             height: 40px;
             display: grid;
@@ -101,23 +110,20 @@ foreach($days as $day){
             }
         }
 
-        #time {
-            box-sizing: border-box;
-            width: 100%;
-            height: 40px;
-            background-color: white;
-            z-index: 2;
-        }
         .days {
             display: grid;
             grid-template-columns: 90px repeat(<?= count($days)+1 ?>, 1fr);
+            margin-bottom: 10px;
         }
         @media (max-width: 768px){
-            #map {
-                bottom: 285px;
+            .filters {
+                position: relative;
             }
-            #time {
-                height: 40px;
+            .map {
+                position: relative;
+                top: auto;
+                bottom: auto;
+                height: 400px;
             }
             .days {
                 grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -141,6 +147,7 @@ foreach($days as $day){
         }
         .nav {
             display: grid;
+            height: 40px;
             grid-template-columns: 1fr 1fr;
         }
         .nav h1 {
@@ -168,11 +175,21 @@ foreach($days as $day){
             }
         }
         .title {
-            padding: 10px 0 0 10px;
+            padding: 10px 0 0 20px;
+        }
+        @media (max-width: 768px) {
+            .title {
+                padding: 10px 0 0 10px;
+            }
         }
         .links {
             text-align: right;
-            padding: 12px 10px 0 0;
+            padding: 12px 20px 0 0;
+        }
+        @media (max-width: 768px) {
+            .links {
+                padding: 12px 10px 0 0;
+            }
         }
         .links a {
             color: #000000;
@@ -183,10 +200,7 @@ foreach($days as $day){
             }
         }
         .toggle {
-            border-top: solid 1px #cccccc;
-            border-bottom: solid 1px #cccccc;
-            border-left: solid 1px #cccccc;
-            border-right: solid 1px #cccccc;
+            outline: solid 1px #cccccc;
             padding-top: 10px;
             text-align: center;
             background-color: #ffffff;
@@ -207,14 +221,33 @@ foreach($days as $day){
         .toggle--first {
             border-bottom-left-radius: 5px;
             border-top-left-radius: 5px;
+            outline: none;
+            border-top: solid 1px #cccccc;
+            border-bottom: solid 1px #cccccc;
+            border-left: solid 1px #cccccc;
+            margin-top: -1px;
         }
         .toggle--last {
             border-bottom-right-radius: 5px;
             border-top-right-radius: 5px;
-            border-right: solid 1px #cccccc;
+            outline: none;
+            border: solid 1px #cccccc;
+            margin-top: -1px;
         }
         .toggle--active {
             background-color: #d8d8d8;
+        }
+
+        .mobile {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .mobile {
+                display: block;
+            }
+            .desktop {
+                display: none;
+            }
         }
     </style>
 </head>
@@ -223,13 +256,13 @@ foreach($days as $day){
         <div class="title"><h1>COVID Map NZ</h1></div>
         <div class="links"><a href="https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-health-advice-public/contact-tracing-covid-19/covid-19-contact-tracing-locations-interest/covid-19-contact-tracing-locations-interest-map" target="_blank" rel="nofollow">Updated <?= $data['data_update_time'] ?></a></div>
     </div>
-    <div id='map'></div>
+    <div id="map" class='map'></div>
     <div class="filters">
         <div class="added">
             <div class="label">Updated</div>
-            <div class="add toggle toggle--first toggle--active" data-add="0">All</div>
-            <div class="add toggle" data-add="<?= $data['updated'][count($data['updated'])-2]['name'] ?>"><?= $data['updated'][count($data['updated'])-2]['name'] ?></div>
-            <div class="add toggle toggle--last" data-add="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $data['updated'][count($data['updated'])-1]['name'] ?></div>
+            <div class="update toggle toggle--first toggle--active" data-update="0">All</div>
+            <div class="update toggle" data-update="<?= $data['updated'][count($data['updated'])-2]['name'] ?>"><?= $data['updated'][count($data['updated'])-2]['name'] ?></div>
+            <div class="update toggle toggle--last" data-update="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $data['updated'][count($data['updated'])-1]['name'] ?></div>
         </div>
         <div class="locations">
             <div class="label">Location</div>
@@ -238,7 +271,7 @@ foreach($days as $day){
             <div class="location toggle mobile_hide" data-loc="coro">Coromandel</div>
             <div class="location toggle toggle--last" data-loc="welly">Wellington</div>
         </div>
-        <div id="time" class="days">
+        <div class="days">
             <div class="label">Day</div>
             <div class="day toggle toggle--first toggle--active" data-day="0">All</div>
             <?php
@@ -250,6 +283,22 @@ foreach($days as $day){
                 echo "<div class='day toggle{$class}' data-day='{$value['day']}'>{$value['name']}</div>";
             }
             ?>
+        </div>
+        <div class="times">
+            <div class="label">Time</div>
+            <div class="time toggle toggle--first toggle--active" data-time="all">All</div>
+            <div class="time toggle" data-time="morning">
+                <div class="desktop">Morning</div>
+                <div class="mobile">AM</div>
+            </div>
+            <div class="time toggle" data-time="afternoon">
+                <span class="desktop">Afternoon</span>
+                <span class="mobile">PM</span>
+            </div>
+            <div class="time toggle toggle--last" data-time="evening">
+                <span class="desktop">Evening</span>
+                <span class="mobile">EVE</span>
+            </div>
         </div>
     </div>
     <script>
@@ -265,29 +314,18 @@ foreach($days as $day){
 
         var geojson = <?= file_get_contents('data.json'); ?>
 
-        /*
-        map.on('load', function() {
-            map.addLayer({
-                id: 'locations',
-                type: 'circle',
-                source: {
-                    type: 'geojson',
-                    data: geojson
-                },
-                'paint': {
-                    'circle-color': 'rgba(171,7,7,0.5)'
-                }
-            });
-        });
-         */
-
         map.addControl(new mapboxgl.NavigationControl());
 
         // markers saved here
         var currentMarkers=[];
+        var filter_updated = 0;
+        var filter_location = 'all';
+        var filter_day = 0;
+        var filter_time = 'all';
+
 
         // add markers to map
-        function updateMarkers(type, value) {
+        function updateMarkers() {
 
             // first remove all markers
             if (currentMarkers!==null) {
@@ -296,76 +334,83 @@ foreach($days as $day){
                 }
             }
 
-            // now look through geojson to add markers
-            geojson.features.forEach(function (marker) {
+            let markers = geojson.features;
 
-                let add_marker = false;
+            if (filter_updated !== 0) {
+                markers = markers.filter(x => x.properties.day_updated === filter_updated);
+            }
+            if (filter_day !== 0) {
+                markers = markers.filter(x => x.properties.day_of_month === filter_day);
+            }
+            if (filter_time !== 'all') {
+                markers = markers.filter(x => x.properties.time_period === filter_time);
+            }
 
-                if(type === "all") {
-                    add_marker = true;
-                } else {
-                    if (marker.properties[type] === value) {
-                        add_marker = true;
-                    }
-                }
+            // add markers and popup to the map
+            markers.forEach(function (marker) {
 
-                if (add_marker) {
-                    var el = document.createElement('div');
-                    el.className = 'marker';
+                let el = document.createElement('div');
+                el.className = 'marker';
 
-                    // create html for mutiple visits
-                    let visits = "";
-                    marker.properties.visits.forEach(visit => {
-                        visit.forEach(line => {
-                            visits += line + '<br>';
-                        });
-                        visits += "<br>";
+                // create html for mutiple visits
+                let visits = "";
+                marker.properties.visits.forEach(visit => {
+                    visit.forEach(line => {
+                        visits += line + '<br>';
                     });
-                    // make a marker for each feature and add it to the map
-                    let new_marker = new mapboxgl.Marker(el)
-                        .setLngLat(marker.geometry.coordinates)
-                        .setPopup(
-                            new mapboxgl.Popup({offset: 25}) // add popups
-                                .setHTML(
-                                    '<h3>' + marker.properties.Event + '</h3>' +
-                                    '<div class="popup__time">' + visits + '</div>' +
-                                    '<div class="popup__location">' + marker.properties.Location + '</div>'
-                                )
-                        )
-                        .addTo(map);
+                    visits += "<br>";
+                });
 
-                    currentMarkers.push(new_marker);
-                }
+                // make a marker for each feature and add it to the map
+                let new_marker = new mapboxgl.Marker(el)
+                    .setLngLat(marker.geometry.coordinates)
+                    .setPopup(
+                        new mapboxgl.Popup({offset: 25}) // add popups
+                            .setHTML(
+                                '<h3>' + marker.properties.Event + '</h3>' +
+                                '<div class="popup__time">' + visits + '</div>' +
+                                '<div class="popup__location">' + marker.properties.Location + '</div>'
+                            )
+                    )
+                    .addTo(map);
+
+                // keep a track of the current markers
+                currentMarkers.push(new_marker);
+
             });
+
         }
 
-        updateMarkers('all', 'all');
-
+        updateMarkers();
         flyTo('all');
+
+        document.querySelectorAll('.update').forEach(item => {
+            item.addEventListener('click', e => {
+                filter_updated = parseInt(e.target.dataset.update);
+                updateMarkers();
+                var updated = document.getElementsByClassName("update");
+                for (var i = 0; i < updated.length; i++) {
+                    updated[i].classList.remove("toggle--active");
+                }
+                e.target.classList.add('toggle--active');
+            })
+        });
 
         document.querySelectorAll('.day').forEach(item => {
             item.addEventListener('click', e => {
-                if (e.target.dataset.day === '0') {
-                    updateMarkers("all", 'all');
-                } else {
-                    updateMarkers("day_of_month", parseInt(e.target.dataset.day));
-                }
+                filter_day = parseInt(e.target.dataset.day);
+                updateMarkers();
                 var days = document.getElementsByClassName("day");
                 for (var i = 0; i < days.length; i++) {
                     days[i].classList.remove("toggle--active");
                 }
                 e.target.classList.add('toggle--active');
-                // can only have single filter at the mo
-                var added = document.getElementsByClassName("add");
-                for (var i = 0; i < added.length; i++) {
-                    added[i].classList.remove("toggle--active");
-                }
-                document.querySelector('.add').classList.add('toggle--active');
             })
         });
 
         document.querySelectorAll('.location').forEach(item => {
             item.addEventListener('click', e => {
+                filter_location = e.target.dataset.loc;
                 if (e.target.dataset.loc === 'welly') {
                     flyTo('City', 'Wellington');
                 } else if (e.target.dataset.loc === 'coro') {
@@ -383,26 +428,19 @@ foreach($days as $day){
             });
         });
 
-        document.querySelectorAll('.add').forEach(item => {
+        document.querySelectorAll('.time').forEach(item => {
             item.addEventListener('click', e => {
-                if (e.target.dataset.add === '0') {
-                    updateMarkers("all", 'all');
-                } else {
-                    updateMarkers("added_day", parseInt(e.target.dataset.add));
+                console.log("click time");
+                filter_time = e.currentTarget.dataset.time;
+                updateMarkers();
+                var times = document.getElementsByClassName("time");
+                for (var i = 0; i < times.length; i++) {
+                    times[i].classList.remove("toggle--active");
                 }
-                var added = document.getElementsByClassName("add");
-                for (var i = 0; i < added.length; i++) {
-                    added[i].classList.remove("toggle--active");
-                }
-                e.target.classList.add('toggle--active');
-                // can only have single filter at the mo
-                var days = document.getElementsByClassName("day");
-                for (var i = 0; i < days.length; i++) {
-                    days[i].classList.remove("toggle--active");
-                }
-                document.querySelector('.day').classList.add('toggle--active');
-            })
+                e.currentTarget.classList.add('toggle--active');
+            });
         });
+
 
         function flyTo(type, value) {
             var bounds = new mapboxgl.LngLatBounds();

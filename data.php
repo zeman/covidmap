@@ -67,7 +67,7 @@ foreach($data['features'] as $feature) {
            $updated[$added] = ['day' => $add->format("j"), 'name' => $add->format("j D")];
         }
     }
-    $feature['properties']['added_day'] = (int)$added;
+    $feature['properties']['day_updated'] = (int)$added;
 
     // remove the date from the event name
     $feature['properties']['Event'] = substr($feature['properties']['Event'], 0, strrpos($feature['properties']['Event'], " "));
@@ -89,6 +89,14 @@ foreach($data['features'] as $feature) {
     $feature['properties']['month'] = (int)$start->format("n");
     $feature['properties']['day_of_month'] = (int)$start->format("j");
     $feature['properties']['hour'] = (int)$start->format("G");
+
+    if ($feature['properties']['hour'] < 12) {
+        $feature['properties']['time_period'] = "morning";
+    } elseif ($feature['properties']['hour'] < 18) {
+        $feature['properties']['time_period'] = "afternoon";
+    } else {
+        $feature['properties']['time_period'] = "evening";
+    }
 
     // remove Advice for now
     unset($feature['properties']['Advice']);
