@@ -17,6 +17,11 @@ $updated_label = $data['updated'][count($data['updated'])-1]['name'];
 if (date("j D") === $updated_label) {
     $updated_label = "Today";
 }
+$latest = 0;
+$latest_update = $data['updated'][count($data['updated'])-1]['day'];
+if (isset($_GET['latest'])) {
+   $latest = 1;
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -266,9 +271,9 @@ if (date("j D") === $updated_label) {
     <div class="filters">
         <div class="added">
             <div class="label">Updated</div>
-            <div class="update toggle toggle--first toggle--active" data-update="0">All</div>
+            <div class="update toggle toggle--first <?php if($latest === 0){ echo "toggle--active"; } ?>" data-update="0">All</div>
             <div class="update toggle" data-update="<?= $data['updated'][count($data['updated'])-2]['name'] ?>"><?= $data['updated'][count($data['updated'])-2]['name'] ?></div>
-            <div class="update toggle toggle--last" data-update="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $updated_label ?></div>
+            <div class="update toggle toggle--last <?php if($latest === 1){ echo "toggle--active"; } ?>" data-update="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $updated_label ?></div>
         </div>
         <div class="locations">
             <div class="label">Location</div>
@@ -328,6 +333,16 @@ if (date("j D") === $updated_label) {
         var filter_location = 'all';
         var filter_day = 0;
         var filter_time = 'all';
+        var latest = <?= $latest ?>;
+        var latest_update = <?= $latest_update ?>;
+
+        if(latest === 1){
+            filter_updated = latest_update;
+            flyTo('latest');
+        } else {
+            flyTo('all');
+        }
+        updateMarkers();
 
 
         // add markers to map
@@ -387,13 +402,14 @@ if (date("j D") === $updated_label) {
 
         }
 
-        updateMarkers();
-        flyTo('all');
-
         document.querySelectorAll('.update').forEach(item => {
             item.addEventListener('click', e => {
                 filter_updated = parseInt(e.target.dataset.update);
                 updateMarkers();
+                // zoom in if today/latest has been clicked
+                if (filter_updated === latest_update) {
+                    flyTo('latest');
+                }
                 var updated = document.getElementsByClassName("update");
                 for (var i = 0; i < updated.length; i++) {
                     updated[i].classList.remove("toggle--active");
@@ -453,6 +469,10 @@ if (date("j D") === $updated_label) {
             geojson.features.forEach(function(feature) {
                 if (type === 'all') {
                     bounds.extend(feature.geometry.coordinates);
+                } else if (type === 'latest') {
+                    if (feature.properties.day_updated === filter_updated) {
+                        bounds.extend(feature.geometry.coordinates);
+                    }
                 }else {
                     if (feature.properties[type] === value) {
                         bounds.extend(feature.geometry.coordinates);

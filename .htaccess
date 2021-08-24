@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymlinks
+RewriteEngine On
+
+RewriteRule     ^latest/$    /index.php?latest=1 [END]
+RewriteRule     ^latest$    /index.php?latest=1 [END]
+
+</IfModule>
