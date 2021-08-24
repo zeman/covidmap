@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Pacific/Auckland');
 // get the json so we can use it in php as well
 $data = json_decode(file_get_contents('data.json'), true);
 $days = $data['days'];
@@ -10,6 +11,11 @@ foreach($days as $day){
     if ($day['count'] > $day_max){
         $day_max = $day['count'];
     }
+}
+// check if latest update is today and replace label if it is
+$updated_label = $data['updated'][count($data['updated'])-1]['name'];
+if (date("j D") === $updated_label) {
+    $updated_label = "Today";
 }
 ?>
 <!DOCTYPE html>
@@ -262,7 +268,7 @@ foreach($days as $day){
             <div class="label">Updated</div>
             <div class="update toggle toggle--first toggle--active" data-update="0">All</div>
             <div class="update toggle" data-update="<?= $data['updated'][count($data['updated'])-2]['name'] ?>"><?= $data['updated'][count($data['updated'])-2]['name'] ?></div>
-            <div class="update toggle toggle--last" data-update="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $data['updated'][count($data['updated'])-1]['name'] ?></div>
+            <div class="update toggle toggle--last" data-update="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $updated_label ?></div>
         </div>
         <div class="locations">
             <div class="label">Location</div>
