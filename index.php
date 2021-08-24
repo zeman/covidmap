@@ -386,7 +386,7 @@ if (isset($_GET['latest'])) {
                 let new_marker = new mapboxgl.Marker(el)
                     .setLngLat(marker.geometry.coordinates)
                     .setPopup(
-                        new mapboxgl.Popup({offset: 25}) // add popups
+                        new mapboxgl.Popup({offset: 12}) // add popups
                             .setHTML(
                                 '<h3>' + marker.properties.Event + '</h3>' +
                                 '<div class="popup__time">' + visits + '</div>' +
