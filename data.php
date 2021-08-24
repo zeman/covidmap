@@ -86,7 +86,7 @@ foreach($data['features'] as $feature) {
 
     // Add metadata for filtering
     $feature['properties']['timestamp'] = $start->getTimestamp();
-    $feature['properties']['month'] = (int)$start->format("n");
+    //$feature['properties']['month'] = (int)$start->format("n");
     $feature['properties']['day_of_month'] = (int)$start->format("j");
     $feature['properties']['hour'] = (int)$start->format("G");
 
@@ -97,9 +97,6 @@ foreach($data['features'] as $feature) {
     } else {
         $feature['properties']['time_period'] = "evening";
     }
-
-    // remove Advice for now
-    unset($feature['properties']['Advice']);
 
     // manual location fix
     if ($feature['properties']['id'] == 'a0l4a0000004F9h'){
@@ -115,6 +112,15 @@ foreach($data['features'] as $feature) {
             $feature['properties']['timestamp'] => [$feature['properties']['day'], $feature['properties']['time']]
         ];
     }
+
+    // remove a bunch of fields we don't use in the front end
+    unset($feature['properties']['id']);
+    unset($feature['properties']['Advice']);
+    unset($feature['properties']['Start']);
+    unset($feature['properties']['End']);
+    unset($feature['properties']['Added']);
+    unset($feature['properties']['hour']);
+    unset($feature['properties']['timestamp']);
 
     // add the data
     $features[] = $feature;
