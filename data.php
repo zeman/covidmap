@@ -64,7 +64,10 @@ foreach($data['features'] as $feature) {
         }
         // collect the number of days with updates
         if (!isset($updated[$added])) {
-           $updated[$added] = ['day' => $add->format("j"), 'name' => $add->format("j D")];
+            // check it's the current month
+            if($add->format("m") == date("m")) {
+                $updated[$added] = ['day' => $add->format("j"), 'name' => $add->format("j D")];
+            }
         }
     }
     $feature['properties']['day_updated'] = (int)$added;
@@ -74,6 +77,10 @@ foreach($data['features'] as $feature) {
 
     // convert into DateTime
     $start = date_create_from_format('d/m/Y, g:i a', $feature['properties']['Start']);
+    // check we have a good start date or skip
+    if(!$start) {
+        continue;
+    }
     $end = date_create_from_format('d/m/Y, g:i a', $feature['properties']['End']);
     $feature['properties']['day'] = $start->format("D, j M Y");
 

@@ -272,7 +272,9 @@ if (isset($_GET['latest'])) {
         <div class="added">
             <div class="label">Updated</div>
             <div class="update toggle toggle--first <?php if($latest === 0){ echo "toggle--active"; } ?>" data-update="0">All</div>
+            <?php if(isset($data['updated'][count($data['updated'])-2])) { ?>
             <div class="update toggle" data-update="<?= $data['updated'][count($data['updated'])-2]['name'] ?>"><?= $data['updated'][count($data['updated'])-2]['name'] ?></div>
+            <?php } ?>
             <div class="update toggle toggle--last <?php if($latest === 1){ echo "toggle--active"; } ?>" data-update="<?= $data['updated'][count($data['updated'])-1]['day'] ?>"><?= $updated_label ?></div>
         </div>
         <div class="locations">
